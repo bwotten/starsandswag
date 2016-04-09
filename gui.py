@@ -11,32 +11,32 @@ class application(Tk):
 		#widgets created here
 		self.grid()
 
-		input_window = PanedWindow(self)
-		input_window.grid(column=0, row=0, stick='EW')
+		self.input_window = PanedWindow(self)
+		self.input_window.grid(column=0, row=0, stick='EW')
 
-		continue_window = PanedWindow(self)
-		continue_window.grid(column=0, row=1, stick='EW')
+		self.continue_window = PanedWindow(self)
+		self.continue_window.grid(column=0, row=1, stick='EW')
 
-		input_window.grid()
-		continue_window.grid()
+		self.input_window.grid()
+		self.continue_window.grid()
 
 		self.x_label_var = StringVar()
 		self.x_label_var.set("Longitude: ")
-		x_label = Label(input_window, textvariable=self.x_label_var,anchor="w",fg="white",bg="blue")
+		x_label = Label(self.input_window, textvariable=self.x_label_var,anchor="w",fg="white",bg="blue")
 		x_label.grid(column=0, row=0, stick='EW')
 
-		self.x_entry = Entry(input_window)
+		self.x_entry = Entry(self.input_window)
 		self.x_entry.grid(column=1, row=0, sticky='EW')
 
 		self.y_label_var = StringVar()
 		self.y_label_var.set("Latitude: ")
-		y_label = Label(input_window, textvariable=self.y_label_var,anchor="w",fg="white",bg="blue")
+		y_label = Label(self.input_window, textvariable=self.y_label_var,anchor="w",fg="white",bg="blue")
 		y_label.grid(column=0, row=1, stick='EW')
 
-		self.y_entry = Entry(input_window)
+		self.y_entry = Entry(self.input_window)
 		self.y_entry.grid(column=1, row=1, sticky='EW')
 
-		self.submit_button = Button(continue_window, text="Submit", anchor="center", command=self.submit_coords)
+		self.submit_button = Button(self.continue_window, text="Submit", anchor="center", command=self.submit_coords)
 		self.submit_button.grid(column=0, row=0)
 
 
@@ -78,8 +78,19 @@ class application(Tk):
 		#do stuff with coordinates if we have the correct values
 		if valid_x and valid_y:
 			#we can move onto next thing
+			self.clear_window()
+			self.create_canvas()
 			print("We have valid coordinates")
 
+	def clear_window(self):
+		self.continue_window.grid_forget()
+		self.input_window.grid_forget()
+
+	def create_canvas(self):
+		self.canvas_window = PanedWindow(self)
+		self.canvas_window.grid(column=0, row=0, stick='EW')
+		self.canvas = Canvas(self.canvas_window, bg='black', height=self.winfo_screenheight()*.8, width=self.winfo_screenwidth()*.8)
+		self.canvas.grid(column = 0, row = 0, stick='EW')
 
 if __name__ == "__main__":
     app = application(None)
