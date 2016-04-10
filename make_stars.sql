@@ -1,3 +1,4 @@
+DROP TABLE IF EXISTS Stars;
 CREATE TABLE Stars (
   id     INTEGER,
   dist   NUMERIC,
