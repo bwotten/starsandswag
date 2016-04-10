@@ -96,7 +96,7 @@ class application(Tk):
 					j += 1
 					tag = "Star: " + str(i)
 				draw_stars(self.canvas, x, y, a, tag)
-
+			
 			print("We have valid coordinates")
 
 	def clear_window(self):
@@ -109,9 +109,13 @@ class application(Tk):
 		self.screen_height = self.winfo_screenheight()*.8
 		self.screen_width = self.winfo_screenwidth()*.8
 		self.canvas = Canvas(self.canvas_window, bg='black', height=self.screen_width, width=self.screen_width)
-		
+		self.canvas.bind("<Button-1>", self.click)
 		self.canvas.grid(column = 0, row = 0, stick='EW')
 
+	def click(self, event):
+		if self.canvas.find_withtag(CURRENT):
+			self.canvas.itemconfig(CURRENT, fill="blue")
+			self.canvas.update_idletasks()
 
 if __name__ == "__main__":
     app = application(None)
