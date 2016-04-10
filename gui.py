@@ -1,4 +1,6 @@
 from tkinter import *
+from drawable_methods import *
+from random import *
 
 
 class application(Tk):
@@ -80,6 +82,21 @@ class application(Tk):
 			#we can move onto next thing
 			self.clear_window()
 			self.create_canvas()
+
+			#create random x & y values for drawing stars with random values from -2 to 7 for mag
+			i = 0
+			j = 0
+			while i < 80:
+				i += 1
+				x = randint(0, int(self.screen_width))
+				y = randint(0, int(self.screen_height))
+				a = randint(-2, 7)
+				tag = "NONE"
+				if randint(0, 4) <= 1:
+					j += 1
+					tag = "Star: " + str(i)
+				draw_stars(self.canvas, x, y, a, tag)
+
 			print("We have valid coordinates")
 
 	def clear_window(self):
@@ -89,8 +106,12 @@ class application(Tk):
 	def create_canvas(self):
 		self.canvas_window = PanedWindow(self)
 		self.canvas_window.grid(column=0, row=0, stick='EW')
-		self.canvas = Canvas(self.canvas_window, bg='black', height=self.winfo_screenheight()*.8, width=self.winfo_screenwidth()*.8)
+		self.screen_height = self.winfo_screenheight()*.8
+		self.screen_width = self.winfo_screenwidth()*.8
+		self.canvas = Canvas(self.canvas_window, bg='black', height=self.screen_width, width=self.screen_width)
+		
 		self.canvas.grid(column = 0, row = 0, stick='EW')
+
 
 if __name__ == "__main__":
     app = application(None)
