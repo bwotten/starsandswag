@@ -5,7 +5,7 @@ CREATE TABLE DSO (
    ra NUMERIC,
    dec NUMERIC,
    mag NUMERIC,
-   name (50),
+   name varchar(50),
    const varchar(5)
 );
 
