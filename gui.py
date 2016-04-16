@@ -63,6 +63,8 @@ class application(Tk):
 			self.x_entry.delete(0, END)
 			valid_x = False
 
+
+			#comment here
 		latitude = self.y_entry.get();
 		try:
 			latitude = float(latitude)
