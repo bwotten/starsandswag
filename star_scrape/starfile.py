@@ -1,6 +1,8 @@
 from bs4 import BeautifulSoup
 soup = BeautifulSoup(open("StarNames.html"))
 
+#Brendan's Comment
+
 #This parses the constellations correctly, just write the print string to
 #a csv file.
 for x in soup.find_all('tr'):
