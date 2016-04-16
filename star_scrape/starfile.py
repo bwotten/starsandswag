@@ -13,3 +13,6 @@ for x in soup.find_all('tr'):
         for z in y.find_all('i'):
             translation = z.parent.next_sibling.next_sibling.next_sibling.next_sibling.next_sibling.next_sibling.text
             print (z.text+","+translation)
+
+
+#test comment
