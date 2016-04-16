@@ -1,0 +1,9 @@
+Some useful queries for the db
+
+#Get stars with names we have translations for
+select *
+from stars,star_trans
+where proper!='NA' and name like CONCAT('%',proper,'%');
+
+#Get stars we have names for, should be 130
+select * from stars where proper!='NA';
