@@ -21,10 +21,11 @@ def draw_stars( c, x, y, apparent_magnitude, tag):
 		width = 0
 
 
-	star = c.create_oval(x-r, y-r, x+r, y+r, width = width, fill="#ffffff")
-	#if tag != "NONE":
-		#create a widget over the thing
-		#c.itemconfig(star, activefill="#ff0000")
+	
+	
+	star = c.create_oval(x-r, y-r, x+r, y+r, width = width, fill="#ffffff", tag = tag)
+	
+	return star;
 
 
 def display(star):

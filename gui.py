@@ -1,6 +1,8 @@
 from tkinter import *
 from drawable_methods import *
 from random import *
+from queue import *
+from functools import partial
 
 
 class application(Tk):
@@ -79,7 +81,11 @@ class application(Tk):
 			self.y_entry.delete(0, END)
 			valid_y = False
 		
+		self.star_list = []
+		self.text_queue = Queue()
 		#do stuff with coordinates if we have the correct values
+
+
 		if valid_x and valid_y:
 			#we can move onto next thing
 			self.clear_window()
@@ -93,12 +99,15 @@ class application(Tk):
 				x = randint(0, int(self.screen_width))
 				y = randint(0, int(self.screen_height))
 				a = randint(-2, 7)
-				tag = "NONE"
-				if randint(0, 4) <= 1:
-					j += 1
-					tag = "Star: " + str(i)
-				draw_stars(self.canvas, x, y, a, tag)
+				tag = "Star:" + str(i)
+				star = draw_stars(self.canvas, x, y, a, tag)
+				if a < 3:
+					self.star_list.append(tag)
+					self.canvas.tag_bind(star, "<Button-1>", self.click)
+					self.canvas.tag_bind(star, "<Enter>", self.enter)
+					self.canvas.tag_bind(star, "<Leave>", self.leave)
 			
+			self.text = self.canvas.create_text(0, 0, text = "", fill = "white", state = "hidden", tag = "text")
 			print("We have valid coordinates")
 
 	def clear_window(self):
@@ -111,13 +120,31 @@ class application(Tk):
 		self.screen_height = self.winfo_screenheight()*.8
 		self.screen_width = self.winfo_screenwidth()*.8
 		self.canvas = Canvas(self.canvas_window, bg='black', height=self.screen_width, width=self.screen_width)
-		self.canvas.bind("<Button-1>", self.click)
 		self.canvas.grid(column = 0, row = 0, stick='EW')
 
+	def leave(self, event):
+		self.canvas.itemconfig(self.entered, fill="white")
+		#self.canvas.itemconfig(self.text, text = "")
+		self.canvas.update_idletasks()
+
+	def enter(self, event):
+		#Change color / highlight
+		#Link the constellation
+		#Show text
+		self.entered = self.canvas.find_withtag(CURRENT)
+		self.canvas.itemconfig(self.entered, fill="#ffffe6")
+		self.star = self.canvas.find_closest(event.x, event.y)
+		self.name = self.canvas.gettags(self.star)[0]
+		self.star_coords = self.canvas.coords(self.star)
+		self.words_coords = self.canvas.coords(self.text)
+		self.x = ((self.star_coords[0] + self.star_coords[2]) / 2) - self.words_coords[0]
+		self.y = ((self.star_coords[1] + self.star_coords[3]) / 2 - 10) - self.words_coords[1]
+		self.canvas.move(self.text, self.x, self.y)
+		self.canvas.itemconfig(self.text, text = self.name, state = "normal")
+		self.canvas.update_idletasks()
+
 	def click(self, event):
-		if self.canvas.find_withtag(CURRENT):
-			self.canvas.itemconfig(CURRENT, fill="blue")
-			self.canvas.update_idletasks()
+		self.canvas.itemconfig(self.canvas.find_withtag(CURRENT), fill="green")
 
 if __name__ == "__main__":
     app = application(None)
