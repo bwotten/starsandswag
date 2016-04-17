@@ -82,7 +82,6 @@ class application(Tk):
 			valid_y = False
 		
 		self.star_list = []
-		self.text_queue = Queue()
 		#do stuff with coordinates if we have the correct values
 
 
@@ -90,7 +89,8 @@ class application(Tk):
 			#we can move onto next thing
 			self.clear_window()
 			self.create_canvas()
-
+			#self.attributes("-fullscreen", True)
+			self.state('zoomed')
 			#create random x & y values for drawing stars with random values from -2 to 7 for mag
 			i = 0
 			j = 0
@@ -117,14 +117,14 @@ class application(Tk):
 	def create_canvas(self):
 		self.canvas_window = PanedWindow(self)
 		self.canvas_window.grid(column=0, row=0, stick='EW')
-		self.screen_height = self.winfo_screenheight()*.8
-		self.screen_width = self.winfo_screenwidth()*.8
+		self.screen_height = self.winfo_screenheight()
+		self.screen_width = self.winfo_screenwidth()
 		self.canvas = Canvas(self.canvas_window, bg='black', height=self.screen_width, width=self.screen_width)
 		self.canvas.grid(column = 0, row = 0, stick='EW')
 
 	def leave(self, event):
 		self.canvas.itemconfig(self.entered, fill="white")
-		#self.canvas.itemconfig(self.text, text = "")
+		self.canvas.itemconfig(self.text, text = "")
 		self.canvas.update_idletasks()
 
 	def enter(self, event):
@@ -138,7 +138,7 @@ class application(Tk):
 		self.star_coords = self.canvas.coords(self.star)
 		self.words_coords = self.canvas.coords(self.text)
 		self.x = ((self.star_coords[0] + self.star_coords[2]) / 2) - self.words_coords[0]
-		self.y = ((self.star_coords[1] + self.star_coords[3]) / 2 - 10) - self.words_coords[1]
+		self.y = ((self.star_coords[1] + self.star_coords[3]) / 2 - 15) - self.words_coords[1]
 		self.canvas.move(self.text, self.x, self.y)
 		self.canvas.itemconfig(self.text, text = self.name, state = "normal")
 		self.canvas.update_idletasks()
@@ -150,6 +150,7 @@ if __name__ == "__main__":
     app = application(None)
     app.title('Stars & Swag')
     app.mainloop()
+
 
 
 
