@@ -15,8 +15,8 @@ class application(Tk):
 		#widgets created here
 		self.grid()
 
-		self.logo_window = PanedWindow(self,bg='#000000',borderwidth=0)
-		self.logo_window.grid(column=0, row=0, stick='EW')
+		self.logo_window = PanedWindow(self,bg='#000000')
+		self.logo_window.grid(column=0, row=0, stick='EW',columnspan=5)
 
 		logo = ImageTk.PhotoImage(file="starsandswag.png")
 		logo_label = Label(self.logo_window,image=logo,bg='black')
@@ -36,21 +36,21 @@ class application(Tk):
 		self.x_label_var = StringVar()
 		self.x_label_var.set("Longitude: ")
 		x_label = Label(self.input_window, textvariable=self.x_label_var,anchor="w",fg="white",bg="blue")
-		x_label.grid(column=0, row=0, stick='EW')
+		x_label.grid(column=3, row=0, stick='EW',padx=(250,0))
 
 		self.x_entry = Entry(self.input_window)
-		self.x_entry.grid(column=1, row=0, sticky='EW')
+		self.x_entry.grid(column=4, row=0, sticky='EW')
 
 		self.y_label_var = StringVar()
 		self.y_label_var.set("Latitude: ")
 		y_label = Label(self.input_window, textvariable=self.y_label_var,anchor="w",fg="white",bg="blue")
-		y_label.grid(column=0, row=1, stick='EW')
+		y_label.grid(column=3, row=1, stick='EW',padx=(250,0))
 
 		self.y_entry = Entry(self.input_window)
-		self.y_entry.grid(column=1, row=1, sticky='EW')
+		self.y_entry.grid(column=4, row=1, sticky='EW')
 
 		self.submit_button = Button(self.continue_window, text="Submit", anchor="center", command=self.submit_coords,fg='white',bg='#000000')
-		self.submit_button.grid(column=0, row=0)
+		self.submit_button.grid(column=0, row=0,padx=(350,0))
 
 
 		self.grid_columnconfigure(0, weight=2)
