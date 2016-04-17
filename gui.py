@@ -19,7 +19,7 @@ class application(Tk):
 		self.logo_window.grid(column=0, row=0, stick='EW')
 
 		logo = ImageTk.PhotoImage(file="starsandswag.png")
-		logo_label = Label(self.logo_window,image=logo)
+		logo_label = Label(self.logo_window,image=logo,bg='black')
 		logo_label.image = logo
 		logo_label.pack()
 		# logo_label.grid(column=0,row=0)
@@ -38,7 +38,7 @@ class application(Tk):
 		x_label = Label(self.input_window, textvariable=self.x_label_var,anchor="w",fg="white",bg="blue")
 		x_label.grid(column=0, row=0, stick='EW')
 
-		self.x_entry = Entry(self.input_window,bg='#000000')
+		self.x_entry = Entry(self.input_window)
 		self.x_entry.grid(column=1, row=0, sticky='EW')
 
 		self.y_label_var = StringVar()
@@ -46,7 +46,7 @@ class application(Tk):
 		y_label = Label(self.input_window, textvariable=self.y_label_var,anchor="w",fg="white",bg="blue")
 		y_label.grid(column=0, row=1, stick='EW')
 
-		self.y_entry = Entry(self.input_window,bg='#000000')
+		self.y_entry = Entry(self.input_window)
 		self.y_entry.grid(column=1, row=1, sticky='EW')
 
 		self.submit_button = Button(self.continue_window, text="Submit", anchor="center", command=self.submit_coords,fg='white',bg='#000000')
