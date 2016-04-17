@@ -107,7 +107,7 @@ class application(Tk):
 			#create random x & y values for drawing stars with random values from -2 to 7 for mag
 			i = 0
 			j = 0
-			while i < 80:
+			while i < 200:
 				i += 1
 				x = randint(0, int(self.screen_width))
 				y = randint(0, int(self.screen_height))
