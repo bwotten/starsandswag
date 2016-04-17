@@ -3,7 +3,7 @@ from drawable_methods import *
 from random import *
 from queue import *
 from functools import partial
-
+from PIL import Image, ImageTk
 
 class application(Tk):
 	def __init__(self, parent):
@@ -15,11 +15,20 @@ class application(Tk):
 		#widgets created here
 		self.grid()
 
+		self.logo_window = PanedWindow(self)
+		self.logo_window.grid(column=0, row=0, stick='EW')
+
+		logo = ImageTk.PhotoImage(file="starsandswag.png")
+		logo_label = Label(self.logo_window,image=logo)
+		logo_label.image = logo
+		logo_label.pack()
+		logo_label.grid(column=0,row=0)
+
 		self.input_window = PanedWindow(self)
-		self.input_window.grid(column=0, row=0, stick='EW')
+		self.input_window.grid(column=0, row=1, stick='EW')
 
 		self.continue_window = PanedWindow(self)
-		self.continue_window.grid(column=0, row=1, stick='EW')
+		self.continue_window.grid(column=0, row=2, stick='EW')
 
 		self.input_window.grid()
 		self.continue_window.grid()
@@ -80,7 +89,7 @@ class application(Tk):
 			print("Invalid Latitude Coordinate")
 			self.y_entry.delete(0, END)
 			valid_y = False
-		
+
 		self.star_list = []
 		self.text_queue = Queue()
 		#do stuff with coordinates if we have the correct values
@@ -106,7 +115,7 @@ class application(Tk):
 					self.canvas.tag_bind(star, "<Button-1>", self.click)
 					self.canvas.tag_bind(star, "<Enter>", self.enter)
 					self.canvas.tag_bind(star, "<Leave>", self.leave)
-			
+
 			self.text = self.canvas.create_text(0, 0, text = "", fill = "white", state = "hidden", tag = "text")
 			print("We have valid coordinates")
 
