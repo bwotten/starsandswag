@@ -3,7 +3,7 @@ from drawable_methods import *
 from random import *
 from queue import *
 from functools import partial
-
+from PIL import Image, ImageTk
 
 class application(Tk):
 	def __init__(self, parent):
@@ -15,11 +15,20 @@ class application(Tk):
 		#widgets created here
 		self.grid()
 
-		self.input_window = PanedWindow(self)
-		self.input_window.grid(column=0, row=0, stick='EW')
+		self.logo_window = PanedWindow(self,bg='#000000')
+		self.logo_window.grid(column=0, row=0, stick='EW',columnspan=5)
 
-		self.continue_window = PanedWindow(self)
-		self.continue_window.grid(column=0, row=1, stick='EW')
+		logo = ImageTk.PhotoImage(file="starsandswag.png")
+		logo_label = Label(self.logo_window,image=logo,bg='black')
+		logo_label.image = logo
+		logo_label.pack()
+		# logo_label.grid(column=0,row=0)
+
+		self.input_window = PanedWindow(self,bg='#000000')
+		self.input_window.grid(column=0, row=1, stick='EW')
+
+		self.continue_window = PanedWindow(self,bg='#000000')
+		self.continue_window.grid(column=0, row=2, stick='EW')
 
 		self.input_window.grid()
 		self.continue_window.grid()
@@ -27,21 +36,21 @@ class application(Tk):
 		self.x_label_var = StringVar()
 		self.x_label_var.set("Longitude: ")
 		x_label = Label(self.input_window, textvariable=self.x_label_var,anchor="w",fg="white",bg="blue")
-		x_label.grid(column=0, row=0, stick='EW')
+		x_label.grid(column=3, row=0, stick='EW',padx=(250,0))
 
 		self.x_entry = Entry(self.input_window)
-		self.x_entry.grid(column=1, row=0, sticky='EW')
+		self.x_entry.grid(column=4, row=0, sticky='EW')
 
 		self.y_label_var = StringVar()
 		self.y_label_var.set("Latitude: ")
 		y_label = Label(self.input_window, textvariable=self.y_label_var,anchor="w",fg="white",bg="blue")
-		y_label.grid(column=0, row=1, stick='EW')
+		y_label.grid(column=3, row=1, stick='EW',padx=(250,0))
 
 		self.y_entry = Entry(self.input_window)
-		self.y_entry.grid(column=1, row=1, sticky='EW')
+		self.y_entry.grid(column=4, row=1, sticky='EW')
 
-		self.submit_button = Button(self.continue_window, text="Submit", anchor="center", command=self.submit_coords)
-		self.submit_button.grid(column=0, row=0)
+		self.submit_button = Button(self.continue_window, text="Submit", anchor="center", command=self.submit_coords,fg='white',bg='#000000')
+		self.submit_button.grid(column=0, row=0,padx=(350,0))
 
 
 		self.grid_columnconfigure(0, weight=2)
@@ -80,7 +89,7 @@ class application(Tk):
 			print("Invalid Latitude Coordinate")
 			self.y_entry.delete(0, END)
 			valid_y = False
-		
+
 		self.star_list = []
 		#do stuff with coordinates if we have the correct values
 
@@ -106,7 +115,7 @@ class application(Tk):
 					self.canvas.tag_bind(star, "<Button-1>", self.click)
 					self.canvas.tag_bind(star, "<Enter>", self.enter)
 					self.canvas.tag_bind(star, "<Leave>", self.leave)
-			
+
 			self.text = self.canvas.create_text(0, 0, text = "", fill = "white", state = "hidden", tag = "text")
 			print("We have valid coordinates")
 
