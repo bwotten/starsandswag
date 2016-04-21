@@ -23,7 +23,6 @@ class application(Tk):
 		logo_label.image = logo
 		logo_label.pack()
 		# logo_label.grid(column=0,row=0)
-
 		self.input_window = PanedWindow(self,bg='#000000')
 		self.input_window.grid(column=0, row=1, stick='EW')
 
@@ -53,7 +52,7 @@ class application(Tk):
 		self.y_entry = Entry(self.input_window)
 		self.y_entry.grid(column=1, row=1, sticky='W')
 
-		self.submit_button = Button(self.continue_window, text="Submit", anchor="center", command=self.submit_coords,fg='white',bg='#000000')
+		self.submit_button = Button(self.continue_window, text="Submit", anchor="center", command=self.submit_coords,fg='yellow',bg='black',highlightbackground='black')
 		self.submit_button.grid(column=0, row=0)
 
 
@@ -107,7 +106,7 @@ class application(Tk):
 			#create random x & y values for drawing stars with random values from -2 to 7 for mag
 			i = 0
 			j = 0
-			while i < 200:
+			while i < 2500:
 				i += 1
 				x = randint(0, int(self.screen_width))
 				y = randint(0, int(self.screen_height))
