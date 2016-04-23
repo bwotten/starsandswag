@@ -4,6 +4,7 @@ from random import *
 from queue import *
 from functools import partial
 from PIL import Image, ImageTk
+import csv
 
 class application(Tk):
 	def __init__(self, parent):
@@ -113,6 +114,12 @@ class application(Tk):
 
 			viewable_stars = []
 			#populate viewable_stars as an array of tuples [ tuples ]
+			f = open('C:/Users/Brendan Otten/421/test_stars.csv')
+			csvreader = csv.reader(f)
+
+			for row in csvreader:
+				viewable_stars.append(row)
+
 			#each entry should have [0] = x, [1] = y, [2] = z, [3] = magnitude, [4] = tag
 
 			self.z_screen = 1
@@ -120,16 +127,17 @@ class application(Tk):
 			self.x_screen = 1
 
 			for star in viewable_stars:
-				star_x = self.getX(star[0], star[2])
-				star_y = self.getY(star[1], star[2])
-				a = star[3]
+				star_x = self.getX(float(star[0]), float(star[2]))
+				star_y = self.getY(float(star[1]), float(star[2]))
+				a = float(star[3])
 				tag = star[4]
-				star = draw_stars(self.canvas, x, y, a, tag)
-				if a < 3:
+				if a < 4:
+					print("Drawing real star")
+					star_id = draw_stars(self.canvas, star_x * 50 + self.screen_width / 2, star_y * 50 + self.screen_height / 2, a, tag)
 					self.star_list.append(tag)
-					self.canvas.tag_bind(star, "<Button-1>", self.click)
-					self.canvas.tag_bind(star, "<Enter>", self.enter)
-					self.canvas.tag_bind(star, "<Leave>", self.leave)
+					self.canvas.tag_bind(star_id, "<Button-1>", self.click)
+					self.canvas.tag_bind(star_id, "<Enter>", self.enter)
+					self.canvas.tag_bind(star_id, "<Leave>", self.leave)
 
 			#while i < 2500:
 			#	i += 1
