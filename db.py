@@ -22,9 +22,9 @@ conn = psycopg2.connect(**params)
 cur = conn.cursor()
 
 #Simple select statement and then fetch to get results
-cur.execute("select x,y,z from stars where con='UMa';")
+cur.execute("select x,y,z,mag,id from stars where con='UMa';")
 for x in cur.fetchall():
-    f.write(str(float(x[0]))+","+str(float(x[1]))+","+str(float(x[2]))+"\n")
+    f.write(str(float(x[0]))+","+str(float(x[1]))+","+str(float(x[2]))+","+str(float(x[3]))+","+str(int(x[4]))+"\n")
 #Close everything out
 cur.close()
 conn.close()

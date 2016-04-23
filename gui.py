@@ -52,7 +52,7 @@ class application(Tk):
 		self.y_entry = Entry(self.input_window)
 		self.y_entry.grid(column=1, row=1, sticky='W')
 
-		self.submit_button = Button(self.continue_window, text="Submit", anchor="center", command=self.submit_coords,fg='yellow',bg='black',highlightbackground='black')
+		self.submit_button = Button(self.continue_window, text="Submit", anchor="center", command=self.submit_coords,fg='yellow',highlightbackground='black')
 		self.submit_button.grid(column=0, row=0)
 
 
