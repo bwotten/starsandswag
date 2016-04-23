@@ -5,6 +5,7 @@ import getpass
 # Run this command to start ssh tunneling
 # ssh -L 63333:localhost:5432 zpfallon@db.cs.wm.edu
 
+f = open('test_stars.csv','w')
 
 password = getpass.getpass('Password: ')
 
@@ -23,7 +24,8 @@ cur = conn.cursor()
 #Simple select statement and then fetch to get results
 cur.execute("select x,y,z from stars where con='UMa';")
 for x in cur.fetchall():
-    print ("x= "+str(float(x[0]))+", y= "+str(float(x[1]))+", z= "+str(float(x[2])))
+    f.write(str(float(x[0]))+","+str(float(x[1]))+","+str(float(x[2]))+"\n")
 #Close everything out
 cur.close()
 conn.close()
+f.close()
