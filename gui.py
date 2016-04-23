@@ -96,8 +96,12 @@ class application(Tk):
 		self.star_list = []
 		#do stuff with coordinates if we have the correct values
 
+		#select stars that we want to put in our night sky
+
+		#Distance formula in to get x intercept
 
 		if valid_x and valid_y:
+
 			#we can move onto next thing
 			self.clear_window()
 			self.create_canvas()
@@ -106,12 +110,20 @@ class application(Tk):
 			#create random x & y values for drawing stars with random values from -2 to 7 for mag
 			i = 0
 			j = 0
-			while i < 2500:
-				i += 1
-				x = randint(0, int(self.screen_width))
-				y = randint(0, int(self.screen_height))
-				a = randint(-2, 7)
-				tag = "Star:" + str(i)
+
+			viewable_stars = []
+			#populate viewable_stars as an array of tuples [ tuples ]
+			#each entry should have [0] = x, [1] = y, [2] = z, [3] = magnitude, [4] = tag
+
+			self.z_screen = 1
+			self.y_screen = 1
+			self.x_screen = 1
+
+			for star in viewable_stars:
+				star_x = self.getX(star[0], star[2])
+				star_y = self.getY(star[1], star[2])
+				a = star[3]
+				tag = star[4]
 				star = draw_stars(self.canvas, x, y, a, tag)
 				if a < 3:
 					self.star_list.append(tag)
@@ -119,8 +131,38 @@ class application(Tk):
 					self.canvas.tag_bind(star, "<Enter>", self.enter)
 					self.canvas.tag_bind(star, "<Leave>", self.leave)
 
+			#while i < 2500:
+			#	i += 1
+			#	x = randint(0, int(self.screen_width))
+			#	y = randint(0, int(self.screen_height))
+			#	a = randint(-2, 7)
+			#	tag = "Star:" + str(i)
+			#	star = draw_stars(self.canvas, x, y, a, tag)
+			#	if a < 3:
+			#		self.star_list.append(tag)
+			#		self.canvas.tag_bind(star, "<Button-1>", self.click)
+			#		self.canvas.tag_bind(star, "<Enter>", self.enter)
+			#		self.canvas.tag_bind(star, "<Leave>", self.leave)
+
 			self.text = self.canvas.create_text(0, 0, text = "", fill = "white", state = "hidden", tag = "text")
 			print("We have valid coordinates")
+
+	def getX(self, star_x, star_z):
+		#y = mx + b
+		slope = star_z / star_x
+		z_intercept = self.z_screen
+		#how much does it rise while it runs for 'the z distance away'
+		x_intercept = z_intercept * slope
+		return x_intercept
+
+	def getY(self, star_y, star_z):
+		#y = mx + b
+		slope = star_z / star_y
+		z_intercept = self.z_screen
+		#how much does it rise while it runs for 'the z distance away'
+		y_intercept = z_intercept * slope
+		return y_intercept		
+
 
 	def clear_window(self):
 		self.continue_window.grid_forget()
