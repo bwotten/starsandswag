@@ -1,7 +1,7 @@
 from math import *
 import psycopg2
 import getpass
-
+import time
 def get_alt_az(ra, dec, lat, lon, time, date):
 	ra_deg  = ra * 15
 	ra_rad = radians(ra_deg)
@@ -26,14 +26,59 @@ def get_alt_az(ra, dec, lat, lon, time, date):
 
 	return (degrees(alt), az)
 
+def get_J2000(month, day, year):
+    m = 0.0
+    d = float(day)
+    y = 0.0
+    if month == 1:
+    	m = 0
+    elif month == 2:
+    	m = 31
+    elif month == 3:
+    	m = 59
+    elif month == 4:
+    	m = 90
+    elif month == 5:
+    		m = 120
+    elif month == 6:
+    	m = 151
+    elif month == 7:
+    	m = 181
+    elif month == 8:
+    	m = 212
+    elif month == 9:
+    	m = 243
+    elif month == 10:
+    	m = 273
+    elif month == 11:
+    	m = 304
+    else:
+    	m = 334
+
+    if year == 16:
+    	y = 5842.5
+    elif year == 17:
+    	y = 6208.5
+    else:
+        print ("We cant go that far ahead")
+    # j2000 = (20/24) + m + d + y
+    return ((20/24) + m + d + y)
 
 # Run this command to start ssh tunneling
 # ssh -L 63333:localhost:5432 zpfallon@db.cs.wm.edu
 password = getpass.getpass('Password: ')
+#lat and lon come from user input
 lat = 35.780953
 lon = 90.803196
-time = 20
-date = 0
+#we will only be considering 8:00pm for time
+time_hour = 20
+#Eventually need a function to get
+date = time.strftime("%x")
+month = int(date[0:2])
+day = int(date[3:5])
+year = int(date[6:8])
+j2000 = get_J2000(month,day,year)
+print (j2000)
 
 params = {
   'database': 'group3_stars',
@@ -52,7 +97,7 @@ cur.execute("select ra,dec from stars;")
 count=0
 for x in cur.fetchall():
 	# print("ra: "+str(float(x[0]))+", dec: "+str(float(x[1]))+"\n")
-	alt_az = get_alt_az(float(x[0]),float(x[1]),lat,lon,time,date)
+	alt_az = get_alt_az(float(x[0]),float(x[1]),lat,lon,time_hour,date)
 	if alt_az[0] > 0 and alt_az[0] < 90 and alt_az[1] < 90:
 		count+=1
 	# print(alt_az)
