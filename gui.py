@@ -238,7 +238,7 @@ class application(Tk):
 	def click(self, event):
 		reference = self.canvas.find_withtag(CURRENT)
 		self.canvas.itemconfig(reference, fill="green")
-		self.canvas.find_withtag(reference[1])
+		self.canvas.itemconfig(self.canvas.find_withtag(reference[1]), fill="green")
 
 
 if __name__ == "__main__":

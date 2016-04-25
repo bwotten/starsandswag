@@ -25,7 +25,6 @@ def draw_stars( c, x, y, apparent_magnitude, tag, constellation):
 		width = 0	
 	
 	star = c.create_oval(x-r, y-r, x+r, y+r, width = width, fill="#ffffff", tags = (tag, constellation))
-	star.itemconfig(tag)
 	
 	return star;
 
