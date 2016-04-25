@@ -1,6 +1,6 @@
 from tkinter import *
 
-def draw_stars( c, x, y, apparent_magnitude, tag):
+def draw_stars( c, x, y, apparent_magnitude, tag, constellation):
 
 	width = 1
 	if apparent_magnitude < -1:
@@ -24,7 +24,8 @@ def draw_stars( c, x, y, apparent_magnitude, tag):
 		r = 0
 		width = 0	
 	
-	star = c.create_oval(x-r, y-r, x+r, y+r, width = width, fill="#ffffff", tag = tag)
+	star = c.create_oval(x-r, y-r, x+r, y+r, width = width, fill="#ffffff", tags = (tag, constellation))
+	star.itemconfig(tag)
 	
 	return star;
 

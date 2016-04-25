@@ -147,11 +147,11 @@ class application(Tk):
 			cur = conn.cursor()
 
 			#Simple select statement and then fetch to get results
-			cur.execute("select ra,dec,mag,id from stars;")
+			cur.execute("select ra,dec,mag,id,con from stars;")
 			for x in cur.fetchall():
 				alt_az = get_alt_az(float(x[0]),float(x[1]),self.lat,self.lon,time_hour,date)
 				if alt_az[0] > 0 and alt_az[0] < 90:
-					viewable_stars.append((alt_az[0],alt_az[1],float(x[2]),str(x[3])))
+					viewable_stars.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4])))
 
 
 			for star in viewable_stars:
@@ -159,9 +159,10 @@ class application(Tk):
 				star_y = self.getY(float(star[1]))
 				a = star[2]
 				tag = star[3]
+				constellation = star[4]
 				if a < 4:
 					print("Drawing real star")
-					star_id = draw_stars(self.canvas, star_x, star_y, a, tag)
+					star_id = draw_stars(self.canvas, star_x, star_y, a, tag, constellation)
 					self.star_list.append(tag)
 					self.canvas.tag_bind(star_id, "<Button-1>", self.click)
 					self.canvas.tag_bind(star_id, "<Enter>", self.enter)
@@ -235,7 +236,9 @@ class application(Tk):
 		self.canvas.update_idletasks()
 
 	def click(self, event):
-		self.canvas.itemconfig(self.canvas.find_withtag(CURRENT), fill="green")
+		reference = self.canvas.find_withtag(CURRENT)
+		self.canvas.itemconfig(reference, fill="green")
+		self.canvas.find_withtag(reference[1])
 
 
 if __name__ == "__main__":
