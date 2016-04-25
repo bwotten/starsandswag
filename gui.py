@@ -224,7 +224,6 @@ class application(Tk):
 		#Link the constellation
 		#Show text
 		self.entered = self.canvas.find_withtag(CURRENT)
-		self.canvas.itemconfig(self.entered, fill="#ffffe6")
 		self.star = self.canvas.find_closest(event.x, event.y)
 		self.name = self.canvas.gettags(self.star)[0]
 		self.star_coords = self.canvas.coords(self.star)
@@ -234,6 +233,12 @@ class application(Tk):
 		self.canvas.move(self.text, self.x, self.y)
 		self.canvas.itemconfig(self.text, text = self.name, state = "normal")
 		self.canvas.update_idletasks()
+
+		reference = self.canvas.find_withtag(CURRENT)
+		constellation_tuple = self.canvas.find_withtag(self.canvas.gettags(reference)[1])
+		for star in constellation_tuple:
+			self.canvas.itemconfig(star, fill = "green")
+
 
 	def click(self, event):
 		reference = self.canvas.find_withtag(CURRENT)
