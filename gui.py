@@ -4,8 +4,12 @@ from random import *
 from queue import *
 from functools import partial
 from PIL import Image, ImageTk
+from math import *
+from mapping import *
+import getpass
+import psycopg2
 import csv
-
+import time
 class application(Tk):
 	def __init__(self, parent):
 		Tk.__init__(self, parent)
@@ -114,26 +118,50 @@ class application(Tk):
 
 			viewable_stars = []
 			#populate viewable_stars as an array of tuples [ tuples ]
-			f = open('C:/Users/Brendan Otten/421/test_stars.csv')
-			csvreader = csv.reader(f)
+			# Run this command to start ssh tunneling
+			# ssh -L 63333:localhost:5432 zpfallon@db.cs.wm.edu
+			# password = getpass.getpass('Password: ')
+			#lat and lon come from user input
+			self.lat = latitude
+			self.lon = longitude
+			#we will only be considering 8:00pm for time
+			time_hour = 20
+			#Eventually need a function to get
+			date = time.strftime("%x")
+			month = int(date[0:2])
+			day = int(date[3:5])
+			year = int(date[6:8])
+			# j2000 = get_J2000(month,day,year)
+			j2000 = 5965.5
 
-			for row in csvreader:
-				viewable_stars.append(row)
+			params = {
+			  'database': 'group3_stars',
+			  'user': 'zpfallon',
+			  'password': 'Zpf1234!',
+			  'host': 'localhost',
+			  'port': 63333
+			}
+			#Open the connection
+			conn = psycopg2.connect(**params)
+			#Open the cursor
+			cur = conn.cursor()
 
-			#each entry should have [0] = x, [1] = y, [2] = z, [3] = magnitude, [4] = tag
+			#Simple select statement and then fetch to get results
+			cur.execute("select ra,dec,mag,id from stars;")
+			for x in cur.fetchall():
+				alt_az = get_alt_az(float(x[0]),float(x[1]),self.lat,self.lon,time_hour,date)
+				if alt_az[0] > 0 and alt_az[0] < 90:
+					viewable_stars.append((alt_az[0],alt_az[1],float(x[2]),str(x[3])))
 
-			self.z_screen = 1
-			self.y_screen = 1
-			self.x_screen = 1
 
 			for star in viewable_stars:
-				star_x = self.getX(float(star[0]), float(star[2]))
-				star_y = self.getY(float(star[1]), float(star[2]))
-				a = float(star[3])
-				tag = star[4]
+				star_x = self.getX(float(star[0]))
+				star_y = self.getY(float(star[1]))
+				a = star[2]
+				tag = star[3]
 				if a < 4:
 					print("Drawing real star")
-					star_id = draw_stars(self.canvas, star_x * 50 + self.screen_width / 2, star_y * 50 + self.screen_height / 2, a, tag)
+					star_id = draw_stars(self.canvas, star_x, star_y, a, tag)
 					self.star_list.append(tag)
 					self.canvas.tag_bind(star_id, "<Button-1>", self.click)
 					self.canvas.tag_bind(star_id, "<Enter>", self.enter)
@@ -155,21 +183,22 @@ class application(Tk):
 			self.text = self.canvas.create_text(0, 0, text = "", fill = "white", state = "hidden", tag = "text")
 			print("We have valid coordinates")
 
-	def getX(self, star_x, star_z):
-		#y = mx + b
-		slope = star_z / star_x
-		z_intercept = self.z_screen
-		#how much does it rise while it runs for 'the z distance away'
-		x_intercept = z_intercept * slope
-		return x_intercept
+	def getX(self, star_az):
+		#fuckton of cool trig here
+		#star_az in is degrees so we need to make sure we do it in radians when we do sin(star_az)
+		phi = pi - radians(star_az) - (pi/4)
+		x = ((1) * sin(radians(star_az)))/sin(phi)
+		#x is a percentage of the screen, we should probably now multiply it by how wide our screen is
+		x = x * (self.screen_width*.8)
+		return x
 
-	def getY(self, star_y, star_z):
+	def getY(self, star_alt):
 		#y = mx + b
-		slope = star_z / star_y
-		z_intercept = self.z_screen
-		#how much does it rise while it runs for 'the z distance away'
-		y_intercept = z_intercept * slope
-		return y_intercept		
+		phi = pi - radians(star_alt) - (pi/4)
+		y = ((1) * sin(radians(star_alt))) / sin(phi)
+		#y is a percentage of the screen, we should probably now multiply it by how tall our screen is, also since it scales downwards we want to invert
+		y = (self.screen_height * .8) - (y * (self.screen_height*.8))
+		return y
 
 
 	def clear_window(self):
@@ -207,6 +236,7 @@ class application(Tk):
 
 	def click(self, event):
 		self.canvas.itemconfig(self.canvas.find_withtag(CURRENT), fill="green")
+
 
 if __name__ == "__main__":
     app = application(None)
