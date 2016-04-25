@@ -29,6 +29,10 @@ cur.execute(SQL,(co_lat,))
 for x in cur.fetchall():
     print ("x= "+str(float(x[0]))+", y= "+str(float(x[1]))+", z= "+str(float(x[2])))
 
+cur.execute("select * from const_names;")
+for x in cur.fetchall():
+    print (str(x[0])+","+str(x[1])+"\n")
+
 #Close everything out
 cur.close()
 conn.close()
