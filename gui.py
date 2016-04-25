@@ -239,7 +239,7 @@ class application(Tk):
 		reference = self.canvas.find_withtag(CURRENT)
 		constellation_tuple = self.canvas.find_withtag(self.canvas.gettags(reference)[1])
 		for star in constellation_tuple:
-			self.canvas.itemconfig(star, fill = green)
+			self.canvas.itemconfig(star, fill = "green")
 		#self.canvas.itemconfig(self.canvas.find_withtag(reference[1]), fill="green")
 
 
