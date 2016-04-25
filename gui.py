@@ -160,13 +160,11 @@ class application(Tk):
 				a = star[2]
 				tag = star[3]
 				constellation = star[4]
-				if a < 4:
-					print("Drawing real star")
-					star_id = draw_stars(self.canvas, star_x, star_y, a, tag, constellation)
-					self.star_list.append(tag)
-					self.canvas.tag_bind(star_id, "<Button-1>", self.click)
-					self.canvas.tag_bind(star_id, "<Enter>", self.enter)
-					self.canvas.tag_bind(star_id, "<Leave>", self.leave)
+				star_id = draw_stars(self.canvas, star_x, star_y, a, tag, constellation)
+				self.star_list.append(tag)
+				self.canvas.tag_bind(star_id, "<Button-1>", self.click)
+				self.canvas.tag_bind(star_id, "<Enter>", self.enter)
+				self.canvas.tag_bind(star_id, "<Leave>", self.leave)
 
 			#while i < 2500:
 			#	i += 1
@@ -187,18 +185,25 @@ class application(Tk):
 	def getX(self, star_az):
 		#fuckton of cool trig here
 		#star_az in is degrees so we need to make sure we do it in radians when we do sin(star_az)
-		phi = pi - radians(star_az) - (pi/4)
-		x = ((1) * sin(radians(star_az)))/sin(phi)
+		#phi = pi - radians(star_az) - (pi/4)
+		#x = ((1) * sin(radians(star_az)))/sin(phi)
 		#x is a percentage of the screen, we should probably now multiply it by how wide our screen is
-		x = x * (self.screen_width*.8)
+		#x = x * (self.screen_width*.8)
+
+		star_az = star_az % 90
+		x = (star_az / float(90)) * self.screen_width
+
 		return x
 
 	def getY(self, star_alt):
 		#y = mx + b
-		phi = pi - radians(star_alt) - (pi/4)
-		y = ((1) * sin(radians(star_alt))) / sin(phi)
+		#phi = pi - radians(star_alt) - (pi/4)
+		#y = ((1) * sin(radians(star_alt))) / sin(phi)
 		#y is a percentage of the screen, we should probably now multiply it by how tall our screen is, also since it scales downwards we want to invert
-		y = (self.screen_height * .8) - (y * (self.screen_height*.8))
+		#y = (self.screen_height * .8) - (y * (self.screen_height*.8))
+
+		y = self.screen_height - (star_alt / float(90)) * self.screen_height
+
 		return y
 
 
