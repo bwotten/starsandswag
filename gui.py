@@ -150,7 +150,7 @@ class application(Tk):
 			cur.execute("select ra,dec,mag,id,con from stars;")
 			for x in cur.fetchall():
 				alt_az = get_alt_az(float(x[0]),float(x[1]),self.lat,self.lon,time_hour,date)
-				if alt_az[0] > 0 and alt_az[0] < 90:
+				if alt_az[0] > 0 and alt_az[0] < 90 and alt_az[1] < 90:
 					viewable_stars.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4])))
 
 
