@@ -291,12 +291,15 @@ class application(Tk):
 		constellation_abrv = self.canvas.gettags(reference)[1]
 
 		self.canvas.delete("all")
-		return_button = Button(self, text = "Return", command = self.return_to_starmap, anchor = W)
+		return_button = Button(self, text = "Return", command = self.return_to_starmap, anchor = W,highlightbackground='black')
 		return_button.configure(width = 10, activebackground = "#33B5E5")
 		return_button_window = self.canvas.create_window(10, 10, anchor = NW, window = return_button)
-		# con_cur = self.conn.cursor()
-		# SQL = "select name,summary from const_names where con=%s;"
-		# con_cur.execute(SQL,(constellation_abrv,))
+		con_cur = self.conn.cursor()
+		SQL = "select name,summary from const_names where abb=%s;"
+		con_cur.execute(SQL,(constellation_abrv,))
+		#const_info[0] is name, const_info[1] is summary
+		const_info = con_cur.fetchone()
+		print (const_info[1])
 
 
 
