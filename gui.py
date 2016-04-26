@@ -163,7 +163,6 @@ class application(Tk):
 					else:
 						self.viewable_stars4.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4])))
 
-
 			for star in viewable_stars:
 				star_x = self.getX(float(star[1]))
 				star_y = self.getY(float(star[0]))
