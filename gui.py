@@ -186,11 +186,12 @@ class application(Tk):
 		#fuckton of cool trig here
 		#star_az in is degrees so we need to make sure we do it in radians when we do sin(star_az)
 		phi = pi - radians(star_az) - (pi/4)
-		x = ((1) * sin(radians(star_az)))/sin(phi)
+		radius = sqrt(pow(self.screen_width, 2) / 2)
+		x = ((radius) * sin(radians(star_az)))/sin(phi)
 		if x > 1:
 			print("fuck x")
 		#x is a percentage of the screen, we should probably now multiply it by how wide our screen is
-		x = x * (self.screen_width)
+		x = x
 
 		#star_az = star_az % 90
 		#x = (star_az / float(90)) * self.screen_width
@@ -200,7 +201,8 @@ class application(Tk):
 	def getY(self, star_alt):
 		#y = mx + b
 		phi = pi - radians(star_alt) - (pi/4)
-		y = ((1) * sin(radians(star_alt))) / sin(phi)
+		radius = sqrt(pow(self.screen_height, 2) / 2)
+		y = ((radius) * sin(radians(star_alt))) / sin(phi)
 		if y > 1:
 			print("fuck y")
 		#y is a percentage of the screen, we should probably now multiply it by how tall our screen is, also since it scales downwards we want to invert
