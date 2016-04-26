@@ -210,7 +210,7 @@ class application(Tk):
 		self.canvas.tag_bind("rightArrow", "<Button-1>", self.rotate(1))
 
 	def rotate(self, value):
-		self.position = self.position + value % 4
+		self.position = (self.position + value) % 4
 		self.canvas.delete("all")
 		drawCanvas(self.position)
 
