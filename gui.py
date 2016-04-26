@@ -199,7 +199,7 @@ class application(Tk):
 			constellation = star[4]
 			star_id = draw_stars(self.canvas, star_x, star_y, a, tag, constellation)
 			self.star_list.append(tag)
-			self.canvas.tag_bind(star_id, "<Button-1>", self.click)
+			self.canvas.tag_bind(star_id, "<Button-1>", self.constellation_clicked)
 			self.canvas.tag_bind(star_id, "<Enter>", self.enter)
 			self.canvas.tag_bind(star_id, "<Leave>", self.leave)
 
@@ -218,7 +218,6 @@ class application(Tk):
 		self.position = (self.position + 1) % 4
 		self.canvas.delete("all")
 		self.drawCanvas(self.position)
-
 
 	def getX(self, star_az):
 		#fuckton of cool trig here
@@ -287,11 +286,15 @@ class application(Tk):
 			self.canvas.itemconfig(star, fill = "green")
 
 
-	def click(self, event):
+	def constellation_clicked(self, event):
 		reference = self.canvas.find_withtag(CURRENT)
-		constellation_tuple = self.canvas.find_withtag(self.canvas.gettags(reference)[1])
-		for star in constellation_tuple:
-			self.canvas.itemconfig(star, fill = "green")
+		constellation_abrv = self.canvas.gettags(reference)[1]
+
+		self.canvas.delete("all")
+		return_button = Button(self, text = "Return", command = self.drawCanvas(self.position), anchor = W)
+		return_button.configure(width = 10, activebackground = "#33B5E5")
+		return_button_window = self.canvas.create_window(10, 10, anchor = NW, window = return_button)
+
 		#self.canvas.itemconfig(self.canvas.find_withtag(reference[1]), fill="green")
 
 
