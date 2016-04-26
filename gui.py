@@ -206,12 +206,12 @@ class application(Tk):
 
 		self.canvas.create_rectangle(0, 0, self.screen_width * .05, self.screen_height, fill = "yellow", tag = "leftArrow" )
 		self.canvas.create_rectangle(self.screen_width * .95, 0, self.screen_width , self.screen_height, fill = "yellow", tag = "rightArrow")
-		self.canvas.tag_bind("leftArrow", "<Button-1>", self.rotate(-1))
-		self.canvas.tag_bind("rightArrow", "<Button-1>", self.rotate(1))
+		self.canvas.tag_bind(self.canvas.gettags("leftArrow"), "<Button-1>", self.rotate(-1))
+		self.canvas.tag_bind(self.canvas.gettags("rightArrow"), "<Button-1>", self.rotate(1))
 
 	def rotate(self, value):
 		self.position = (self.position + value) % 4
-		#self.canvas.delete("all")
+		self.canvas.delete("all")
 		self.drawCanvas(self.position)
 
 	def getX(self, star_az):
