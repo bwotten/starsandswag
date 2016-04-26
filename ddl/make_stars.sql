@@ -11,7 +11,8 @@ CREATE TABLE Stars (
   con    varchar(5),
   lum    NUMERIC,
   proper VARCHAR(50),
-  bf     VARCHAR(50)
+  bf     VARCHAR(50),
+  ci     VARCHAR(10)
 );
 
-\copy Stars from stars_trim_bf.csv csv
+\copy Stars from stars_trim_bf_ci.csv csv
