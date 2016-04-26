@@ -211,7 +211,7 @@ class application(Tk):
 
 	def rotate(self, value):
 		self.position = (self.position + value) % 4
-		self.canvas.delete("all")
+		#self.canvas.delete("all")
 		self.drawCanvas(self.position)
 
 	def getX(self, star_az):
