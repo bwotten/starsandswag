@@ -155,8 +155,8 @@ class application(Tk):
 
 
 			for star in viewable_stars:
-				star_x = self.getX(float(star[0]))
-				star_y = self.getY(float(star[1]))
+				star_x = self.getX(float(star[1]))
+				star_y = self.getY(float(star[0]))
 				a = star[2]
 				tag = star[3]
 				constellation = star[4]
