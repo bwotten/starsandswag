@@ -201,7 +201,7 @@ class application(Tk):
 		radius = sqrt(pow(self.screen_height, 2) / 2)
 		y = ((radius) * sin(radians(star_alt))) / sin(phi)
 		#y is a percentage of the screen, we should probably now multiply it by how tall our screen is, also since it scales downwards we want to invert
-		#y = self.screen_height - (star_alt / float(90)) * self.screen_height
+		y = self.screen_height - (star_alt / float(90)) * self.screen_height
 
 		return y
 
