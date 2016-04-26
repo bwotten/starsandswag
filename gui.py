@@ -299,7 +299,8 @@ class application(Tk):
 		con_cur.execute(SQL,(constellation_abrv,))
 		#const_info[0] is name, const_info[1] is summary
 		const_info = con_cur.fetchone()
-
+		string = const_info[1].replace("Unicode", "")
+		self.canvas.create_text((self.screen_width/2, self.screen_height/2), text = string, width = 500,fill='white')
 
 
 		#self.canvas.itemconfig(self.canvas.find_withtag(reference[1]), fill="green")
