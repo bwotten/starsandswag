@@ -188,8 +188,6 @@ class application(Tk):
 		phi = pi - radians(star_az) - (pi/4)
 		radius = sqrt(pow(self.screen_width, 2) / 2)
 		x = ((radius) * sin(radians(star_az)))/sin(phi)
-		if x > 1:
-			print("fuck x")
 		#x is a percentage of the screen, we should probably now multiply it by how wide our screen is
 
 		#star_az = star_az % 90
@@ -202,8 +200,6 @@ class application(Tk):
 		phi = pi - radians(star_alt) - (pi/4)
 		radius = sqrt(pow(self.screen_height, 2) / 2)
 		y = ((radius) * sin(radians(star_alt))) / sin(phi)
-		if y > 1:
-			print("fuck y")
 		#y is a percentage of the screen, we should probably now multiply it by how tall our screen is, also since it scales downwards we want to invert
 		#y = self.screen_height - (star_alt / float(90)) * self.screen_height
 
@@ -233,7 +229,7 @@ class application(Tk):
 		#Show text
 		self.entered = self.canvas.find_withtag(CURRENT)
 		self.star = self.canvas.find_closest(event.x, event.y)
-		self.name = self.canvas.gettags(self.star)[0]
+		self.name = self.canvas.gettags(self.star)[1]
 		self.star_coords = self.canvas.coords(self.star)
 		self.words_coords = self.canvas.coords(self.text)
 		self.x = ((self.star_coords[0] + self.star_coords[2]) / 2) - self.words_coords[0]
