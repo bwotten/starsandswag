@@ -116,7 +116,10 @@ class application(Tk):
 			i = 0
 			j = 0
 
-			viewable_stars = []
+			self.viewable_stars1 = []
+			self.viewable_stars2 = []
+			self.viewable_stars3 = []
+			self.viewable_stars4 = []
 			#populate viewable_stars as an array of tuples [ tuples ]
 			# Run this command to start ssh tunneling
 			# ssh -L 63333:localhost:5432 zpfallon@db.cs.wm.edu
@@ -150,8 +153,15 @@ class application(Tk):
 			cur.execute("select ra,dec,mag,id,con from stars;")
 			for x in cur.fetchall():
 				alt_az = get_alt_az(float(x[0]),float(x[1]),self.lat,self.lon,time_hour,date)
-				if alt_az[0] > 0 and alt_az[0] < 90 and alt_az[1] < 90:
-					viewable_stars.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4])))
+				if alt_az[0] > 0 and alt_az[0] < 90:
+					if alt_az[1] < 90:
+						self.viewable_stars1.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4])))
+					elif alt_az[1] < 180:
+						self.viewable_stars2.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4])))
+					elif alt_az[1] < 270:
+						self.viewable_stars3.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4])))
+					else:
+						self.viewable_stars4.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4])))
 
 
 			for star in viewable_stars:
@@ -189,10 +199,8 @@ class application(Tk):
 		radius = sqrt(pow(self.screen_width, 2) / 2)
 		x = ((radius) * sin(radians(star_az)))/sin(phi)
 		#x is a percentage of the screen, we should probably now multiply it by how wide our screen is
-
 		#star_az = star_az % 90
 		#x = (star_az / float(90)) * self.screen_width
-
 		return x
 
 	def getY(self, star_alt):
