@@ -204,6 +204,9 @@ class application(Tk):
 			self.canvas.tag_bind(star_id, "<Enter>", self.enter)
 			self.canvas.tag_bind(star_id, "<Leave>", self.leave)
 
+		self.canvas.draw_rectangle(0, 0, self.screen_width * .05, self.screen_height, fill = "yellow")
+		self.canvas.draw_rectangle(self.screen_width * .95, 0, self.screen_width , self.screen_height, fill = "yellow")
+
 	def getX(self, star_az):
 		#fuckton of cool trig here
 		#star_az in is degrees so we need to make sure we do it in radians when we do sin(star_az)
