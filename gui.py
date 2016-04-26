@@ -192,7 +192,7 @@ class application(Tk):
 		# 1 = 90 --> 180
 		# 2 = 180 --> 270
 		# 3 = 270 --> 360
-		for star in self.viewable_array[int]:
+		for star in self.viewable_arrays[int]:
 			star_x = self.getX(float(star[1]))
 			star_y = self.getY(float(star[0]))
 			a = star[2]
