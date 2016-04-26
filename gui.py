@@ -299,7 +299,6 @@ class application(Tk):
 		con_cur.execute(SQL,(constellation_abrv,))
 		#const_info[0] is name, const_info[1] is summary
 		const_info = con_cur.fetchone()
-		print (const_info[1])
 
 
 
