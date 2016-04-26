@@ -208,8 +208,8 @@ class application(Tk):
 		#fuckton of cool trig here
 		#star_az in is degrees so we need to make sure we do it in radians when we do sin(star_az)
 		phi = pi - radians(star_az) - (pi/4)
-		radius = sqrt(pow(self.screen_width, 2) / 2)
-		x = ((radius) * sin(radians(star_az)))/sin(phi)
+		radius = sqrt(pow(self.canvas_width, 2) / 2)
+		x = ((radius) * sin(radians(star_az)))/sin(phi) + self.screen_width * .05
 		#x is a percentage of the screen, we should probably now multiply it by how wide our screen is
 		#star_az = star_az % 90
 		#x = (star_az / float(90)) * self.screen_width
@@ -235,6 +235,8 @@ class application(Tk):
 		self.canvas_window.grid(column=0, row=0, stick='EW')
 		self.screen_height = self.winfo_screenheight()
 		self.screen_width = self.winfo_screenwidth()
+		self.canvas_height = self.screen_height * .9
+		self.canvas_width = self.screen_width * .9
 		self.canvas = Canvas(self.canvas_window, bg='black', height=self.screen_width, width=self.screen_width)
 		self.canvas.grid(column = 0, row = 0, stick='EW')
 
