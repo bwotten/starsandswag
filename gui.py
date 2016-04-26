@@ -206,11 +206,16 @@ class application(Tk):
 
 		left_id = self.canvas.create_rectangle(0, 0, self.screen_width * .05, self.screen_height, fill = "yellow", tag = "leftArrow" )
 		right_id = self.canvas.create_rectangle(self.screen_width * .95, 0, self.screen_width , self.screen_height, fill = "yellow", tag = "rightArrow")
-		self.canvas.tag_bind(left_id, "<Button-1>", self.rotate_right)
+		self.canvas.tag_bind(left_id, "<Button-1>", self.rotate_left)
 		self.canvas.tag_bind(right_id, "<Button-1>", self.rotate_right)
 		self.text = self.canvas.create_text(0, 0, text = "", fill = "white", state = "hidden", tag = "text")
 
 	def rotate_right(self, event):
+		self.position = (self.position - 1) % 4
+		self.canvas.delete("all")
+		self.drawCanvas(self.position)
+
+	def rotate_left(self, event):
 		self.position = (self.position + 1) % 4
 		self.canvas.delete("all")
 		self.drawCanvas(self.position)
@@ -252,9 +257,12 @@ class application(Tk):
 		self.canvas.grid(column = 0, row = 0, stick='EW')
 
 	def leave(self, event):
-		self.canvas.itemconfig(self.entered, fill="white")
+		constellation_tuple = self.canvas.find_withtag(self.canvas.gettags(self.entered)[1])
 		self.canvas.itemconfig(self.text, text = "")
 		self.canvas.update_idletasks()
+
+		for star in constellation_tuple:
+			self.canvas.itemconfig(star, fill = "white")
 
 	def enter(self, event):
 		#Change color / highlight
