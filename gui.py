@@ -191,7 +191,6 @@ class application(Tk):
 		if x > 1:
 			print("fuck x")
 		#x is a percentage of the screen, we should probably now multiply it by how wide our screen is
-		x = x
 
 		#star_az = star_az % 90
 		#x = (star_az / float(90)) * self.screen_width
@@ -206,8 +205,6 @@ class application(Tk):
 		if y > 1:
 			print("fuck y")
 		#y is a percentage of the screen, we should probably now multiply it by how tall our screen is, also since it scales downwards we want to invert
-		y = (self.screen_height) - (y * (self.screen_height))
-
 		#y = self.screen_height - (star_alt / float(90)) * self.screen_height
 
 		return y
