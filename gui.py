@@ -169,7 +169,7 @@ class application(Tk):
 						self.viewable_stars4.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4])))
 
 
-			draw_stars(0)
+			drawCanvas(0)
 			#while i < 2500:
 			#	i += 1
 			#	x = randint(0, int(self.screen_width))
@@ -186,7 +186,7 @@ class application(Tk):
 			self.text = self.canvas.create_text(0, 0, text = "", fill = "white", state = "hidden", tag = "text")
 			print("We have valid coordinates")
 
-	def drawStars(self, int):
+	def drawCanvas(self, int):
 		#integer passed for which array to pass to it
 		# 0 = 0 --> 90
 		# 1 = 90 --> 180
