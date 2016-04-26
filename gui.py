@@ -168,6 +168,7 @@ class application(Tk):
 					else:
 						self.viewable_stars4.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4])))
 
+
 			self.position = 0
 			self.drawCanvas(0)
 			#while i < 2500:
@@ -182,8 +183,6 @@ class application(Tk):
 			#		self.canvas.tag_bind(star, "<Button-1>", self.click)
 			#		self.canvas.tag_bind(star, "<Enter>", self.enter)
 			#		self.canvas.tag_bind(star, "<Leave>", self.leave)
-
-			print("We have valid coordinates")
 
 	def drawCanvas(self, val):
 		#integer passed for which array to pass to it
@@ -215,6 +214,7 @@ class application(Tk):
 		self.canvas.delete("all")
 		self.drawCanvas(self.position)
 
+
 	def getX(self, star_az):
 		#fuckton of cool trig here
 		#star_az in is degrees so we need to make sure we do it in radians when we do sin(star_az)
@@ -224,6 +224,7 @@ class application(Tk):
 		#x is a percentage of the screen, we should probably now multiply it by how wide our screen is
 		#star_az = star_az % 90
 		#x = (star_az / float(90)) * self.screen_width
+
 		return x
 
 	def getY(self, star_alt):
@@ -233,7 +234,6 @@ class application(Tk):
 		y = ((radius) * sin(radians(star_alt))) / sin(phi)
 		#y is a percentage of the screen, we should probably now multiply it by how tall our screen is, also since it scales downwards we want to invert
 		y = self.screen_height - y
-
 		return y
 
 
