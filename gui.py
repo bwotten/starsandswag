@@ -169,7 +169,7 @@ class application(Tk):
 						self.viewable_stars4.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4])))
 
 
-			drawCanvas(0)
+			self.drawCanvas(0)
 			#while i < 2500:
 			#	i += 1
 			#	x = randint(0, int(self.screen_width))
