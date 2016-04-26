@@ -46,7 +46,9 @@ class application(Tk):
 		x_label = Label(self.input_window, textvariable=self.x_label_var,anchor="w",fg="yellow",bg="black")
 		x_label.grid(column=0, row=0, stick='E')
 
-		self.x_entry = Entry(self.input_window)
+		x_def = StringVar(value='37')
+
+		self.x_entry = Entry(self.input_window,textvariable=x_def)
 		self.x_entry.grid(column=1, row=0, sticky='W')
 
 		self.y_label_var = StringVar()
@@ -54,7 +56,9 @@ class application(Tk):
 		y_label = Label(self.input_window, textvariable=self.y_label_var,anchor="w",fg="yellow",bg="black")
 		y_label.grid(column=0, row=1, stick='E')
 
-		self.y_entry = Entry(self.input_window)
+		y_def = StringVar(value='-67')
+
+		self.y_entry = Entry(self.input_window,textvariable=y_def)
 		self.y_entry.grid(column=1, row=1, sticky='W')
 
 		self.submit_button = Button(self.continue_window, text="Submit", anchor="center", command=self.submit_coords,highlightbackground='black')
