@@ -208,8 +208,8 @@ class application(Tk):
 		right_id = self.canvas.create_rectangle(self.screen_width * .95, 0, self.screen_width , self.screen_height, fill = "yellow", tag = "rightArrow")
 		self.canvas.tag_bind(left_id, "<Button-1>", self.rotate_right)
 		self.canvas.tag_bind(right_id, "<Button-1>", self.rotate_right)
-		
-	def rotate_right(self):
+
+	def rotate_right(self, event):
 		self.position = (self.position + 1) % 4
 		self.canvas.delete("all")
 		self.drawCanvas(self.position)
