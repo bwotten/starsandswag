@@ -204,10 +204,10 @@ class application(Tk):
 			self.canvas.tag_bind(star_id, "<Enter>", self.enter)
 			self.canvas.tag_bind(star_id, "<Leave>", self.leave)
 
-		self.canvas.create_rectangle(0, 0, self.screen_width * .05, self.screen_height, fill = "yellow", tag = "leftArrow" )
-		self.canvas.create_rectangle(self.screen_width * .95, 0, self.screen_width , self.screen_height, fill = "yellow", tag = "rightArrow")
-		self.canvas.tag_bind(self.canvas.gettags("leftArrow"), "<Button-1>", self.rotate(-1))
-		self.canvas.tag_bind(self.canvas.gettags("rightArrow"), "<Button-1>", self.rotate(1))
+		left_id = self.canvas.create_rectangle(0, 0, self.screen_width * .05, self.screen_height, fill = "yellow", tag = "leftArrow" )
+		right_id = self.canvas.create_rectangle(self.screen_width * .95, 0, self.screen_width , self.screen_height, fill = "yellow", tag = "rightArrow")
+		self.canvas.tag_bind(left_id, "<Button-1>", self.rotate(-1))
+		self.canvas.tag_bind(right_id, "<Button-1>", self.rotate(1))
 
 	def rotate(self, value):
 		self.position = (self.position + value) % 4
