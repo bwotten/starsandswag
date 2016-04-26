@@ -120,6 +120,11 @@ class application(Tk):
 			self.viewable_stars2 = []
 			self.viewable_stars3 = []
 			self.viewable_stars4 = []
+			self.viewable_arrays = []
+			self.viewable_arrays.append(self.viewable_stars1)
+			self.viewable_arrays.append(self.viewable_stars2)
+			self.viewable_arrays.append(self.viewable_stars3)
+			self.viewable_arrays.append(self.viewable_stars4)
 			#populate viewable_stars as an array of tuples [ tuples ]
 			# Run this command to start ssh tunneling
 			# ssh -L 63333:localhost:5432 zpfallon@db.cs.wm.edu
@@ -163,18 +168,8 @@ class application(Tk):
 					else:
 						self.viewable_stars4.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4])))
 
-			for star in viewable_stars:
-				star_x = self.getX(float(star[1]))
-				star_y = self.getY(float(star[0]))
-				a = star[2]
-				tag = star[3]
-				constellation = star[4]
-				star_id = draw_stars(self.canvas, star_x, star_y, a, tag, constellation)
-				self.star_list.append(tag)
-				self.canvas.tag_bind(star_id, "<Button-1>", self.click)
-				self.canvas.tag_bind(star_id, "<Enter>", self.enter)
-				self.canvas.tag_bind(star_id, "<Leave>", self.leave)
 
+			draw_stars(0)
 			#while i < 2500:
 			#	i += 1
 			#	x = randint(0, int(self.screen_width))
@@ -190,6 +185,24 @@ class application(Tk):
 
 			self.text = self.canvas.create_text(0, 0, text = "", fill = "white", state = "hidden", tag = "text")
 			print("We have valid coordinates")
+
+	def drawStars(self, int):
+		#integer passed for which array to pass to it
+		# 0 = 0 --> 90
+		# 1 = 90 --> 180
+		# 2 = 180 --> 270
+		# 3 = 270 --> 360
+		for star in self.viewable_array[int]:
+			star_x = self.getX(float(star[1]))
+			star_y = self.getY(float(star[0]))
+			a = star[2]
+			tag = star[3]
+			constellation = star[4]
+			star_id = draw_stars(self.canvas, star_x, star_y, a, tag, constellation)
+			self.star_list.append(tag)
+			self.canvas.tag_bind(star_id, "<Button-1>", self.click)
+			self.canvas.tag_bind(star_id, "<Enter>", self.enter)
+			self.canvas.tag_bind(star_id, "<Leave>", self.leave)
 
 	def getX(self, star_az):
 		#fuckton of cool trig here
