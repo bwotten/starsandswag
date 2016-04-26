@@ -212,7 +212,7 @@ class application(Tk):
 	def rotate(self, value):
 		self.position = (self.position + value) % 4
 		self.canvas.delete("all")
-		drawCanvas(self.position)
+		self.drawCanvas(self.position)
 
 	def getX(self, star_az):
 		#fuckton of cool trig here
