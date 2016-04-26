@@ -183,7 +183,6 @@ class application(Tk):
 			#		self.canvas.tag_bind(star, "<Enter>", self.enter)
 			#		self.canvas.tag_bind(star, "<Leave>", self.leave)
 
-			self.text = self.canvas.create_text(0, 0, text = "", fill = "white", state = "hidden", tag = "text")
 			print("We have valid coordinates")
 
 	def drawCanvas(self, val):
@@ -209,6 +208,7 @@ class application(Tk):
 		right_id = self.canvas.create_rectangle(self.screen_width * .95, 0, self.screen_width , self.screen_height, fill = "yellow", tag = "rightArrow")
 		self.canvas.tag_bind(left_id, "<Button-1>", self.rotate_right)
 		self.canvas.tag_bind(right_id, "<Button-1>", self.rotate_right)
+		self.text = self.canvas.create_text(0, 0, text = "", fill = "white", state = "hidden", tag = "text")
 
 	def rotate_right(self, event):
 		self.position = (self.position + 1) % 4
