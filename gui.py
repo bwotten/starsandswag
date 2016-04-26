@@ -150,9 +150,9 @@ class application(Tk):
 			  'port': 63333
 			}
 			#Open the connection
-			conn = psycopg2.connect(**params)
+			self.conn = psycopg2.connect(**params)
 			#Open the cursor
-			cur = conn.cursor()
+			cur = self.conn.cursor()
 
 			#Simple select statement and then fetch to get results
 			cur.execute("select ra,dec,mag,id,con from stars;")
@@ -168,7 +168,7 @@ class application(Tk):
 					else:
 						self.viewable_stars4.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4])))
 
-
+			cur.close()
 			self.position = 0
 			self.drawCanvas(0)
 			#while i < 2500:
@@ -291,12 +291,20 @@ class application(Tk):
 		constellation_abrv = self.canvas.gettags(reference)[1]
 
 		self.canvas.delete("all")
-		return_button = Button(self, text = "Return", command = self.drawCanvas(self.position), anchor = W)
+		return_button = Button(self, text = "Return", command = self.return_to_starmap, anchor = W)
 		return_button.configure(width = 10, activebackground = "#33B5E5")
 		return_button_window = self.canvas.create_window(10, 10, anchor = NW, window = return_button)
+		# con_cur = self.conn.cursor()
+		# SQL = "select name,summary from const_names where con=%s;"
+		# con_cur.execute(SQL,(constellation_abrv,))
+
+
 
 		#self.canvas.itemconfig(self.canvas.find_withtag(reference[1]), fill="green")
 
+	def return_to_starmap(self):
+		self.canvas.delete("all")
+		self.drawCanvas(self.position)
 
 if __name__ == "__main__":
     app = application(None)
