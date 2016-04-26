@@ -218,9 +218,11 @@ class application(Tk):
 	def getX(self, star_az):
 		#fuckton of cool trig here
 		#star_az in is degrees so we need to make sure we do it in radians when we do sin(star_az)
+		star_az = star_az % 90
 		phi = pi - radians(star_az) - (pi/4)
 		radius = sqrt(pow(self.canvas_width, 2) / 2)
-		x = ((radius) * sin(radians(star_az)))/sin(phi) + self.screen_width * .05
+		x = self.canvas_width - ((radius) * sin(radians(star_az)))/sin(phi) + self.screen_width * .05
+
 		#x is a percentage of the screen, we should probably now multiply it by how wide our screen is
 		#star_az = star_az % 90
 		#x = (star_az / float(90)) * self.screen_width
