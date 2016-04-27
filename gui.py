@@ -338,26 +338,28 @@ class application(Tk):
 			rows = rows + 1
 
 		temp = self.canvas.create_text((self.screen_width, self.screen_height), fill = 'black', text = 'a'*max_length)
-		x_change = self.canvas.bbox(temp)[2] - self.canvas.bbox(temp)[0]
-		x_change = x_change + x_change * .1
-		y_change = (self.canvas.bbox(temp)[3] - self.canvas.bbox(temp)[1]) * 2
+		self.x_change = self.canvas.bbox(temp)[2] - self.canvas.bbox(temp)[0]
+		self.x_change = self.x_change + self.x_change * .1
+		self.y_change = (self.canvas.bbox(temp)[3] - self.canvas.bbox(temp)[1]) * 2
 		self.canvas.delete(temp)
-		total_y = y_change * rows
+		self.total_y = self.y_change * rows
 			#self.canvas.itemconfig(self.canvas.find_withtag(reference[1]), fill="green")
-		x_position = self.screen_width * .75 - x_change * 2
-		y_position = self.screen_height - ((self.screen_height - (self.screen_height *.175 + height)) / 2) - (total_y / 2)
-		x_count = 0
-		y_count = 0
+		self.x_start = self.screen_width * .75 - self.x_change * 2
+		self.x_position = self.x_start
+		self.y_start = self.screen_height - ((self.screen_height - (self.screen_height *.175 + height)) / 2) - (self.total_y / 2)
+		self.y_position = self.y_start
+		self.x_count = 0
+		self.y_count = 0
 		count = 0
 		for star in self.star_list:
-			text_id = self.canvas.create_text((x_position, y_position), text = star[1], fill = 'white', tag = str(count))
-			x_count+=1
-			x_position = x_position + x_change
-			if(x_count == 5):
-				y_count+=1
-				x_count=0
-				x_position = x_position - x_change * 5
-				y_position = y_position + y_change
+			text_id = self.canvas.create_text((self.x_position, self.y_position), text = star[1], fill = 'white', tag = str(count))
+			self.x_count+=1
+			self.x_position = self.x_position + self.x_change
+			if(self.x_count == 5):
+				self.y_count+=1
+				self.x_count=0
+				self.x_position = self.x_position - self.x_change * 5
+				self.y_position = self.y_position + self.y_change
 			count += 1
 			self.canvas.tag_bind(text_id, "<Enter>", self.enter_text)
 			self.canvas.tag_bind(text_id, "<Leave>", self.leave_text)
@@ -368,9 +370,42 @@ class application(Tk):
 		index = self.canvas.gettags(self.entered)[0]
 		index = int(index)
 		self.info_list = []
-		for info in self.star_list[index][0]:
-			self.info_list.append(info)
 
+		#we're only giving the data tables a width of 2
+		self.x_count = 0
+		self.y_count = 0
+		sql_index = 0
+		max_length = 0
+		for info in self.star_list[index][0]:
+			if info != "NA" and info != None:
+				string = self.return_column_title(sql_index) + info
+				if len(string) > max_length:
+					max_length = len(string)
+					print(max_length)
+			sql_index+=1
+
+		temp = self.canvas.create_text((self.screen_width/2, self.screen_height/2), text = 'a'*max_length, fill = 'black')
+		self.x_change = self.canvas.bbox(temp)[2] - self.canvas.bbox(temp)[0]
+		self.x_change = self.x_change * 1.1
+		self.canvas.delete(temp)
+
+		self.x_position = self.screen_width * .375 - self.x_change
+		self.y_position = self.y_start
+		sql_index = 0
+		for info in self.star_list[index][0]:
+			if info != "NA" and info != None:
+				string = self.return_column_title(sql_index) + info
+				self.info_list.append(self.canvas.create_text((self.x_position, self.y_position), text = string, fill = 'white'))
+				self.x_count+=1
+				self.x_position = self.x_position + self.x_change
+				if self.x_count == 2:
+					self.x_count = 0
+					self.x_position = self.x_position - self.x_change * 2
+					self.y_position = self.y_position + self.y_change
+					self.y_count += 1
+			sql_index+=1
+
+			
 		#SQL="select const,proper,bayer,flamsteed,gold,variable,hd,hip,vis_mag,abs_mag,dist,sp_class from const_names,star_info where abb=%s and const=name;"
 
 
@@ -382,6 +417,36 @@ class application(Tk):
 	def return_to_starmap(self):
 		self.canvas.delete("all")
 		self.drawCanvas(self.position)
+
+	def return_column_title(self, num):
+		#SQL="select const,proper,bayer,flamsteed,gold,variable,hd,hip,vis_mag,abs_mag,dist,sp_class from const_names,star_info where abb=%s and const=name;"
+		string = ""
+		if num == 0:
+			string = "Constellation: "
+		elif num == 1:
+			string = "Proper Name: "
+		elif num == 2:
+			string = "Bayer Designation: "
+		elif num == 3:
+			string = "Flamsteed Number: "
+		elif num == 4:
+			string = "Gold Designation: "
+		elif num == 5:
+			string = "Variable Designation: "
+		elif num == 6:
+			string = "Henry Draper ID: "
+		elif num == 7:
+			string = "Hipparcos ID: "
+		elif num == 8:
+			string = "Visual Magnitude: "
+		elif num == 9:
+			string = "Absolute Magnitude: "
+		elif num == 10:
+			string = "Distance: "
+		elif num == 11:
+			string = "Spectral Class: "
+
+		return string
 
 if __name__ == "__main__":
     app = application(None)
