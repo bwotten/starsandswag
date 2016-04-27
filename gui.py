@@ -317,7 +317,7 @@ class application(Tk):
 		#Dont actually want to select all.
 		SQL="select * from const_names,star_info where abb=%s and const=name;"
 		con_cur.execute(SQL,(constellation_abrv,))
-		for x in con_cur.fetchall():
+		# for x in con_cur.fetchall():
 			#Do something
 		#self.canvas.itemconfig(self.canvas.find_withtag(reference[1]), fill="green")
 
