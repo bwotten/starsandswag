@@ -308,18 +308,58 @@ class application(Tk):
 
 		string_title = const_info[0]
 		string_desc = const_info[1].replace("Unicode", "")
-		width = self.screen_width*.4
+		if len(string_desc) > 1000:
+			width = self.screen_width*.8
+		else:
+			width = self.screen_width*.6
 
-		self.const_desc = self.canvas.create_text((self.screen_width*.75, self.screen_height*.25), text = string_desc, width = 500,fill='white')
-		self.const_title = self.canvas.create_text((self.screen_width*.75, self.canvas.bbox(self.const_desc)[1]), text = string_title,fill='yellow',font=("Purisa", 20))
-		self.canvas.move(self.const_desc, 0, (self.canvas.bbox(self.const_title)[3] - self.canvas.bbox(self.const_title)[1])/2)
+		self.const_title = self.canvas.create_text((self.screen_width*.5, self.screen_height * .10), text = string_title,fill='yellow',font=("Purisa", 20))
+		self.const_desc = self.canvas.create_text((self.screen_width*.5, self.screen_height*.175), text = string_desc, width = width,fill='black')
+		height = self.canvas.bbox(self.const_desc)[3] - self.canvas.bbox(self.const_desc)[1]
+		self.canvas.move(self.const_desc, 0, height/2)
+		self.canvas.itemconfig(self.const_desc, fill = 'white')
+
 
 		#Dont actually want to select all.
 		SQL="select const,proper,bayer,flamsteed,gold,variable,hd,hip,vis_mag,abs_mag,dist,sp_class from const_names,star_info where abb=%s and const=name;"
 		con_cur.execute(SQL,(constellation_abrv,))
-		# for x in con_cur.fetchall():
+
+		star_list = []
+		max_length = 0
+		for x in con_cur.fetchall():
 			#Do something
-		#self.canvas.itemconfig(self.canvas.find_withtag(reference[1]), fill="green")
+			string = str(x[2]) +" "+str(x[1])
+			star_list.append((x, string))
+			if len(string) > max_length:
+				max_length = len(string)
+
+		rows = len(star_list) / 5
+		if len(star_list) % 5 != 0:
+			rows = rows + 1
+
+		temp = self.canvas.create_text((self.screen_width, self.screen_height), fill = 'black', text = 'a'*max_length)
+		x_change = self.canvas.bbox(temp)[2] - self.canvas.bbox(temp)[0]
+		x_change = x_change + x_change * .1
+		y_change = (self.canvas.bbox(temp)[3] - self.canvas.bbox(temp)[1]) * 2
+		self.canvas.delete(temp)
+		total_y = y_change * rows
+			#self.canvas.itemconfig(self.canvas.find_withtag(reference[1]), fill="green")
+		x_position = self.screen_width * .75 - x_change * 2
+		y_position = self.screen_height - ((self.screen_height - (self.screen_height *.175 + height)) / 2) - (total_y / 2)
+		x_count = 0
+		y_count = 0
+		for star in star_list:
+			self.canvas.create_text((x_position, y_position), text = star[1], fill = 'white')
+			x_count+=1
+			x_position = x_position + x_change
+			if(x_count == 5):
+				y_count+=1
+				x_count=0
+				x_position = x_position - x_change * 5
+				y_position = y_position + y_change
+
+				
+
 
 	def return_to_starmap(self):
 		self.canvas.delete("all")
