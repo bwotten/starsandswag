@@ -12,7 +12,7 @@ CREATE TABLE star_info (
   abs_mag   VARCHAR(50),
   dist      VARCHAR(50),
   sp_class  VARCHAR(50),
-  summary   VARCHAR(2000)
+  summary   VARCHAR(4000)
 );
 
-\copy star_info from something.csv csv
+\copy star_info from contellations_wiki_outputFinalwSummary.csv csv

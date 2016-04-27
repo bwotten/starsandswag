@@ -381,7 +381,7 @@ class application(Tk):
 				string = self.return_column_title(sql_index) + info
 				if len(string) > max_length:
 					max_length = len(string)
-   			sql_index+=1
+				sql_index+=1
 
 		temp = self.canvas.create_text((self.screen_width/2, self.screen_height/2), text = 'a'*max_length, fill = 'black')
 		self.x_change = self.canvas.bbox(temp)[2] - self.canvas.bbox(temp)[0]
