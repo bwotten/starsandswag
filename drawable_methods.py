@@ -31,7 +31,7 @@ def draw_stars( c, x, y, apparent_magnitude, tag, constellation, color_index):
 	else:
 		r = 0
 		width = 0	
-	star = c.create_oval(x-r, y-r, x+r, y+r, width = width, fill=color, tags = (tag, constellation))
+	star = c.create_oval(x-r, y-r, x+r, y+r, width = width, fill=color, tags = (tag, constellation, str(color)))
 	
 	return star;
 

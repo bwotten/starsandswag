@@ -209,10 +209,6 @@ class application(Tk):
 			self.canvas.tag_bind(star_id, "<Leave>", self.leave)
 
 
-		left_id = self.canvas.create_rectangle(0, 0, self.screen_width * .05, self.screen_height, fill = "yellow", tag = "leftArrow" )
-		right_id = self.canvas.create_rectangle(self.screen_width * .95, 0, self.screen_width , self.screen_height, fill = "yellow", tag = "rightArrow")
-		self.canvas.tag_bind(left_id, "<Button-1>", self.rotate_left)
-		self.canvas.tag_bind(right_id, "<Button-1>", self.rotate_right)
 		self.text = self.canvas.create_text(0, 0, text = "", fill = "white", state = "hidden", tag = "text")
 
 	def rotate_right(self, event):
@@ -230,8 +226,8 @@ class application(Tk):
 		#star_az in is degrees so we need to make sure we do it in radians when we do sin(star_az)
 		star_az = star_az % 90
 		phi = pi - radians(star_az) - (pi/4)
-		radius = sqrt(pow(self.canvas_width, 2) / 2)
-		x = self.canvas_width - ((radius) * sin(radians(star_az)))/sin(phi) + self.screen_width * .05
+		radius = sqrt(pow(self.screen_width, 2) / 2)
+		x = self.screen_width - ((radius) * sin(radians(star_az)))/sin(phi)
 
 		#x is a percentage of the screen, we should probably now multiply it by how wide our screen is
 		#star_az = star_az % 90
@@ -258,8 +254,6 @@ class application(Tk):
 		self.canvas_window.grid(column=0, row=0, stick='EW')
 		self.screen_height = self.winfo_screenheight()
 		self.screen_width = self.winfo_screenwidth()
-		self.canvas_height = self.screen_height * .9
-		self.canvas_width = self.screen_width * .9
 		self.canvas = Canvas(self.canvas_window, bg='black', height=self.screen_width, width=self.screen_width)
 		self.canvas.grid(column = 0, row = 0, stick='EW')
 
@@ -269,7 +263,7 @@ class application(Tk):
 		self.canvas.update_idletasks()
 
 		for star in constellation_tuple:
-			self.canvas.itemconfig(star, fill = "white")
+			self.canvas.itemconfig(star, fill = self.canvas.gettags(star)[2])
 
 	def enter(self, event):
 		#Change color / highlight
