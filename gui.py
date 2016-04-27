@@ -364,7 +364,7 @@ class application(Tk):
 			self.canvas.tag_bind(text_id, "<Enter>", self.enter_text)
 			self.canvas.tag_bind(text_id, "<Leave>", self.leave_text)
 
-				
+
 	def enter_text(self, event):
 		self.entered = self.canvas.find_withtag(CURRENT)
 		index = self.canvas.gettags(self.entered)[0]
@@ -381,8 +381,7 @@ class application(Tk):
 				string = self.return_column_title(sql_index) + info
 				if len(string) > max_length:
 					max_length = len(string)
-					print(max_length)
-			sql_index+=1
+   			sql_index+=1
 
 		temp = self.canvas.create_text((self.screen_width/2, self.screen_height/2), text = 'a'*max_length, fill = 'black')
 		self.x_change = self.canvas.bbox(temp)[2] - self.canvas.bbox(temp)[0]
@@ -405,7 +404,7 @@ class application(Tk):
 					self.y_count += 1
 			sql_index+=1
 
-			
+
 		#SQL="select const,proper,bayer,flamsteed,gold,variable,hd,hip,vis_mag,abs_mag,dist,sp_class from const_names,star_info where abb=%s and const=name;"
 
 

@@ -11,7 +11,8 @@ CREATE TABLE star_info (
   vis_mag   VARCHAR(50),
   abs_mag   VARCHAR(50),
   dist      VARCHAR(50),
-  sp_class  VARCHAR(50)
+  sp_class  VARCHAR(50),
+  summary   VARCHAR(2000)
 );
 
 \copy star_info from something.csv csv
