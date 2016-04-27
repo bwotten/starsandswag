@@ -315,7 +315,7 @@ class application(Tk):
 		self.canvas.move(self.const_desc, 0, (self.canvas.bbox(self.const_title)[3] - self.canvas.bbox(self.const_title)[1])/2)
 
 		#Dont actually want to select all.
-		SQL="select * from const_names,star_info where abb=%s and const=name;"
+		SQL="select const,proper,bayer,flamsteed,gold,variable,hd,hip,vis_mag,abs_mag,dist,sp_class from const_names,star_info where abb=%s and const=name;"
 		con_cur.execute(SQL,(constellation_abrv,))
 		# for x in con_cur.fetchall():
 			#Do something
