@@ -159,18 +159,18 @@ class application(Tk):
 			cur = self.conn.cursor()
 
 			#Simple select statement and then fetch to get results
-			cur.execute("select ra,dec,mag,id,con from stars;")
+			cur.execute("select ra,dec,mag,id,con,ci,bf from stars;")
 			for x in cur.fetchall():
 				alt_az = get_alt_az(float(x[0]),float(x[1]),self.lat,self.lon,time_hour,date)
 				if alt_az[0] > 0 and alt_az[0] < 90:
 					if alt_az[1] < 90:
-						self.viewable_stars1.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4])))
+						self.viewable_stars1.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4]),str(x[5])))
 					elif alt_az[1] < 180:
-						self.viewable_stars2.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4])))
+						self.viewable_stars2.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4]),str(x[5])))
 					elif alt_az[1] < 270:
-						self.viewable_stars3.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4])))
+						self.viewable_stars3.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4]),str(x[5])))
 					else:
-						self.viewable_stars4.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4])))
+						self.viewable_stars4.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4]),str(x[5])))
 
 			cur.close()
 			self.position = 0
@@ -201,11 +201,13 @@ class application(Tk):
 			a = star[2]
 			tag = star[3]
 			constellation = star[4]
-			star_id = draw_stars(self.canvas, star_x, star_y, a, tag, constellation)
+			color_index = star[5]
+			star_id = draw_stars(self.canvas, star_x, star_y, a, tag, constellation, color_index)
 			self.star_list.append(tag)
 			self.canvas.tag_bind(star_id, "<Button-1>", self.constellation_clicked)
 			self.canvas.tag_bind(star_id, "<Enter>", self.enter)
 			self.canvas.tag_bind(star_id, "<Leave>", self.leave)
+
 
 		left_id = self.canvas.create_rectangle(0, 0, self.screen_width * .05, self.screen_height, fill = "yellow", tag = "leftArrow" )
 		right_id = self.canvas.create_rectangle(self.screen_width * .95, 0, self.screen_width , self.screen_height, fill = "yellow", tag = "rightArrow")
@@ -303,9 +305,14 @@ class application(Tk):
 		con_cur.execute(SQL,(constellation_abrv,))
 		#const_info[0] is name, const_info[1] is summary
 		const_info = con_cur.fetchone()
-		string = const_info[1].replace("Unicode", "")
-		self.canvas.create_text((self.screen_width/2, self.screen_height/2), text = string, width = 500,fill='white')
 
+		string_title = const_info[0]
+		string_desc = const_info[1].replace("Unicode", "")
+		width = self.screen_width*.4
+
+		self.const_desc = self.canvas.create_text((self.screen_width*.75, self.screen_height*.25), text = string_desc, width = 500,fill='white')
+		self.const_title = self.canvas.create_text((self.screen_width*.75, self.canvas.bbox(self.const_desc)[1]), text = string_title,fill='yellow',font=("Purisa", 20))
+		self.canvas.move(self.const_desc, 0, (self.canvas.bbox(self.const_title)[3] - self.canvas.bbox(self.const_title)[1])/2)
 
 		#self.canvas.itemconfig(self.canvas.find_withtag(reference[1]), fill="green")
 
