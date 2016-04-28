@@ -5,6 +5,8 @@ from math import *
 
 def draw_stars( c, x, y, apparent_magnitude, tag, constellation, color_index):
 
+	#draws a circle with different color based on color index and radius based on magnitude and places that at x and y coordinates on map 
+
 	if color_index != "NA":
 		color = color_to_rgb(float(color_index))
 	else:
@@ -31,32 +33,13 @@ def draw_stars( c, x, y, apparent_magnitude, tag, constellation, color_index):
 	else:
 		r = 0
 		width = 0
-	screen_height = c.winfo_screenheight()
-	screen_width = c.winfo_screenwidth()
-	#We can skew it based on its position with respect to the center
-	#if x < screen_width * .16666 or x > screen_width * .83333:
-		#skew most
-	#	star = c.create_oval(x-r*1.5, y-r, x+r*1.5, y+r, width = width, fill=color, tags = (tag, constellation, str(color)))
-	#elif x < screen_width * .33333 or x > screen_width * .66666:
-	#	star = c.create_oval(x-r*1.25, y-r, x+r*1.25, y+r, width = width, fill=color, tags = (tag, constellation, str(color)))
-	#else:
+	
 	star = c.create_oval(x-r, y-r, x+r, y+r, width = width, fill=color, tags = (tag, constellation, str(color)))
 	
 	return star;
 
-def display(star):
-	#do nothing yet just see if it compiles
-	star.itemconfig(fill="#ff0000")
-
-def remove(star):
-	#do nothing yet just see if it compiles
-	star.itemconfig(fill="#ffffff")
-
-
-
-
-
 def color_to_rgb(bv):
+	#rough conversion of colors
 	if bv < 0:
 		rgb = "#9bb0ff"
 	elif bv < .31:

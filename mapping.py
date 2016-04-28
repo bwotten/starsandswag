@@ -1,13 +1,13 @@
 from math import *
 import time
-def get_alt_az(ra, dec, lat, lon, time, date):
+def get_alt_az(ra, dec, lat, lon, time, date,j2000):
 	ra_deg  = ra * 15
 	ra_rad = radians(ra_deg)
 	lat_rad = radians(lat)
 	lon_rad = radians(lon)
 	dec_rad = radians(dec)
-	#NEED TO IMPLEMENT ACTUAL FUNCTION
-	j2000 = 5956.5
+	
+    #converts the passed values to altitude and azumith based on astronomical formulas
 	lst = (100.46 + (.985647 * j2000) + lon + (15 * time)) % 360
 	lst_rad= radians(lst)
 	ha = (lst - ra_deg) % 360
@@ -25,6 +25,7 @@ def get_alt_az(ra, dec, lat, lon, time, date):
 	return (degrees(alt), az)
 
 def get_J2000(month, day, year):
+    #conversion to j2000
     m = 0.0
     d = float(day)
     y = 0.0
