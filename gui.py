@@ -46,7 +46,7 @@ class application(Tk):
 
 		self.x_label_var = StringVar()
 		self.x_label_var.set("Longitude: ")
-		x_label = Label(self.input_window, textvariable=self.x_label_var,anchor="w",fg="blue",bg="black")
+		x_label = Label(self.input_window, textvariable=self.x_label_var,anchor="w",fg="yellow",bg="black")
 		x_label.grid(column=0, row=0, stick='E')
 
 		x_def = StringVar(value='37')
@@ -56,7 +56,7 @@ class application(Tk):
 
 		self.y_label_var = StringVar()
 		self.y_label_var.set("Latitude: ")
-		y_label = Label(self.input_window, textvariable=self.y_label_var,anchor="w",fg="blue",bg="black")
+		y_label = Label(self.input_window, textvariable=self.y_label_var,anchor="w",fg="yellow",bg="black")
 		y_label.grid(column=0, row=1, stick='E')
 
 		y_def = StringVar(value='-67')
@@ -301,8 +301,6 @@ class application(Tk):
 		for star in constellation_tuple:
 			self.canvas.itemconfig(star, fill = "blue")
 
-		print(self.canvas.winfo_rgb('blue'))
-
 
 	def constellation_clicked(self, event):
 		reference = self.canvas.find_withtag(CURRENT)
@@ -324,8 +322,8 @@ class application(Tk):
 
 		self.const_title = self.canvas.create_text((self.screen_width*.5, self.screen_height * .10), text = string_title,fill='blue',font=("Purisa", 24))
 		self.const_desc = self.canvas.create_text((self.screen_width*.5, self.screen_height*.175), text = string_desc, width = width,fill='black',font=("Purisa", 12))
-		height = self.canvas.bbox(self.const_desc)[3] - self.canvas.bbox(self.const_desc)[1]
-		self.canvas.move(self.const_desc, 0, height/2)
+		self.height = self.canvas.bbox(self.const_desc)[3] - self.canvas.bbox(self.const_desc)[1]
+		self.canvas.move(self.const_desc, 0, self.height/2)
 		self.canvas.itemconfig(self.const_desc, fill = 'white')
 
 
@@ -352,10 +350,10 @@ class application(Tk):
 		self.y_change = (self.canvas.bbox(temp)[3] - self.canvas.bbox(temp)[1]) * 2
 		self.canvas.delete(temp)
 		self.total_y = self.y_change * rows
-			#self.canvas.itemconfig(self.canvas.find_withtag(reference[1]), fill="green")
-		self.x_start = self.screen_width * .75 - self.x_change * 2
+
+		self.x_start = self.screen_width * .75 - self.x_change * 2.5
 		self.x_position = self.x_start
-		self.y_start = self.screen_height - ((self.screen_height - (self.screen_height *.175 + height)) / 2) - (self.total_y / 2)
+		self.y_start = self.screen_height - ((self.screen_height - (self.screen_height *.175 + self.height)) / 2) - (self.total_y / 2)
 		self.y_position = self.y_start
 		self.x_count = 0
 		self.y_count = 0
@@ -392,25 +390,35 @@ class application(Tk):
 					max_length = len(string)
 				sql_index+=1
 
-		temp = self.canvas.create_text((self.screen_width/2, self.screen_height/2), text = 'a'*max_length, fill = 'black')
+		temp = self.canvas.create_text((self.screen_width/2, self.screen_height/2), text = 'a'*max_length, fill = 'black',font=("Purisa", 12))
 		self.x_change = self.canvas.bbox(temp)[2] - self.canvas.bbox(temp)[0]
-		self.x_change = self.x_change * 1.1
+		self.x_change = self.x_change * 1.05
 		self.canvas.delete(temp)
 
+		total_y = self.y_change * 5
 		self.x_position = self.screen_width * .375 - self.x_change
-		self.y_position = self.y_start
+		self.y_position = self.screen_height - ((self.screen_height - (self.screen_height *.175 + self.height)) / 2) - (total_y / 2)
 		sql_index = 0
 		for info in self.star_list[index][0]:
 			if info != "NA" and info != None:
-				string = self.return_column_title(sql_index) + info
-				self.info_list.append(self.canvas.create_text((self.x_position, self.y_position), text = string, fill = 'white'))
-				self.x_count+=1
-				self.x_position = self.x_position + self.x_change
-				if self.x_count == 2:
-					self.x_count = 0
-					self.x_position = self.x_position - self.x_change * 2
-					self.y_position = self.y_position + self.y_change
-					self.y_count += 1
+				if sql_index == 0 or sql_index == 1:
+					#do nothing
+					if sql_index == 1:
+						string = info
+						self.info_list.append(self.canvas.create_text((self.x_position + self.x_change / 2 , self.y_position - self.y_change * 1.1), text = string, fill = 'blue',font=("Purisa", 20)))
+
+				else:
+					string = self.return_column_title(sql_index) + info
+					if sql_index == 10:
+						string = string + " ly"
+					self.info_list.append(self.canvas.create_text((self.x_position, self.y_position), text = string, fill = 'white',font=("Purisa", 12)))
+					self.x_count+=1
+					self.x_position = self.x_position + self.x_change
+					if self.x_count == 2:
+						self.x_count = 0
+						self.x_position = self.x_position - self.x_change * 2
+						self.y_position = self.y_position + self.y_change
+						self.y_count += 1
 			sql_index+=1
 
 
