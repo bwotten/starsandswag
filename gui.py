@@ -122,15 +122,7 @@ class application(Tk):
 			i = 0
 			j = 0
 
-			self.viewable_stars1 = []
-			self.viewable_stars2 = []
-			self.viewable_stars3 = []
-			self.viewable_stars4 = []
-			self.viewable_arrays = []
-			self.viewable_arrays.append(self.viewable_stars1)
-			self.viewable_arrays.append(self.viewable_stars2)
-			self.viewable_arrays.append(self.viewable_stars3)
-			self.viewable_arrays.append(self.viewable_stars4)
+			self.viewable_stars = []
 			#populate viewable_stars as an array of tuples [ tuples ]
 			# Run this command to start ssh tunneling
 			# ssh -L 63333:localhost:5432 zpfallon@db.cs.wm.edu
@@ -139,12 +131,12 @@ class application(Tk):
 			self.lat = latitude
 			self.lon = longitude
 			#we will only be considering 8:00pm for time
-			time_hour = 20
+			self.time_hour = 20
 			#Eventually need a function to get
-			date = time.strftime("%x")
-			month = int(date[0:2])
-			day = int(date[3:5])
-			year = int(date[6:8])
+			self.date = time.strftime("%x")
+			month = int(self.date[0:2])
+			day = int(self.date[3:5])
+			year = int(self.date[6:8])
 			# j2000 = get_J2000(month,day,year)
 			j2000 = 5965.5
 
@@ -156,27 +148,19 @@ class application(Tk):
 			  'port': 63333
 			}
 			#Open the connection
+
+			
+			self.az_range = 120
+			self.alt_range = self.az_range * self.screen_height / self.screen_width
+			self.alt_base = 0 
+			self.az_base = 0
+
 			self.conn = psycopg2.connect(**params)
 			#Open the cursor
-			cur = self.conn.cursor()
+			self.query()		
 
-			#Simple select statement and then fetch to get results
-			cur.execute("select ra,dec,mag,id,con,ci,bf from stars;")
-			for x in cur.fetchall():
-				alt_az = get_alt_az(float(x[0]),float(x[1]),self.lat,self.lon,time_hour,date)
-				if alt_az[0] > 0 and alt_az[0] < 90:
-					if alt_az[1] < 90:
-						self.viewable_stars1.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4]),str(x[5])))
-					elif alt_az[1] < 180:
-						self.viewable_stars2.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4]),str(x[5])))
-					elif alt_az[1] < 270:
-						self.viewable_stars3.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4]),str(x[5])))
-					else:
-						self.viewable_stars4.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4]),str(x[5])))
-
-			cur.close()
 			self.position = 0
-			self.drawCanvas(0)
+			self.drawCanvas()
 			#while i < 2500:
 			#	i += 1
 			#	x = randint(0, int(self.screen_width))
@@ -190,14 +174,14 @@ class application(Tk):
 			#		self.canvas.tag_bind(star, "<Enter>", self.enter)
 			#		self.canvas.tag_bind(star, "<Leave>", self.leave)
 
-	def drawCanvas(self, val):
+	def drawCanvas(self):
 		#integer passed for which array to pass to it
 		# 0 = 0 --> 90
 		# 1 = 90 --> 180
 		# 2 = 180 --> 270
 		# 3 = 270 --> 360
 		self.star_list[:] = []
-		for star in self.viewable_arrays[val]:
+		for star in self.viewable_stars:
 			star_x = self.getX(float(star[1]))
 			star_y = self.getY(float(star[0]))
 			a = star[2]
@@ -210,20 +194,35 @@ class application(Tk):
 			self.canvas.tag_bind(star_id, "<Enter>", self.enter)
 			self.canvas.tag_bind(star_id, "<Leave>", self.leave)
 		self.text = self.canvas.create_text(0, 0, text = "", fill = "white", state = "hidden", tag = "text")
+
 		file = "right_arrow.png"
 		self.right_photo = Image.open(file)
-		self.right_photo = self.right_photo.resize((int(self.screen_width * .06), int(self.screen_height * .05)))
+		self.right_photo = self.right_photo.resize((int(self.screen_width * .02), int(self.screen_height * .016666)))
 		self.right_photo = ImageTk.PhotoImage(self.right_photo)
 		self.right_image = self.canvas.create_image((self.screen_width * .95, self.screen_height * .05),image=self.right_photo)
 
 		file = "left_arrow.png"
 		self.left_photo = Image.open(file)
-		self.left_photo = self.left_photo.resize((int(self.screen_width * .06), int(self.screen_height * .05)))
+		self.left_photo = self.left_photo.resize((int(self.screen_width * .02), int(self.screen_height * .016666)))
 		self.left_photo = ImageTk.PhotoImage(self.left_photo)
-		self.left_image = self.canvas.create_image((self.screen_width * .05, self.screen_height * .05),image=self.left_photo)
+		self.left_image = self.canvas.create_image((self.screen_width * .925, self.screen_height * .05),image=self.left_photo)
+
+		file = "up_arrow.png"
+		self.up_photo = Image.open(file)
+		self.up_photo = self.up_photo.resize((int(self.screen_width * .015), int(self.screen_height * .021)))
+		self.up_photo = ImageTk.PhotoImage(self.up_photo)
+		self.up_image = self.canvas.create_image((self.screen_width * .9375, self.screen_height * .025),image=self.up_photo)
+
+		file = "down_arrow.png"
+		self.down_photo = Image.open(file)
+		self.down_photo = self.down_photo.resize((int(self.screen_width * .015), int(self.screen_height * .021)))
+		self.down_photo = ImageTk.PhotoImage(self.down_photo)
+		self.down_image = self.canvas.create_image((self.screen_width * .9375, self.screen_height * .075),image=self.down_photo)
 
 		self.canvas.tag_bind(self.left_image, "<Button-1>", self.rotate_left)
 		self.canvas.tag_bind(self.right_image, "<Button-1>", self.rotate_right)
+		self.canvas.tag_bind(self.up_image, "<Button-1>", self.rotate_up)
+		self.canvas.tag_bind(self.down_image, "<Button-1>", self.rotate_down)
 		
 		#right_photo = ImageTk.PhotoImage(right_image)
 		#self.right_arrow = self.canvas.create_image((500, 500), image = right_photo)
@@ -231,36 +230,100 @@ class application(Tk):
 		
 
 	def rotate_right(self, event):
-		self.position = (self.position - 1) % 4
+		self.az_base = (self.az_base - 10) % 360
+		self.query()
 		self.canvas.delete("all")
-		self.drawCanvas(self.position)
+		self.drawCanvas()
 
 	def rotate_left(self, event):
-		self.position = (self.position + 1) % 4
+		self.az_base = (self.az_base + 10) % 360
+		self.query()
 		self.canvas.delete("all")
-		self.drawCanvas(self.position)
+		self.drawCanvas()
+
+	def rotate_up(self, event):
+		if self.alt_base + self.alt_range / 2 + 10 <= 90:
+			self.alt_base = (self.alt_base + 10)
+			self.query()
+			self.canvas.delete("all")
+			self.drawCanvas()
+		elif self.alt_base + self.alt_range / 2 == 90:
+			#we do nothing
+			self.alt_base = self.alt_base
+		else:
+			self.alt_base = 90 - self.alt_range / 2
+			self.query()
+			self.canvas.delete("all")
+			self.drawCanvas()
+
+	def rotate_down(self, event):
+		if self.alt_base - 10 >= 0:
+			self.alt_base = self.alt_base - 10
+			self.query()
+			self.canvas.delete("all")
+			self.drawCanvas()
+		elif self.alt_base == 0:
+			#we do nothing
+			self.alt_base = self.alt_base
+		else:
+			self.alt_base = 0
+			self.query()
+			self.canvas.delete("all")
+			self.drawCanvas()
+
+
+	def query(self):
+		self.viewable_stars[:] = []
+		cur = self.conn.cursor()
+		#Simple select statement and then fetch to get results
+		cur.execute("select ra,dec,mag,id,con,ci,bf from stars;")
+		for x in cur.fetchall():
+			alt_az = get_alt_az(float(x[0]),float(x[1]),self.lat,self.lon,self.time_hour,self.date)
+			if alt_az[0] > self.alt_base and alt_az[0] < self.alt_base + self.alt_range:
+				if self.az_base < (self.az_base + self.az_range ) % 360:
+					if alt_az[1] > self.az_base and alt_az[1] < (self.az_base + self.az_range) % 360:
+						self.viewable_stars.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4]),str(x[5])))
+				else:
+					if alt_az[1] > self.az_base or alt_az [1] < (self.az_base + self.az_range) % 360:
+						self.viewable_stars.append((alt_az[0],alt_az[1],float(x[2]),str(x[3]),str(x[4]),str(x[5])))
+		cur.close()
 
 	def getX(self, star_az):
 		#fuckton of cool trig here
 		#star_az in is degrees so we need to make sure we do it in radians when we do sin(star_az)
-		star_az = star_az % 90
+		#need to convert viable star_az to 0 --> 120 on screen
+		star_az = (star_az - self.az_base) % 360
+		#star_az = star_az % self.az_range
 		phi = pi - radians(star_az) - (pi/4)
-		radius = sqrt(pow(self.screen_width, 2) / 2)
-		x = self.screen_width - ((radius) * sin(radians(star_az)))/sin(phi)
+		self.radius = sqrt(pow(self.screen_width, 2) / 2)
+		x = self.screen_width - ((self.radius) * sin(radians(star_az)))/sin(phi)
 
 		#x is a percentage of the screen, we should probably now multiply it by how wide our screen is
 		#star_az = star_az % 90
 		#x = (star_az / float(90)) * self.screen_width
+		if x > self.screen_width:
+			print("fuck")
 
 		return x
 
 	def getY(self, star_alt):
 		#y = mx + b
-		phi = pi - radians(star_alt) - (pi/4)
-		radius = sqrt(pow(self.screen_height, 2) / 2)
-		y = ((radius) * sin(radians(star_alt))) / sin(phi)
+		#ratio = self.screen_height / self.screen_width
+		#phi = pi - radians(star_alt) - (pi/4)
+		#radius = sqrt(pow(self.screen_height, 2) / 2)
+		#y = ((radius) * sin(radians(star_alt))) / sin(phi)
+		
+		top_angle = asin((sin(radians(self.alt_base + self.alt_range))/self.radius) * self.screen_height)
+		bottom_angle = pi - top_angle - radians(self.alt_base + self.alt_range)
+
+		new_top_angle = pi - radians(star_alt-self.alt_base) - bottom_angle
+		y = ((self.radius) / sin(new_top_angle)) * sin(radians(star_alt-self.alt_base)) 
 		#y is a percentage of the screen, we should probably now multiply it by how tall our screen is, also since it scales downwards we want to invert
 		y = self.screen_height - y
+
+		if y > self.screen_height:
+			print("fuck")
+
 		return y
 
 
@@ -435,7 +498,7 @@ class application(Tk):
 
 	def return_to_starmap(self):
 		self.canvas.delete("all")
-		self.drawCanvas(self.position)
+		self.drawCanvas()
 
 	def return_column_title(self, num):
 		#SQL="select const,proper,bayer,flamsteed,gold,variable,hd,hip,vis_mag,abs_mag,dist,sp_class from const_names,star_info where abb=%s and const=name;"

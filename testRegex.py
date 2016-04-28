@@ -1,5 +1,8 @@
 import wikipedia, csv, re
 from html.parser import HTMLParser
+from bs4 import *
+import requests
+
 stars_name = []
 constell = {}
 wiki_constells = []
@@ -16,7 +19,7 @@ def input_csv(data_struct,address,line_num):
     return data_struct
 
 #open's csv
-with open('/Users/patrickjameswhite/Desktop/wiki_constellations.csv', 'r', newline='') as fp:
+with open('wiki_constellation.csv', 'r', newline='') as fp:
     a = csv.reader(fp, delimiter=',')
 
     for row in a:
@@ -115,8 +118,8 @@ def fetch_constellation_stars(constellation):
     constellation_stars = []
     row_count = 0
     dont_add = 0
+    star_row_index = 0
     for line in wiki_page.html().split('\n'):
-
         if "<th> Notes" in line:
             begin = 1
         elif begin == 0:
@@ -312,6 +315,66 @@ def fetch_constellation_stars(constellation):
                             constellation_stars.append(star_row)
 
 
+        list_url = "https://en.wikipedia.org/wiki/" + 'List_of_stars_in_'+constellation
+        list_soup = BeautifulSoup(requests.get(list_url).text, "html.parser")
+        for superscript in list_soup.find_all("sup"):
+            superscript.decompose()
+        star_table = list_soup.find("table", {"class":"wikitable"})
+        star_rows = star_table.findAll("tr")
+        star = star_rows[star_row_index]
+        star_row_index+=1
+        column = star.findAll("td")
+        #populate url
+        if len(column) == 13:
+            url = column[0].find('a')
+            if url != None:
+                url =  "https://en.wikipedia.org" + url.get('href')
+                print(url)
+                if column[1].find(text=True) != None:
+                    soup = BeautifulSoup(requests.get(url).text, "html.parser")
+                    for superscript in soup.find_all("sup"):
+                        superscript.decompose()
+
+                    table = soup.find("table", {"class" : "infobox"})
+                    if table != None:
+                        mass = "NA"
+                        radius = "NA"
+                        surface_g = "NA"
+                        temp = "NA"
+                        age = "NA"
+                        for row in table.findAll("tr"):
+                            cells = row.findAll("td")
+                            if len(cells) == 2:
+                                if cells[0].find(text=True) in "Mass" and mass == "NA" and len(cells[1].find(text=True)) < 16:
+                                    mass = cells[1].find(text=True)
+                                elif cells[0].find(text=True) in "Radius" and radius == "NA" and len(cells[1].find(text=True)) < 16:
+                                    radius = cells[1].find(text=True)
+                                elif cells[0].find(text=True) in "Surface gravity" and surface_g == "NA" and len(cells[1].find(text=True)) < 16:
+                                    surface_g = cells[1].find(text=True)
+                                elif cells[0].find(text=True) in "Temperature" and temp == "NA" and len(cells[1].find(text=True)) < 16:
+                                    temp = cells[1].find(text=True)
+                                elif cells[0].find(text=True) in "Age" and age == "NA" and len(cells[1].find(text=True)) < 16:
+                                    age = cells[1].find(text=True)
+                        f.write("\"".encode('utf-8'))
+                        f.write(mass.encode('utf-8'))
+                        f.write("\"".encode('utf-8'))
+                        f.write(",".encode('utf-8'))
+                        f.write("\"".encode('utf-8'))
+                        f.write(radius.encode('utf-8'))
+                        f.write("\"".encode('utf-8'))
+                        f.write(",".encode('utf-8'))
+                        f.write("\"".encode('utf-8'))
+                        f.write(surface_g.encode('utf-8'))
+                        f.write("\"".encode('utf-8'))
+                        f.write(",".encode('utf-8'))
+                        f.write("\"".encode('utf-8'))
+                        f.write(temp.encode('utf-8'))
+                        f.write("\"".encode('utf-8'))
+                        f.write(",".encode('utf-8'))
+                        f.write("\"".encode('utf-8'))
+                        f.write(age.encode('utf-8'))
+                        f.write("\"".encode('utf-8'))
+                        f.write("\n".encode('utf-8'))
 
     return constellation_stars
 
@@ -323,6 +386,7 @@ count = 0
 new_constellation = []
 for constellation in wiki_constells:
     print(constellation)
+    f = open("star_results.csv", "wb")
     for fetched in fetch_constellation_stars(constellation[0]):
         print(fetched)
         new_list = [constellation[0]]
@@ -335,13 +399,7 @@ for constellation in wiki_constells:
         count += 1
 print(count)
 
-
-
-
-
-
-
-with open('/Users/patrickjameswhite/Desktop/contellations_wiki_outputFinal.csv', 'w', newline='') as fp:
+with open('contellations_wiki_outputFinal.csv', 'w', newline='') as fp:
     a = csv.writer(fp, delimiter=',')
     for row in new_constellation:
         a.writerow(row)

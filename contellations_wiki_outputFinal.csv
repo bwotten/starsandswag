@@ -1,0 +1,1791 @@
+Andromeda,Alpha Andromeda,α,21,NA,NA,358,677,2.07,−0.30,97,B9p
+Andromeda,Beta Andromeda,β,43,NA,NA,6860,5447,2.07,−1.86,199,M0IIIvar
+Andromeda,Gamma Andromeda,γ,57,NA,NA,12533,9640,2.10,−3.08,355,K3IIb
+Andromeda,Delta Andromeda,δ,31,NA,NA,3627,3092,3.27,0.81,101,NA
+Andromeda,Omicron Andromeda,ο,1,NA,NA,217675,113726,3.62,−3.01,692,B6pv SB
+Andromeda,Lambda Andromeda,λ,16,NA,NA,222107,116584,3.81,1.75,84,NA
+Andromeda,Mu Andromeda,μ,37,NA,NA,5448,4436,3.86,0.75,136,A5V
+Andromeda,Zeta Andromeda,ζ,34,NA,NA,4502,3693,4.08,0.35,181,K1II
+Andromeda,Kappa Andromeda,κ,19,NA,NA,222439,116805,4.15,0.57,170,B9IVn
+Andromeda,Phi Andromeda,φ,42,NA,NA,6811,5434,4.26,−2.51,736,B7III
+Andromeda,Iota Andromeda,ι,17,NA,NA,222173,116631,4.29,−1.65,502,B8V
+Andromeda,Pi Andromeda,π,29,NA,NA,3369,2912,4.34,−2.18,656,B5V
+Andromeda,Epsilon Andromeda,ε,30,NA,NA,3546,3031,4.34,0.77,169,NA
+Andromeda,Eta Andromeda,η,38,NA,NA,5516,4463,4.40,0.04,243,NA
+Andromeda,Sigma Andromeda,σ,25,NA,NA,1404,1473,4.51,1.33,141,A2V
+Andromeda,Nu Andromeda,ν,35,NA,NA,4727,3881,4.53,−2.06,679,B5V SB
+Andromeda,Theta Andromeda,θ,24,NA,NA,1280,1366,4.61,0.16,253,A2V
+Andromeda,Omega Andromeda,ω,48,NA,NA,8799,6813,4.83,2.57,92,F5IV
+Andromeda,Gamma Andromeda,γ,57,NA,NA,12534,NA,4.84,NA,NA,B8V
+Andromeda,60 Andromeda,b,60,NA,NA,13520,10340,4.84,−1.32,556,K4III
+Andromeda,Xi Andromeda,ξ,46,NA,NA,8207,6411,4.87,0.98,195,NA
+Andromeda,Tau Andromeda,τ,53,NA,NA,10205,7818,4.96,−1.64,681,B8III
+Andromeda,HD 1030,υ,NA,NA,NA,10307,7918,4.96,4.45,41,G2V
+Andromeda,Psi Andromeda,ψ,20,NA,NA,223047,117221,4.97,−3.05,1309,G5Ib
+Andromeda,Chi Andromeda,χ,52,NA,NA,10072,7719,5.01,0.66,242,NA
+Andromeda,41 Andromeda,(d),41,NA,NA,6658,5317,5.04,1.14,196,A3m
+Andromeda,Rho Andromeda,ρ,27,NA,NA,1671,1686,5.16,1.71,160,F5III
+Andromeda,49 Andromeda,A,49,NA,NA,9057,6999,5.27,0.53,290,K0III
+Andromeda,62 Andromeda,c,62,NA,NA,14212,10819,5.31,0.84,255,A1V
+Antlia,Alpha Antlia,α,NA,NA,NA,90610,51172,4.28,−0.97,366,K4III
+Antlia,Epsilon Antlia,ε,NA,NA,NA,82150,46515,4.51,−2.15,700,K3III
+Antlia,Iota Antlia,ι,NA,NA,NA,94890,53502,4.60,0.67,199,K0III
+Antlia,Theta Antlia,θ,NA,NA,NA,84367,47758,4.78,−0.58,384,NA
+Antlia,Eta Antlia,η,NA,NA,NA,86629,48926,5.23,2.66,106,A8IV
+Antlia,Delta Antlia,δ,NA,NA,NA,90972,51376,5.56,−0.27,481,NA
+Antlia,Zeta1 Antlia,ζ,NA,NA,NA,82383,46657,5.75,0.46,372,A0
+Antlia,Zeta2 Antlia,ζ,NA,NA,NA,82513,46734,5.91,0.61,374,A9IV
+Antlia,Zeta1 Antlia,ζ,NA,NA,NA,82384,NA,6.18,NA,NA,NA
+Antlia,Delta Antlia,δ,NA,NA,BZ,90972B,NA,9.65,NA,481,F9Ve
+Apus,Alpha Apodi,α,NA,NA,NA,129078,72370,3.83,−1.67,411,K5III
+Apus,Gamma Apodi,γ,NA,NA,NA,147675,81065,3.86,0.41,159,K0IV SB
+Apus,Beta Apodi,β,NA,NA,NA,149324,81852,4.23,0.81,158,K0III
+Apus,Delta1 Apodis,δ,NA,NA,NA,145366,80047,4.68,−2.17,765,NA
+Apus,Zeta Apodi,ζ,NA,NA,NA,156277,84969,4.76,−0.14,312,K1III
+Apus,Eta Apodi,η,NA,NA,NA,123998,69896,4.89,1.73,140,NA
+Apus,Epsilon Apodi,ε,NA,NA,NA,124771,70248,5.06,−1.08,551,B4V
+Apus,Delta2 Apodis,δ,NA,NA,NA,145388,80057,5.27,−1.27,663,K3III
+Apus,Iota Apodi,ι,NA,NA,NA,156190,84979,5.39,−2.34,1144,NA
+Apus,Kappa¹ Apodis,κ,NA,NA,NA,137387,76013,5.52,NA,1200,B1npe
+Apus,Kappa² Apodis,κ,NA,NA,NA,138800,76750,5.64,−1.12,734,B8IVe
+Apus,Theta Apodi,θ,NA,NA,NA,122250,68815,5.69,0.67,328,NA
+Aquarius,Beta Aquari,β,22,75,NA,204867,106278,2.90,−3.47,612,G0Ib
+Aquarius,Alpha Aquari,α,34,105,NA,209750,109074,2.95,−3.88,758,G2Ib
+Aquarius,Delta Aquari,δ,76,191,NA,216627,113136,3.27,−0.18,159,A3V
+Aquarius,Zeta Aquari,ζ,55,150,NA,213051,110960,3.65,1.14,103,NA
+Aquarius,88 Aquari,c,88,211,NA,218594,114341,3.68,−0.60,234,K1III
+Aquarius,Lambda Aquari,λ,73,185,NA,216386,112961,3.73,−1.67,391,M2IIIvar
+Aquarius,Epsilon Aquari,ε,2,8,NA,198001,102618,3.78,−0.46,229,A1V
+Aquarius,Gamma Aquari,γ,48,136,NA,212061,110395,3.86,0.44,158,A0V
+Aquarius,98 Aquari,b,98,136,NA,220321,115438,3.96,0.48,162,K0III
+Aquarius,Eta Aquari,η,62,163,NA,213998,111497,4.04,0.29,183,NA
+Aquarius,Tau2 Aquari,τ,71,183,NA,216032,112716,4.05,−1.28,380,K5III
+Aquarius,Theta Aquari,θ,43,129,NA,211391,110003,4.17,0.33,191,NA
+Aquarius,Phi Aquari,φ,90,215,NA,219215,114724,4.22,0.05,222,M2III
+Aquarius,Psi1 Aquarii,ψ,91,218,NA,219449,114855,4.24,0.95,148,K0III
+Aquarius,Iota Aquari,ι,33,107,NA,209819,109139,4.29,0.67,172,B8V
+Aquarius,99 Aquari,b,99,235,NA,220704,115669,4.38,−0.50,308,K4III
+Aquarius,Psi2 Aquari,ψ,93,222,NA,219688,115033,4.41,−0.56,322,B5Vn
+Aquarius,Zeta Aquari,ζ,55,150,NA,213052,NA,4.42,NA,251,F3V
+Aquarius,3 Aquari,k,3,9,EN,198026,102624,4.43,−1.24,445,M3IIIvar
+Aquarius,86 Aquari,c,86,210,NA,218240,114119,4.48,0.67,188,G8III
+Aquarius,Omega2 Aquari,ω,105,259,NA,222661,116971,4.49,1.12,154,B9V
+Aquarius,Nu Aquari,ν,13,47,NA,201381,104459,4.50,1.00,164,G8III
+Aquarius,Xi Aquari,ξ,23,81,NA,205767,106786,4.68,0.99,179,A7V
+Aquarius,66 Aquari,g,66,176,NA,215167,112211,4.68,−1.18,484,K3III
+Aquarius,101 Aquari,b,101,244,NA,221565,116247,4.70,−0.26,320,A0V
+Aquarius,89 Aquari,c,89,212,NA,218640,114375,4.71,−1.31,521,NA
+Aquarius,Mu Aquari,μ,6,16,NA,198743,103045,4.73,1.34,155,A3m
+Aquarius,Omicron Aquari,ο,31,103,NA,209409,108874,4.74,−0.60,381,B7IVe
+Aquarius,Pi Aquari,π,52,142,NA,212571,110672,4.80,−2.84,1101,B1Ve
+Aquarius,Sigma Aquari,σ,57,154,NA,213320,111123,4.82,0.27,265,A0IVs
+Aquarius,104 Aquari,A,104,257,NA,222574,116901,4.82,−1.65,643,NA
+Aquarius,Chi Aquari,χ,92,219,NA,219576,114939,4.93,−1.54,640,M3III
+Aquarius,Omega1 Aquari,ω,102,253,NA,222345,116758,4.97,1.91,134,A7IV
+Aquarius,Psi³ Aquarii,ψ,95,223,NA,219832,115115,4.99,0.58,249,A0V
+Aquarius,Kappa Aquari,κ,63,166,NA,214376,111710,5.04,0.76,234,K2III
+Aquarius,25 Aquari,d,25,84,NA,206067,106944,5.10,0.76,241,K0III
+Aquarius,108 Aquari,i,108,270,ET,223640,117629,5.17,0.20,321,Ap Si
+Aquarius,Upsilon Aquari,υ,59,161,NA,213845,111449,5.21,3.43,74,F7V
+Aquarius,106 Aquari,i,106,261,NA,222847,117089,5.24,0.20,331,B9V
+Aquarius,107 Aquari,i,107,262,NA,223024,117218,5.28,1.21,212,F0III
+Aquarius,Rho Aquari,ρ,46,134,NA,211838,110273,5.35,−1.44,743,NA
+Aquarius,103 Aquari,A,103,256,NA,222547,116889,5.36,−0.91,584,NA
+Aquarius,38 Aquari,e,38,117,NA,210424,109472,5.43,−0.75,561,B5III
+Aquarius,83 Aquari,h,83,208,NA,218060,113996,5.44,1.63,188,F2V
+Aquarius,53 Aquari,f,53,146,NA,212697,110778,5.55,4.04,65,G3V
+Aquarius,Tau1 Aquari,τ,69,180,NA,215766,112542,5.68,1.17,260,B9V
+Aquarius,HD 223807,h,NA,273,NA,223807,117756,5.76,−0.61,612,K0III
+Aquarius,53 Aquari,f,53,NA,NA,212698,NA,6.35,NA,NA,NA
+Aquarius,104 Aquari,A,104,NA,NA,222561,116904,8.52,1.29,911,NA
+Ara,Beta Ara,β,NA,NA,NA,157244,85258,2.84,−3.49,603,NA
+Ara,Alpha Ara,α,NA,NA,NA,158427,85792,2.84,−1.51,242,B2Vne
+Ara,Zeta Ara,ζ,NA,NA,NA,152786,83081,3.12,−3.11,574,K5III
+Ara,Gamma Ara,γ,NA,NA,NA,157246,85267,3.31,−4.40,1136,B1Ib
+Ara,Delta Ara,δ,NA,NA,NA,158094,85727,3.60,−0.19,187,B8V
+Ara,Theta Ara,θ,NA,NA,NA,165024,88714,3.65,−3.81,1012,B2Ib
+Ara,Eta Ara,η,NA,NA,NA,151249,82363,3.77,−1.14,313,K5III
+Ara,Epsilon1 Ara,ε,NA,NA,NA,152980,83153,4.06,−0.79,304,K4III
+Ara,Sigma Ara,σ,NA,NA,NA,159217,86092,4.56,−0.80,385,A0V
+Ara,Lambda Ara,λ,NA,NA,NA,160032,86486,4.76,3.06,71,F3IV
+Ara,Mu Ara,μ,NA,NA,NA,160691,86796,5.12,4.20,50,NA
+Ara,Kappa Ara,κ,NA,NA,NA,157457,85312,5.19,−0.24,398,K1III
+Ara,Iota Ara,ι,NA,NA,NA,157042,85079,5.21,−1.51,721,B2IIIne
+Ara,Pi Ara,π,NA,NA,NA,159492,86305,5.25,2.12,137,A7V
+Ara,Epsilon2 Ara,ε,NA,NA,NA,153580,83431,5.27,3.17,86,F6V
+Ara,Rho2 Ara,ρ,NA,NA,NA,152824,83057,5.53,−0.50,523,B9IV
+Ara,V539 Ara,ν,NA,NA,V539,161783,87314,5.68,−1.33,823,NA
+Ara,Nu2 Ara,ν,NA,NA,NA,161917,87379,6.09,0.13,508,NA
+Ara,Rho1 Ara,ρ,NA,NA,V846,152478,82868,6.30,−0.51,751,B3Vnpe
+Aries,Alpha Arietis,α,13,NA,NA,12929,9884,2.01,0.48,66,K2III
+Aries,Beta Arieti,β,6,NA,NA,11636,8903,2.64,1.33,60,NA
+Aries,41 Arieti,c,41,NA,NA,17573,13209,3.61,0.16,159,B8Vn
+Aries,Delta Arieti,δ,57,NA,NA,19787,14838,4.35,0.79,168,K2IIIvar
+Aries,Gamma Arieti,γ,5,NA,NA,11503,NA,4.62,NA,164.0,NA
+Aries,Gamma Arieti,γ,5,NA,NA,11502,8832,4.70,NA,164.0,NA
+Aries,Lambda Arieti,λ,9,NA,NA,11973,9153,4.79,1.73,133,F0V
+Aries,Zeta Arieti,ζ,58,NA,NA,20150,15110,4.87,−0.22,340,A1V
+Aries,Kappa Arieti,κ,12,NA,NA,12869,9836,5.03,1.23,187,A2m
+Aries,Iota Arieti,ι,8,NA,NA,11909,9110,5.09,−1.44,659,NA
+Aries,Tau2 Arieti,τ,63,NA,NA,20893,15737,5.10,0.15,319,K3III
+Aries,Epsilon Arieti,ε,48,NA,NA,18519,NA,5.2,NA,332,A2Vs
+Aries,Eta Arieti,η,17,NA,NA,13555,10306,5.23,2.84,98,F5V
+Aries,Pi Arieti,π,42,NA,NA,17543,13165,5.26,−1.07,603,B6V
+Aries,Tau1 Arieti,τ,61,NA,NA,20756,15627,5.27,−0.49,462,B5IV
+Aries,Nu Arieti,ν,32,NA,NA,16432,12332,5.45,0.32,346,A7V
+Aries,Xi Arieti,ξ,24,NA,NA,14951,11249,5.48,−0.85,603,B7IV
+Aries,Epsilon Arieti,ε,48,NA,NA,18519,13914,5.5,NA,332,A2Vs
+Aries,Sigma Arieti,σ,43,NA,NA,17769,13327,5.52,−0.32,479,B7V
+Aries,Theta Arieti,θ,22,NA,NA,14191,10732,5.58,0.21,387,A1Vn
+Aries,Rho3 Arieti,ρ,46,NA,NA,18256,13702,5.58,2.83,115,F6V
+Aries,Mu Arieti,μ,34,NA,NA,16811,12640,5.74,0.66,338,A0V
+Aries,Rho2 Arieti,ρ,45,NA,RZ,18191,13654,5.76,0.30,403,M6IIIvar
+Aries,Omicron Arieti,ο,37,NA,NA,17036,12803,5.78,−0.07,482,B9Vn
+Aries,Rho1 Arieti,ρ,44,NA,NA,18091,13579,7.01,2.10,313,A3
+Auriga,Capella (star),α,13,NA,NA,34029,24608,0.08,−0.48,42,NA
+Auriga,Beta Auriga,β,34,NA,NA,40183,28360,1.90,−0.10,82,A2V
+Auriga,Theta Auriga,θ,37,NA,NA,40312,28380,2.62,−0.98,173,A0p Si
+Auriga,Iota Auriga,ι,3,NA,NA,31398,23015,2.69,−3.29,512,K3IIvar
+Auriga,Epsilon Auriga,ε,7,NA,NA,31964,23416,3.03,−5.95,2037,F0Ia
+Auriga,Eta Auriga,η,10,NA,NA,32630,23767,3.18,−0.96,219,B3V
+Auriga,Zeta Auriga,ζ,8,NA,NA,32068,23453,3.69,−3.22,787,K4II comp
+Auriga,Delta Auriga,δ,33,NA,NA,40035,28358,3.72,0.55,140,K0III
+Auriga,Nu Auriga,ν,32,NA,NA,39003,27673,3.97,−0.13,215,K0III
+Auriga,Pi Auriga,π,35,NA,NA,40239,28404,4.30,−2.76,840,M3IIvar
+Auriga,Kappa Auriga,κ,44,NA,NA,43039,29696,4.32,0.75,169,G8IIIvar
+Auriga,Tau Auriga,τ,29,NA,NA,38656,27483,4.51,0.44,213,G8III
+Auriga,Lambda Auriga,λ,15,NA,NA,34411,24813,4.69,4.18,41,G0V
+Auriga,Chi Auriga,χ,25,NA,NA,36371,25984,4.71,−5.77,4075,B5Iab
+Auriga,Upsilon Auriga,υ,31,NA,NA,38944,27639,4.72,−1.10,475,M1III
+Auriga,Psi2 Auriga,ψ,50,NA,NA,47174,31832,4.80,−0.81,432,K3III
+Auriga,Mu Auriga,μ,11,NA,NA,33641,24340,4.82,1.33,162,A4m
+Auriga,Psi1 Auriga,ψ,46,NA,NA,44537,30520,4.92,−5.43,3835,K5Iabvar
+Auriga,Omega Auriga,ω,4,NA,NA,31647,23179,4.93,1.49,159,A1V
+Auriga,Xi Auriga,ξ,30,NA,NA,39283,27949,4.96,0.62,241,A2V
+Auriga,Psi7 Auriga,ψ,58,NA,NA,49520,32844,4.99,−0.25,364,K3III
+Auriga,Sigma Auriga,σ,21,NA,NA,35186,25292,5.02,−0.97,513,K4III
+Auriga,Psi4 Auriga,ψ,55,NA,NA,47914,32173,5.04,0.18,306,K5III
+Auriga,Phi Auriga,φ,24,NA,NA,35620,25541,5.08,−0.37,400,K4IIIp
+Auriga,Rho Auriga,ρ,20,NA,NA,34759,25048,5.22,−1.25,642,B5V
+Auriga,Psi6 Auriga,ψ,57,NA,NA,48781,32562,5.22,−0.35,424,K1III
+Auriga,Psi5 Auriga,ψ,56,NA,NA,48682,32480,5.24,4.15,54,G0V
+Auriga,Psi3 Auriga,ψ,52,NA,NA,47100,31789,5.34,−1.49,758,B8III
+Auriga,Omicron Auriga,ο,27,NA,NA,38104,27196,5.46,−0.39,482,NA
+Auriga,Psi9 Auriga,ψ,NA,NA,NA,50658,33377,5.85,−1.17,825,B8III
+Auriga,Psi8 Auriga,ψ,61,NA,NA,50204,33133,6.46,−0.56,825,NA
+Boötes,Arcturu,α,16,NA,NA,124897,69673,−0.05,−0.31,37,K2IIIp
+Boötes,Epsilon Boöti,ε,36,NA,NA,129988,72105,2.35,−1.69,210,A0
+Boötes,Eta Boöti,η,8,NA,NA,121370,67927,2.68,2.41,37,G0IV
+Boötes,Epsilon Boöti,ε,36,NA,NA,129989,NA,2.70,NA,NA,NA
+Boötes,Gamma Boöti,γ,27,NA,NA,127762,71075,3.04,0.96,85,A7IIIvar
+Boötes,Delta Boöti,δ,49,NA,NA,135722,74666,3.46,0.69,117,G8III
+Boötes,Beta Boöti,β,42,NA,NA,133208,73555,3.49,−0.64,219,G8III
+Boötes,Rho Boöti,ρ,25,NA,NA,127665,71053,3.57,0.27,149,K3III
+Boötes,Zeta Boöti,ζ,30,NA,NA,129246,71795,3.78,0.06,180,A3IVn
+Boötes,Theta Boöti,θ,23,NA,NA,126660,70497,4.04,3.22,48,F7V
+Boötes,Upsilon Boöti,υ,5,NA,NA,120477,67459,4.05,−0.33,245,K5IIIvar
+Boötes,Lambda Boöti,λ,19,NA,NA,125162,69732,4.18,1.81,97,A0sh
+Boötes,Mu Boöti,μ,51,NA,NA,137391,75411,4.31,1.46,121,F0V
+Boötes,Zeta Boöti,ζ,30,NA,NA,129247,NA,4.43,NA,NA,NA
+Boötes,Sigma Boöti,σ,28,NA,NA,128167,71284,4.47,3.52,50,F3Vwvar
+Boötes,Pi Boöti,π,29,NA,NA,129174,71762,4.49,−0.45,317,B9p MnHg
+Boötes,Tau Boöti,τ,4,NA,NA,120136,67275,4.50,3.53,51,F7V
+Boötes,Psi Boöti,ψ,43,NA,NA,133582,73745,4.52,0.10,250,K2III
+Boötes,Kappa Boöti,κ,17,NA,NA,124675,69483,4.53,1.14,155,A8IV
+Boötes,Xi Boöti,ξ,37,NA,NA,131156,72659,4.54,5.41,22,NA
+Boötes,Omicron Boöti,ο,35,NA,NA,129972,72125,4.60,0.40,225,K0III
+Boötes,Iota Boöti,ι,21,NA,NA,125161,69713,4.75,2.38,97,A9V
+Boötes,HD 12535,A,NA,NA,NA,125351,69879,4.80,0.63,223,K1III
+Boötes,Omega Boöti,ω,41,NA,NA,133124,73568,4.80,−0.41,359,K4III
+Boötes,12 Boöti,d,12,NA,NA,123999,69226,4.82,2.00,120,F9IVw
+Boötes,44 Boöti,i,44,NA,NA,133640,73695,4.83,4.30,42,NA
+Boötes,6 Boöti,e,6,NA,NA,120539,67480,4.92,−0.34,368,K4III
+Boötes,45 Boöti,c,45,NA,NA,134083,73996,4.93,3.46,64,F5V
+Boötes,Nu2 Boöti,ν,53,NA,NA,138629,76041,4.98,−0.62,430,A5V
+Boötes,Nu1 Boöti,ν,52,NA,NA,138481,75973,5.04,−2.10,872,K5III
+Boötes,Phi Boöti,φ,54,NA,NA,139641,76534,5.25,1.76,163,NA
+Boötes,Chi Boöti,χ,48,NA,NA,135502,74596,5.28,1.07,226,A2V
+Boötes,22 Boöti,f,22,NA,NA,126661,70602,5.40,0.68,286,F0m
+Boötes,24 Boöti,g,24,NA,NA,127243,70791,5.58,0.70,308,G3IV
+Boötes,47 Boöti,k,47,NA,NA,133962,73841,5.59,1.08,260,A1V
+Boötes,46 Boöti,b,46,NA,NA,134320,74087,5.67,0.12,420,K2III
+Boötes,38 Boöti,h,38,NA,NA,130945,72487,5.76,2.41,153,F7IVw
+Boötes,Pi Boöti,π,29,NA,NA,129175,NA,5.88,NA,NA,NA
+Boötes,Mu Boöti,μ,51,NA,NA,137392,75415,6.51,3.65,122,G1V
+Boötes,Kappa Boöti,κ,17,NA,NA,124674,69481,6.62,2.73,196,F1V
+Caelum,Alpha Cael,α,NA,NA,NA,29875,21770,4.44,2.92,66,F2IV
+Caelum,Gamma¹ Caeli,γ,NA,NA,NA,32831,23595,4.55,0.78,185,K2III
+Caelum,Beta Cael,β,NA,NA,NA,29992,21861,5.04,2.83,90,F3V
+Caelum,Delta Cael,δ,NA,NA,NA,28873,21060,5.07,−1.62,710,NA
+Caelum,Nu Cael,ν,NA,NA,NA,30985,22488,6.06,2.47,171,NA
+Caelum,Lambda Cael,λ,NA,NA,NA,30202,21998,6.24,−0.27,652,NA
+Caelum,X Cael,γ,NA,NA,X,32846,23596,6.32,1.27,334,NA
+Caelum,Zeta Cael,ζ,NA,NA,NA,30608,22280,6.35,0.36,513,K0III
+Camelopardalis,Beta Camelopardali,β,10,NA,NA,31910,23522,4.03,−3.40,997,G0Ib
+Camelopardalis,CS Camelopardali,B,NA,NA,CS,21291,16228,4.21,−6.39,4289,B9Ia
+Camelopardalis,Alpha Camelopardali,α,9,NA,NA,30614,22783,4.26,−7.38,6936,NA
+Camelopardalis,CE Camelopardalis,C,NA,NA,CE,21389,16281,4.55,−4.85,2470,NA
+Camelopardalis,M Camelopardalis,M,NA,NA,NA,49878,33694,4.55,0.76,187,K4III
+Camelopardalis,Gamma Camelopardali,γ,NA,NA,NA,23401,17959,4.59,−0.47,335,A2IVn
+Camelopardalis,BK Camelopardali,A,NA,NA,BK,20336,15520,4.74,−2.21,801,NA
+Camelopardalis,HD 4281,L,NA,NA,NA,42818,29997,4.76,1.10,176,A0Vn
+Camelopardalis,H Camelopardalis,H,NA,NA,NA,24479,18505,4.95,−0.13,338,NA
+Camelopardalis,HD 3356,K,NA,NA,NA,33564,25110,5.08,3.47,68,F6V
+Camelopardalis,D Camelopardalis,D,NA,NA,NA,21447,16292,5.09,1.25,191,A1V
+Camelopardalis,N Camelopardalis,N,NA,NA,NA,106112,59504,5.14,2.50,110,A5m
+Cancer,Beta Cancri,β,17,NA,NA,69267,40526,3.53,−1.22,290,K4III
+Cancer,Delta Cancr,δ,47,NA,NA,74442,42911,3.94,0.84,136,K0III
+Cancer,Iota Cancr,ι,48,NA,NA,74739,43103,4.03,−0.77,298,NA
+Cancer,Alpha Cancr,α,65,NA,NA,76756,44066,4.26,0.63,173,A5m
+Cancer,Gamma Cancr,γ,43,NA,NA,74198,42806,4.66,1.23,181,A1IV
+Cancer,Zeta Cancr,ζ,16,NA,NA,68255<br/>68256<br/>68257,40167,4.67,2.63,83,NA
+Cancer,Chi Cancr,χ,18,NA,NA,69897,40843,5.14,3.84,59,F6V
+Cancer,Xi Cancr,ξ,77,NA,NA,78515,44946,5.16,−0.18,380,K0III
+Cancer,Omicron1 Cancr,ο,62,NA,NA,76543,43970,5.22,1.77,160,A5III
+Cancer,Rho2 Cancr,ρ,58,NA,NA,76219,43834,5.23,−1.00,574,NA
+Cancer,Sigma3 Cancr,σ,64,NA,NA,76813,44154,5.23,0.27,320,G9III
+Cancer,Kappa Cancr,κ,76,NA,NA,78316,44798,5.23,−0.63,484,B8IIImnp
+Cancer,Mu2 Cancr,μ,10,NA,NA,67228,39780,5.30,3.46,76,G2IV
+Cancer,Theta Cancr,θ,31,NA,NA,72094,41822,5.33,−0.57,494,K5III
+Cancer,Eta Cancr,η,33,NA,NA,72292,41909,5.33,0.43,312,K3III
+Cancer,82 Cancr,π,82,NA,NA,79554,45410,5.36,−1.30,701,K1III
+Cancer,Tau Cancr,τ,72,NA,NA,78235,44818,5.42,0.91,260,G8III
+Cancer,Sigma2 Cancr,σ,59,NA,NA,76398,43932,5.44,1.56,195,A7IV
+Cancer,Nu Cancr,ν,69,NA,NA,77350,44405,5.45,−0.28,457,A0pSi
+Cancer,Phi1 Cancr,φ,22,NA,NA,71093,41377,5.58,0.15,398,K5III
+Cancer,45 Cancr,A,45,NA,NA,74228,42795,5.62,−1.87,1028,NA
+Cancer,49 Cancr,b,49,NA,BI,74521,42917,5.63,0.15,408,NA
+Cancer,Sigma1 Cancr,σ,51,NA,NA,75698,43584,5.67,1.69,204,A8Vms
+Cancer,Omicron2 Cancr,ο,63,NA,NA,76582,44001,5.68,2.22,161,F0IV
+Cancer,Upsilon1 Cancr,υ,30,NA,NA,72041,41816,5.71,1.40,237,F0IIIn
+Cancer,Psi2 Cancr,ψ,14,NA,NA,67767,40023,5.73,2.61,137,G8IV
+Cancer,Omega1 Cancr,ω,2,NA,NA,65714,39191,5.87,−1.82,660,NA
+Cancer,50 Cancr,A,50,NA,NA,74873,43121,5.89,1.96,199,A1V
+Cancer,Lambda Cancr,λ,19,NA,NA,70011,40881,5.92,0.37,419,NA
+Cancer,36 Cancr,c,36,NA,NA,73143,42265,5.92,0.17,461,A3V
+Cancer,20 Cancr,d,20,NA,NA,70569,41117,5.94,0.52,395,A9V
+Cancer,55 Cancr,ρ,55,NA,NA,75732,43587,5.96,5.47,41,G8V
+Cancer,Mu1 Cancr,μ,9,NA,BL,66875,39659,5.97,−0.45,626,M3III
+Cancer,25 Cancr,d,25,NA,NA,71030,41319,6.11,2.85,147,F6V
+Cancer,Phi2 Cancr,φ,23,NA,NA,71150,41404,6.14,1.50,276,A3V
+Cancer,Phi2 Cancr,φ,23,NA,NA,71151,NA,6.19,1.55,276,A6V
+Cancer,Epsilon Cancr,ε,41,NA,NA,73731,42556,6.29,0.16,548,Am
+Cancer,4 Cancr,ω,4,NA,NA,65856,39263,6.32,0.00,598,A1V
+Cancer,Upsilon2 Cancr,υ,32,NA,NA,72324,41940,6.35,0.80,421,G9III
+Cancer,Psi1 Cancr,ψ,13,NA,NA,67690,40007,6.44,−1.06,1032,K0
+Cancer,81 Cancr,π,81,NA,NA,79096,45170,6.49,4.93,67,G9V
+Cancer,Iota Cancr,ι,48,NA,NA,74738,43100,6.58,2.77,188,NA
+Canes Venatici,Cor Carol,α,12,NA,NA,112413,63125,2.89,0.25,114,NA
+Canes Venatici,Beta Canum Venaticoru,β,8,NA,NA,109358,61317,4.24,4.63,27,G0V
+Canes Venatici,Alpha1 Canum Venaticorum,α,12,NA,NA,112412,63121,5.61,NA,120.2,F0V
+Canis Major,Siriu,α,9,NA,NA,48915,32349,−1.46,1.42,8.6,NA
+Canis Major,Epsilon Canis Majori,ε,21,NA,NA,52089,33579,1.50,−4.10,431,B2II
+Canis Major,Delta Canis Majori,δ,25,NA,NA,54605,34444,1.83,−6.87,1791,F8Ia
+Canis Major,Beta Canis Majori,β,2,NA,NA,44743,30324,1.98,−3.95,499,NA
+Canis Major,Eta Canis Majori,η,31,NA,NA,58350,35904,2.45,−7.51,3196,B5Ia
+Canis Major,Zeta Canis Majori,ζ,1,NA,NA,44402,30122,3.02,−2.05,336,NA
+Canis Major,Omicron2 Canis Majori,ο,24,NA,NA,53138,33977,3.02,−6.46,2567,B3Ia
+Canis Major,Sigma Canis Majori,σ,22,NA,NA,52877,33856,3.49,−4.37,1216,K4III
+Canis Major,Kappa Canis Majori,κ,13,NA,NA,50013,32759,3.50,−3.42,789,NA
+Canis Major,Omicron1 Canis Majori,ο,16,NA,NA,50877,33152,3.89,−5.02,1976,K3Iab
+Canis Major,Nu2 Canis Majori,ν,7,NA,NA,47205,31592,3.95,2.46,65,NA
+Canis Major,Omega Canis Majori,ω,28,NA,NA,56139,35037,4.01,−3.25,924,NA
+Canis Major,Theta Canis Majori,θ,14,NA,NA,50778,33160,4.08,−0.36,252,K4III
+Canis Major,Gamma Canis Majori,γ,23,NA,NA,53244,34045,4.12,−1.34,402,B8II
+Canis Major,Xi1 Canis Majori,ξ,4,NA,NA,46328,31125,4.34,−4.65,2050,B1III
+Canis Major,Iota Canis Majori,ι,20,NA,NA,51309,33347,4.36,−5.51,3075,NA
+Canis Major,Tau Canis Majori,τ,30,NA,NA,57061,35415,4.37,−5.59,3196,O9Ib
+Canis Major,Nu3 Canis Majori,ν,8,NA,NA,47442,31700,4.42,−1.35,464,NA
+Canis Major,Lambda Canis Majori,λ,NA,NA,NA,45813,30788,4.47,−1.01,406,B4V
+Canis Major,Xi2 Canis Majori,ξ,5,NA,NA,46933,31416,4.54,−0.97,412,A0III
+Canis Major,Pi Canis Majori,π,19,NA,NA,51199,33302,4.66,2.33,95,NA
+Canis Major,Mu Canis Majori,μ,18,NA,NA,51250,33345,5.00,−2.22,908,NA
+Canis Major,Nu1 Canis Majori,ν,6,NA,NA,47138,31564,5.71,1.07,277,NA
+Canis Minor,Procyo,α,10,NA,NA,61421,37279,0.34,2.65,11,NA
+Canis Minor,Beta Canis Minori,β,3,NA,NA,58715,36188,2.89,−0.70,170,B8Vvar
+Canis Minor,Gamma Canis Minori,γ,4,NA,NA,58972,36284,4.33,−1.10,318,K3III SB
+Canis Minor,Epsilon Canis Minori,ε,2,NA,NA,58367,36041,4.99,−2.42,988,G8III
+Canis Minor,Zeta Canis Minori,ζ,13,NA,NA,63975,38373,5.12,−0.43,420,B8II
+Canis Minor,Eta Canis Minori,η,5,NA,NA,58923,36265,5.22,0.06,351,F0III
+Canis Minor,Delta1 Canis Minori,δ,7,NA,NA,59881,36641,5.24,−1.67,787,F0III
+Canis Minor,Delta2 Canis Minori,δ,8,NA,NA,60111,36723,5.59,2.44,139,F2V
+Canis Minor,Delta3 Canis Minori,δ,9,NA,NA,60357,36812,5.83,−0.75,676,A0Vnn
+Capricornus,Delta Capricorn,δ,49,NA,NA,207098,107556,2.85,2.49,39,NA
+Capricornus,Beta Capricorn,β,9,NA,NA,193495,100345,3.05,−2.07,344,NA
+Capricornus,Alpha² Capricorni,α,6,NA,NA,192947,100064,3.58,0.97,109,NA
+Capricornus,Gamma Capricorn,γ,40,NA,NA,206088,106985,3.69,0.54,139,NA
+Capricornus,Zeta Capricorn,ζ,34,NA,NA,204075,105881,3.77,−1.66,398,NA
+Capricornus,Theta Capricorn,θ,23,NA,NA,200761,104139,4.08,0.65,158,A1V
+Capricornus,Omega Capricorn,ω,18,NA,NA,198542,102978,4.12,−2.30,628,K4III
+Capricornus,Psi Capricorn,ψ,16,NA,NA,197692,102485,4.13,3.30,48,F5V
+Capricornus,Iota Capricorn,ι,32,NA,NA,203387,105515,4.27,0.18,215,G8III
+Capricornus,Alpha1 Capricorn,α,5,NA,NA,192876,100027,4.30,−2.32,686,G3Ib
+Capricornus,24 Capricorn,A,24,NA,NA,200914,104234,4.49,−1.53,522,NA
+Capricornus,36 Capricorn,b,36,NA,NA,204381,106039,4.50,0.80,179,K0III
+Capricornus,Epsilon Capricorn,ε,39,NA,NA,205637,106723,4.51,−2.03,663,NA
+Capricornus,Kappa Capricorn,κ,43,NA,NA,206453,107188,4.72,−0.03,291,G8III
+Capricornus,Nu Capricorn,ν,8,NA,NA,193432,100310,4.77,0.16,272,B9IV
+Capricornus,Rho Capricorn,ρ,11,NA,NA,194943,101027,4.77,2.37,99,F3V
+Capricornus,Eta Capricorn,η,22,NA,NA,200499,104019,4.82,1.39,158,A5V
+Capricornus,Mu Capricorn,μ,51,NA,NA,207958,108036,5.07,2.87,90,F3IV
+Capricornus,Pi Capricorn,π,10,NA,NA,194636,100881,5.08,−1.47,665,B4V
+Capricornus,46 Capricorn,c,46,NA,NA,206834,107382,5.10,−1.85,799,NA
+Capricornus,Upsilon Capricorn,υ,15,NA,NA,196777,101984,5.15,−1.67,755,M1III
+Capricornus,Phi Capricorn,φ,28,NA,NA,202320,104963,5.17,−1.46,691,NA
+Capricornus,Tau2 Capricorn,τ,14,NA,NA,196662,101923,5.24,−3.41,1753,B7III
+Capricornus,Sigma Capricorn,σ,7,NA,NA,193150,100195,5.28,−1.37,697,K2III
+Capricornus,Chi Capricorn,χ,25,NA,NA,201184,104365,5.30,1.46,191,A0V
+Capricornus,Lambda Capricorn,λ,48,NA,NA,207052,107517,5.57,0.80,294,A1V
+Capricornus,Xi2 Capricorn,ξ,2,NA,NA,191862,99572,5.84,3.60,91,F5V
+Capricornus,Omicron Capricorn,ο,12,NA,NA,195094,101123,5.94,1.62,239,A1V
+Capricornus,Beta Capricorn,β,NA,NA,NA,193452,100325,6.09,1.18,313,NA
+Capricornus,Xi1 Capricorn,ξ,1,NA,NA,191753,99529,6.34,0.49,483,K0III
+Capricornus,Omicron Capricorn,ο,12,NA,NA,195093,101120,6.74,3.63,136,NA
+Capricornus,Tau1 Capricorn,τ,13,NA,NA,196348,101751,6.76,−0.40,883,K1III
+Carina,Canopu,α,NA,NA,NA,45348,30438,−0.72,−5.53,313,F0Ib
+Carina,Beta Carina,β,NA,NA,NA,80007,45238,1.67,−0.99,111,A2IV
+Carina,Epsilon Carina,ε,NA,NA,NA,71129,41037,1.86,−4.58,632,NA
+Carina,Iota Carina,ι,NA,NA,NA,80404,45556,2.23,−4.43,692,A8Ib
+Carina,Theta Carina,θ,NA,NA,NA,93030,52419,2.74,−2.91,439,B0Vp
+Carina,Upsilon Carina,υ,NA,NA,NA,85123,48002,2.92,−5.56,1622,A9
+Carina,Omega Carina,ω,NA,NA,NA,89080,50099,3.29,−1.99,370,B8III
+Carina,PP Carina,p,NA,NA,PP,91465,51576,3.30,−2.62,497,B4Vne
+Carina,V337 Carina,q,NA,NA,V337,89388,50371,3.39,−3.38,736,K3II
+Carina,V357 Carina,a,NA,NA,V357,79351,45080,3.43,−2.11,418,B2IV
+Carina,Chi Carina,χ,NA,NA,NA,65575,38827,3.46,−1.91,387,B3IVp
+Carina,HD 84810,l,NA,NA,NA,84810,47854,3.69,−4.64,1509,NA
+Carina,HD 9451,u,NA,NA,NA,94510,53253,3.78,1.42,97,NA
+Carina,HD 9085,s,NA,NA,NA,90853,51232,3.81,−3.71,1042,F2II
+Carina,HD 7672,c,NA,NA,NA,76728,43783,3.84,−1.06,312,B8III
+Carina,V382 Carina,x,NA,NA,V382,96918,54463,3.93,−7.37,5927,G0Ia0
+Carina,HD 7944,i,NA,NA,NA,79447,45101,3.96,−1.97,499,B3IV
+Carina,I Carina,I,NA,NA,NA,90589,50954,3.99,2.94,53,F2IV
+Carina,HD 8318,h,NA,NA,NA,83183,46974,4.08,−4.83,1976,B5II
+Carina,V343 Carina,d,NA,NA,V343,74375,42568,4.31,−3.87,1411,NA
+Carina,HD 8023,g,NA,NA,NA,80230,45496,4.34,−1.74,536,M1III
+Carina,N Carina,N,NA,NA,NA,47306,31407,4.35,−4.31,1762,B9III
+Carina,HR 255,A,NA,NA,V415,50337,32761,4.39,−1.74,553,G6II
+Carina,HD 9194,r,NA,NA,NA,91942,51849,4.45,−3.68,1376,NA
+Carina,Eta Carina,η,NA,NA,NA,93308,NA,4.47,NA,7500,LBV
+Carina,HR 364,G,NA,NA,NA,78791,44599,4.47,−1.25,454,NA
+Carina,V344 Carina,f,NA,NA,V344,75311,43105,4.50,−1.62,546,B3Vne
+Carina,HD 8394,m,NA,NA,NA,83944,47391,4.51,0.33,224,B9V
+Carina,V520 Carina,w,NA,NA,V520,93070,52468,4.58,−2.99,1065,K3Ib
+Carina,V533 Carina,y,NA,NA,V533,97534,54751,4.59,−8.34,12538,A6Ia
+Carina,HD 9656,z,NA,NA,NA,96566,54301,4.62,−0.65,370,G8III
+Carina,V399 Carina,P,NA,NA,V399,90772,51192,4.65,NA,NA,A6Ia
+Carina,V345 Carina,E,NA,NA,V345,78764,44626,4.67,−2.94,1079,B2IVe
+Carina,HD 9239,t,NA,NA,NA,92397,52102,4.69,−4.08,1852,NA
+Carina,K Carina,K,NA,NA,NA,91375,51438,4.72,0.22,259,A2III
+Carina,HR 322,B,NA,NA,NA,68456,39903,4.74,3.09,70,F5V
+Carina,HD 8110,k,NA,NA,NA,81101,45856,4.79,0.62,223,G6III
+Carina,D Carina,D,NA,NA,NA,66591,39138,4.81,−1.29,542,B3V
+Carina,HD 7338,e,NA,NA,NA,73389,42134,4.84,0.60,229,K0III
+Carina,Q Carina,Q,NA,NA,NA,61248,36942,4.93,−0.48,394,K3III
+Carina,V376 Carina,b,NA,NA,V376,77002,43937,4.93,−1.47,621,NA
+Carina,HD 9026,L,NA,NA,NA,90264,50847,4.97,−0.63,430,B8V
+Carina,HD 9206,t,NA,NA,NA,92063,51912,5.08,0.50,269,K1III
+Carina,HD 9691,z,NA,NA,V371,96919,54461,5.12,−6.03,5525,B9Ia
+Carina,M Carina,M,NA,NA,NA,88981,50083,5.15,0.31,304,Am
+Carina,C Carina,C,NA,NA,NA,69863,40429,5.16,0.81,242,NA
+Carina,HD 7737,b,NA,NA,NA,77370,44143,5.17,3.08,85,F3V
+Carina,HD 7339,e,NA,NA,NA,73390,42129,5.27,−2.08,962,NA
+Carina,H Carinae,H,NA,NA,NA,83095,46741,5.46,−1.47,791,K4III
+Carina,V448 Carina,O,NA,NA,V448,49877,32531,5.60,−0.72,598,K5III
+Carina,Upsilon Carina,υ,NA,NA,NA,85124,NA,6.26,NA,1623,A8 Ib
+Cassiopeia,Gamma Cassiopeia,γ,27,NA,NA,5394,4427,2.15,−4.22,613,NA
+Cassiopeia,Alpha Cassiopeia,α,18,NA,NA,3712,3179,2.24,−1.99,228,NA
+Cassiopeia,Beta Cassiopeia,β,11,NA,NA,432,746,2.28,1.17,54,NA
+Cassiopeia,Delta Cassiopeia,δ,37,NA,NA,8538,6686,2.68,0.26,99,A5Vv SB
+Cassiopeia,Epsilon Cassiopeia,ε,45,NA,NA,11415,8886,3.35,−2.31,442,B2pvar
+Cassiopeia,Eta Cassiopeia,η,24,NA,NA,4614,3821,3.46,4.59,19,G0V SB
+Cassiopeia,Zeta Cassiopeia,ζ,17,NA,NA,3360,2920,3.69,−2.62,597,B2IV
+Cassiopeia,Kappa Cassiopeia,κ,15,NA,NA,2905,2599,4.17,−6.34,4127,B1Ia
+Cassiopeia,Theta Cassiopeia,θ,33,NA,NA,6961,5542,4.34,1.22,137,A7Vvar
+Cassiopeia,Iota Cassiopeia,ι,NA,NA,NA,15089,11569,4.46,1.27,141,A5p Sr
+Cassiopeia,Omicron Cassiopeia,ο,22,NA,NA,4180,3504,4.48,−2.74,906,B5III
+Cassiopeia,48 Cassiopeia,A,48,NA,NA,12111,9480,4.49,1.72,117,A3IV
+Cassiopeia,Rho Cassiopeia,ρ,7,NA,NA,224014,117863,4.51,−9.5,8500,NA
+Cassiopeia,Upsilon2 Cassiopeia,υ,28,NA,NA,5395,4422,4.62,0.62,206,NA
+Cassiopeia,Chi Cassiopeia,χ,39,NA,NA,9408,7294,4.68,0.70,204,K0III
+Cassiopeia,Psi Cassiopeia,ψ,36,NA,NA,8491,6692,4.72,0.86,193,K0III
+Cassiopeia,Lambda Cassiopeia,λ,14,NA,NA,2772,2505,4.74,−0.44,354,B8Vn
+Cassiopeia,Xi Cassiopeia,ξ,19,NA,NA,3901,3300,4.80,−2.86,1109,NA
+Cassiopeia,Upsilon1 Cassiopeia,υ,26,NA,NA,5234,4292,4.83,−0.65,406,K2III
+Cassiopeia,Tau Cassiopeia,τ,5,NA,NA,223165,117301,4.88,1.26,173,K1III
+Cassiopeia,Sigma Cassiopeia,σ,8,NA,NA,224572,118243,4.88,−3.47,1523,NA
+Cassiopeia,Nu Cassiopeia,ν,25,NA,NA,4636,3801,4.90,−0.49,389,B9III
+Cassiopeia,Pi Cassiopeia,π,20,NA,NA,4058,3414,4.95,1.31,174,A5V
+Cassiopeia,Phi Cassiopeia,φ,34,NA,NA,7927,6242,4.95,−4.32,2329,F0Ia
+Cassiopeia,Omega Cassiopeia,ω,46,NA,NA,11529,9009,4.97,−1.69,701,B8III
+Cassiopeia,Mu Cassiopeia,μ,30,NA,NA,6582,5336,5.17,5.78,25,NA
+Centaurus,Alpha Centaur,α,NA,363,NA,128620,71683,−0.01,4.34,4.36,G2V
+Centaurus,Beta Centaur,β,NA,304,NA,122451,68702,0.61,−5.42,525,B1III
+Centaurus,Alpha Centaur,α,NA,364,NA,128621,71681,1.35,5.70,4.36,K1V
+Centaurus,Theta Centaur,θ,NA,314,NA,123139,68933,2.06,0.70,61,K0IIIb
+Centaurus,Gamma Centaur,γ,NA,134,NA,110304,61932,2.20,−0.81,130,A1IV
+Centaurus,Epsilon Centaur,ε,NA,245,NA,118716,66657,2.29,−3.02,376,B1III
+Centaurus,Eta Centaur,η,NA,356,NA,127972,71352,2.33,−2.55,308,NA
+Centaurus,Zeta Centaur,ζ,NA,289,NA,121263,68002,2.55,−2.81,384,NA
+Centaurus,Delta Centaur,δ,NA,94,NA,105435,59196,2.58,−2.84,395,B2IVne
+Centaurus,Iota Centaur,ι,NA,204,NA,115892,65109,2.75,1.48,59,A2V
+Centaurus,Lambda Centaur,λ,NA,46,NA,100841,56561,3.11,−2.39,410,NA
+Centaurus,Kappa Centaur,κ,NA,385,NA,132200,73334,3.13,−2.96,539,B2IV
+Centaurus,Nu Centaur,ν,NA,272,NA,120307,67464,3.41,−2.41,475,B2IV
+Centaurus,Mu Centaur,μ,NA,273,NA,120324,67472,3.47,−2.57,527,NA
+Centaurus,Phi Centaur,φ,NA,296,NA,121743,68245,3.83,−1.94,465,B2IV
+Centaurus,Upsilon1 Centaur,υ,NA,297,NA,121790,68282,3.87,−1.67,417,NA
+Centaurus,Pi Centaur,π,NA,24,NA,98718,55425,3.90,−1.07,321,B5Vn
+Centaurus,HD 11744,d,NA,227,NA,117440,65936,3.90,−4.03,1254,NA
+Centaurus,Sigma Centaur,σ,NA,121,NA,108483,60823,3.91,−1.76,443,B3V
+Centaurus,Rho Centaur,ρ,NA,101,NA,105937,59449,3.97,−1.13,342,B3V
+Centaurus,HD 12911,b,NA,368,NA,129116,71865,4.01,−0.85,305,NA
+Centaurus,Psi Centaur,ψ,NA,338,NA,125473,70090,4.05,−0.35,247,A0IV
+Centaurus,HD 12945,c,NA,371,NA,129456,72010,4.06,0.07,205,K3III
+Centaurus,2 Centaur,g,NA,274,NA,120323,67457,4.19,0.51,177,M5III
+Centaurus,1 Centaur,i,NA,265,NA,119756,67153,4.23,2.81,63,F3V
+Centaurus,HD 11196,n,NA,150,NA,111968,62896,4.25,0.86,155,A4IV
+Centaurus,Xi2 Centaur,ξ,NA,173,V1261 (B),113791,64004,4.27,−1.24,412,NA
+Centaurus,HD 10277,j,NA,69,NA,102776,57669,4.30,−1.44,459,B3V
+Centaurus,HD 12528,v,NA,336,NA,125288,70069,4.30,−3.50,1185,B6Ib
+Centaurus,3 Centaur,k,NA,280,V983,120709,67669,4.32,−0.48,297,B5
+Centaurus,HD 11191,e,NA,149,NA,111915,62867,4.33,−0.51,303,NA
+Centaurus,Upsilon2 Centaur,υ,NA,303,NA,122223,68523,4.34,−1.35,448,F6II
+Centaurus,Chi Centaur,χ,NA,311,NA,122980,68862,4.36,−1.32,446,B2V
+Centaurus,V761 Centauri,a,NA,342,V761,125823,70300,4.41,−1.13,418,B2V
+Centaurus,B Centaur,B,NA,71,NA,102964,57803,4.47,−1.30,464,K4III
+Centaurus,J Centaur,J,NA,208,NA,116087,65271,4.52,−0.66,354,B3V
+Centaurus,HD 11624,m,NA,214,NA,116243,65387,4.52,0.04,257,NA
+Centaurus,A Centaur,A,NA,42,NA,100673,56480,4.62,−1.14,463,B9V
+Centaurus,HD 11007,l,NA,132,NA,110073,61789,4.63,−0.55,355,NA
+Centaurus,M Centaur,M,NA,266,NA,119834,67234,4.64,0.16,257,NA
+Centaurus,HD 11045,w,NA,136,NA,110458,62012,4.66,0.85,188,K0III
+Centaurus,HD 11370,f,NA,171,NA,113703,63945,4.71,−0.81,414,B5V
+Centaurus,4 Centaur,h,NA,284,NA,120955,67786,4.75,−1.81,669,B4IV
+Centaurus,G Centaur,G,NA,119,NA,108257,60710,4.82,−0.62,400,B3Vn
+Centaurus,Xi1 Centaur,ξ,NA,165,NA,113314,63724,4.83,0.71,218,A0V
+Centaurus,HD 11159,p,NA,143,NA,111597,62683,4.90,−0.48,389,B9V
+Centaurus,HD 12968,c,NA,372,NA,129685,72104,4.92,0.91,207,A0V
+Centaurus,Q Centaur,Q,NA,250,NA,118991,66821,4.99,0.39,271,NA
+Centaurus,F Centaur,F,NA,108,NA,107079,60059,5.01,−0.33,381,M1III
+Centaurus,K Centaur,K,NA,224,NA,117150,65810,5.04,−0.91,504,A0V
+Centaurus,Omicron1 Centaur,ο,NA,37,NA,100261,56243,5.07,−4.91,3228,G0Ia
+Centaurus,HD 11531,r,NA,195,NA,115310,64803,5.10,0.70,247,K0III
+Centaurus,Omicron2 Centaur,ο,NA,38,NA,100262,56250,5.12,−4.97,3396,A3Ia
+Centaurus,HD 11992,z,NA,267,NA,119921,67244,5.15,−0.44,428,A0V
+Centaurus,H Centaur,H,NA,156,V945,112409,63210,5.17,−0.67,479,B8V
+Centaurus,C2 Centaur,C,NA,45,NA,100825,56573,5.26,1.44,189,A7m
+Centaurus,N Centaur,N,NA,277,NA,120642,67703,5.26,0.03,363,B9Vn
+Centaurus,D Centaur,D,NA,103,NA,106321,59654,5.31,−0.89,566,K3III
+Centaurus,HD 107832,x,NA,113,NA,107832,60449,5.32,−0.17,409,NA
+Centaurus,E Centaur,E,NA,93,NA,105416,59184,5.34,−0.95,590,A1V
+Centaurus,U Centaur,u,NA,122,U,108541,60855,5.45,−0.13,427,NA
+Centaurus,C3 Centaur,C,NA,53,NA,101067,56700,5.46,0.23,363,K2III
+Centaurus,C1 Centaur,C,NA,44,V763,100733,56518,5.64,−0.87,652,M3III
+Centaurus,X² Centauri,x,NA,118,NA,108114,60610,5.71,0.16,420,NA
+Centaurus,3 Centaur,k,NA,281,NA,120710,NA,6.06,NA,NA,NA
+Cepheus,Alpha Cephe,α,5,NA,NA,203280,105199,2.45,1.58,49,NA
+Cepheus,Gamma Cephe,γ,35,NA,NA,222404,116727,3.21,2.51,45,K1IV
+Cepheus,Beta Cephe,β,8,NA,NA,205021,106032,3.23,−3.08,595,B2IIIv SB
+Cepheus,Zeta Cephe,ζ,21,NA,NA,210745,109492,3.39,−3.35,726,K1Ibv SB
+Cepheus,Eta Cephe,η,3,NA,NA,198149,102422,3.41,2.63,47,K0IV
+Cepheus,Iota Cephe,ι,32,NA,NA,216228,112724,3.50,0.76,115,K0III
+Cepheus,Delta Cephe,δ,27,NA,NA,213306,110991,4.07,−3.47,887,NA
+Cepheus,Epsilon Cephe,ε,23,NA,NA,211336,109857,4.18,2.13,84,F0IV
+Cepheus,Theta Cephe,θ,2,NA,NA,195725,101093,4.21,1.11,136,A7III
+Cepheus,Mu Cephe,μ,NA,NA,NA,206936,107259,4.23,−6.81,5258,M2Ia
+Cepheus,Nu Cephe,ν,10,NA,NA,207260,107418,4.25,−6.72,5094,A2Ia
+Cepheus,Kappa Cephe,κ,1,NA,NA,192907,99255,4.38,−0.63,327,B9III
+Cepheus,Pi Cephe,π,33,NA,NA,218658,114222,4.41,0.27,220,G2III
+Cepheus,Xi Cephe,ξ,17,NA,NA,209790,108917,4.45,NA,96,Am
+Cepheus,Omicron Cephe,ο,34,NA,NA,219916,115088,4.75,0.70,211,K0III
+Cepheus,Lambda Cephe,λ,22,NA,NA,210839,109556,5.05,−3.47,1646,NA
+Cepheus,Rho2 Cephe,ρ,29,NA,NA,213798,111056,5.45,1.14,237,A3V
+Cepheus,Rho1 Cephe,ρ,28,NA,NA,213403,110787,5.83,1.85,204,A2m
+Cepheus,Delta Cephe,δ,27,NA,NA,213307,110988,6.30,NA,887,B7IV
+Cepheus,Xi Cephe,ξ,17,NA,NA,209791,NA,6.34,NA,96,F8V
+Cetus,Beta Cet,β,16,70,NA,4128,3419,2.04,−0.30,96,K0III
+Cetus,Alpha Cet,α,92,310,NA,18884,14135,2.54,−1.61,220,M2III
+Cetus,Mir,ο,68,233,NA,14386,10826,3.04,−2.60,418,NA
+Cetus,Eta Cet,η,31,111,NA,6805,5364,3.46,0.67,118,K2III
+Cetus,Gamma Cet,γ,86,291,NA,16970,12706,3.47,1.47,82,A3V
+Cetus,Tau Cet,τ,52,177,NA,10700,8102,3.49,5.68,12,G8V
+Cetus,Iota Cet,ι,8,33,NA,1522,1562,3.56,−1.18,290,K2III
+Cetus,Theta Cet,θ,45,136,NA,8512,6537,3.60,0.87,114,K0III
+Cetus,Zeta Cet,ζ,55,185,NA,11353,8645,3.74,−0.76,259,K2III
+Cetus,Upsilon Cet,υ,59,197,NA,12274,9347,3.99,−0.83,301,NA
+Cetus,Delta Cet,δ,82,283,NA,16582,12387,4.08,−2.41,647,B2IV
+Cetus,Pi Cet,π,89,296,NA,17081,12770,4.24,−1.41,441,B7IV
+Cetus,Mu Cet,μ,87,295,NA,17094,12828,4.27,2.21,84,NA
+Cetus,Xi2 Cet,ξ,73,251,NA,15318,11484,4.30,0.64,176,B9III
+Cetus,Xi1 Cet,ξ,65,223,NA,13611,10324,4.36,−0.87,362,NA
+Cetus,Chi Cet,χ,53,182,NA,11171,8497,4.66,2.79,77,F3III
+Cetus,Lambda Cet,λ,91,308,NA,18604,13954,4.71,−0.86,424,B6III
+Cetus,Sigma Cet,σ,76,261,NA,15798,11783,4.74,2.68,84,F5V
+Cetus,Phi1 Cet,φ,17,72,NA,4188,3455,4.77,0.73,210,K0IIIvar
+Cetus,Epsilon Cet,ε,83,284,NA,16620,12390,4.83,2.67,88,F5V
+Cetus,Kappa1 Cet,κ,96,319,NA,20630,15457,4.84,5.03,30,G5Vvar
+Cetus,Nu Cet,ν,78,270,NA,16161,12093,4.87,−0.42,372,G8III
+Cetus,Rho Cet,ρ,72,247,NA,15130,11345,4.88,−1.17,528,A0V
+Cetus,Phi2 Cet,φ,19,84,NA,4813,3909,5.17,4.22,50,NA
+Cetus,Phi3 Cet,φ,22,94,NA,5437,4371,5.35,−0.67,522,K4III
+Cetus,Phi4 Cet,φ,23,99,NA,5722,4587,5.62,0.69,315,G7III
+Cetus,97 Ceti,κ,97,321,NA,20791,15619,5.70,0.95,290,NA
+Cetus,Chi Cet,χ,53,NA,EZ,11131,8486,6.74,4.91,74.94,G0
+Chamaeleon,Alpha Chamaeleonti,α,NA,NA,NA,71243,40702,4.05,2.60,63,F5III
+Chamaeleon,Gamma Chamaeleonti,γ,NA,NA,NA,92305,51839,4.11,−1.40,413,M0III
+Chamaeleon,Beta Chamaeleonti,β,NA,NA,NA,106911,60000,4.24,−0.36,271,B5Vn
+Chamaeleon,Theta Chamaeleonti,θ,NA,NA,NA,71701,40888,4.34,0.97,154,NA
+Chamaeleon,Delta² Chamaeleontis,δ,NA,NA,NA,93845,52633,4.45,−0.79,363,NA
+Chamaeleon,Epsilon Chamaeleonti,ε,NA,NA,NA,104174,58484,4.88,−0.36,364,B9Vn
+Chamaeleon,Kappa Chamaeleonti,κ,NA,NA,NA,104902,58905,5.04,−0.61,441,K4III
+Chamaeleon,Zeta Chamaeleonti,ζ,NA,NA,NA,83979,46928,5.07,−1.02,539,B5V
+Chamaeleon,Iota Chamaeleonti,ι,NA,NA,NA,82554,46107,5.34,1.58,184,NA
+Chamaeleon,Nu Chamaeleonti,ν,NA,NA,NA,85396,47956,5.43,1.59,191,G8III
+Chamaeleon,Eta Chamaeleonti,η,NA,NA,NA,75416,42637,5.46,0.53,316,B9IV
+Chamaeleon,Delta¹ Chamaeleontis,δ,NA,NA,NA,93779,52595,5.46,0.28,354,K0III
+Chamaeleon,Mu¹ Chamaeleontis,μ,NA,NA,NA,87971,49065,5.53,0.09,399,A0IV
+Chamaeleon,Pi Chamaeleonti,π,NA,NA,NA,101132,56675,5.64,2.52,137,F1III
+Chamaeleon,Mu2 Chamaeleonti,μ,NA,NA,NA,88351,49326,6.60,0.41,564,NA
+Circinus,Alpha Circin,α,NA,NA,NA,128898,71908,3.18,2.11,53,F1Vp
+Circinus,Beta Circin,β,NA,NA,NA,135379,74824,4.07,1.71,97,A3Va
+Circinus,Gamma Circin,γ,NA,NA,NA,136415,75323,4.48,−1.49,509,NA
+Circinus,Epsilon Circin,ε,NA,NA,NA,135291,74837,4.85,−0.44,373,NA
+Circinus,Delta Circin,δ,NA,NA,NA,135240,74778,5.04,−6.42,6392,NA
+Circinus,Theta Circin,θ,NA,NA,NA,131492,73129,5.08,−1.96,834,B4Vnp
+Circinus,Eta Circin,η,NA,NA,NA,132905,73776,5.16,0.59,267,G8III
+Circinus,Zeta Circin,ζ,NA,NA,NA,131058,72965,6.09,−1.79,1226,B3Vn
+Columba,Alpha Columba,α,NA,NA,NA,37795,26634,2.65,−1.93,268,B7IV
+Columba,Beta Columba,β,NA,NA,NA,39425,27628,3.12,1.02,86,NA
+Columba,Delta Columba,δ,NA,NA,NA,44762,30277,3.85,−0.46,237,G7II
+Columba,Epsilon Columba,ε,NA,NA,NA,36597,25859,3.86,−0.79,277,NA
+Columba,Eta Columba,η,NA,NA,NA,40808,28328,3.96,−2.10,531,K0III
+Columba,Gamma Columba,γ,NA,NA,NA,40494,28199,4.36,−2.73,853,NA
+Columba,Kappa Columba,κ,NA,NA,NA,43785,29807,4.37,0.63,183,G8II
+Columba,Omicron Columba,ο,NA,NA,NA,34642,24659,4.81,2.17,110,NA
+Columba,Lambda Columba,λ,NA,NA,NA,39764,27810,4.88,−0.22,341,B5V
+Columba,Xi Columba,ξ,NA,NA,NA,40176,28010,4.97,−0.05,328,NA
+Columba,Theta Columba,θ,NA,NA,NA,42167,29034,5.00,−1.84,762,NA
+Columba,Mu Columba,μ,NA,NA,NA,38666,27204,5.18,−2.81,1294,NA
+Columba,Nu2 Columba,ν,NA,NA,NA,37495,26460,5.28,2.14,138,F5V
+Columba,Pi2 Columba,π,NA,NA,NA,42303,29064,5.50,0.98,261,A0V
+Columba,Sigma Columba,σ,NA,NA,NA,40248,28098,5.52,−2.74,1462,F2III
+Columba,Nu1 Columba,ν,NA,NA,NA,37430,26412,6.15,2.91,145,F0IV
+Columba,Pi1 Columba,π,NA,NA,NA,42078,28957,6.15,1.18,322,Am
+Coma Berenices,Beta Comae Berenice,β,43,NA,NA,114710,64394,4.26,4.42,30,G0V
+Coma Berenices,Alpha Comae Berenice,α,42,NA,NA,114378,64241,4.32,3.54,47,F5V
+Coma Berenices,Gamma Comae Berenice,γ,15,NA,NA,108381,60742,4.35,0.76,170,NA
+Coma Berenices,Alpha Comae Berenice,α,42,NA,NA,114379,NA,5.22,NA,NA,NA
+Corona Australis,Beta Coronae Australi,β,NA,NA,NA,178345,94160,4.10,−1.86,508,NA
+Corona Australis,Alpha Coronae Australi,α,NA,NA,NA,178253,94114,4.11,1.11,130,NA
+Corona Australis,Gamma Coronae Australi,γ,NA,NA,NA,177474,93825,4.23,2.97,58,NA
+Corona Australis,Delta Coronae Australi,δ,NA,NA,NA,177873,94005,4.57,0.93,175,K1III
+Corona Australis,Theta Coronae Australi,θ,NA,NA,NA,170845,90982,4.62,−2.50,867,G5III
+Corona Australis,Zeta Coronae Australi,ζ,NA,NA,NA,176638,93542,4.74,0.99,184,A0Vn
+Corona Australis,Epsilon Coronae Australi,ε,NA,NA,NA,175813,93174,4.83,2.45,98,NA
+Corona Australis,Gamma Coronae Australi,γ,NA,NA,NA,177475,NA,4.99,NA,NA,NA
+Corona Australis,Lambda Coronae Australi,λ,NA,NA,NA,172777,91875,5.11,1.15,202,NA
+Corona Australis,Mu Coronae Australi,μ,NA,NA,NA,173540,92226,5.20,−0.20,393,NA
+Corona Australis,Eta1 Coronae Australi,η,NA,NA,NA,173715,92308,5.46,0.33,347,A2Vn
+Corona Australis,Eta2 Coronae Australi,η,NA,NA,NA,173861,92382,5.60,−0.75,607,B9IV
+Corona Australis,Kappa2 Coronae Australi,κ,NA,NA,NA,170868,90968,5.67,−2.94,1716,NA
+Corona Australis,Kappa1 Coronae Australi,κ,NA,NA,NA,170867,90969,6.31,0.43,489,B8
+Corona Borealis,Alpha Coronae Boreali,α,5,NA,NA,139006,76267,2.22,0.42,75,A0V
+Corona Borealis,Beta Coronae Boreali,β,3,NA,NA,137909,75695,3.66,0.94,114,F0p
+Corona Borealis,Gamma Coronae Boreali,γ,8,NA,NA,140436,76952,3.81,0.57,145,A1Vs
+Corona Borealis,Theta Coronae Boreali,θ,4,NA,NA,138749,76127,4.14,−0.76,311,B6Vnn
+Corona Borealis,Epsilon Coronae Boreali,ε,13,NA,NA,143107,78159,4.14,−0.10,230,K3III
+Corona Borealis,Delta Coronae Boreali,δ,10,NA,NA,141714,77512,4.59,1.06,165,NA
+Corona Borealis,Zeta2 Coronae Boreali,ζ,7,NA,NA,139891,76669,4.64,−1.17,473,NA
+Corona Borealis,Tau Coronae Boreali,τ,16,NA,NA,145328,79119,4.73,2.03,113,NA
+Corona Borealis,Kappa Coronae Boreali,κ,11,NA,NA,142091,77655,4.79,2.32,101,NA
+Corona Borealis,Xi Coronae Boreali,ξ,19,NA,NA,147677,80181,4.86,1.11,184,K0III
+Corona Borealis,Iota Coronae Boreali,ι,14,NA,NA,143807,78493,4.98,−0.18,351,NA
+Corona Borealis,Eta Coronae Boreali,η,2,NA,NA,137107,75312,4.99,3.64,61,G2V
+Corona Borealis,Mu Coronae Boreali,μ,6,NA,NA,139153,76307,5.14,−1.08,571,M2III
+Corona Borealis,Nu1 Coronae Boreali,ν,20,NA,NA,147749,80197,5.20,−0.96,555,M2III
+Corona Borealis,Rho Coronae Boreali,ρ,15,NA,NA,143761,78459,5.39,4.18,57,G2V
+Corona Borealis,Nu2 Coronae Boreali,ν,21,NA,NA,147767,80214,5.40,−0.72,545,K5III
+Corona Borealis,Lambda Coronae Boreali,λ,12,NA,NA,142908,78012,5.43,2.34,135,F0IV
+Corona Borealis,Omicron Coronae Boreali,ο,1,NA,NA,136512,75049,5.51,0.89,274,K0III
+Corona Borealis,Sigma Coronae Boreali,σ,17,NA,TZ,146361,79607,5.56,3.78,71,F8V
+Corona Borealis,Pi Coronae Boreali,π,9,NA,NA,140716,77048,5.57,1.16,249,NA
+Corona Borealis,Upsilon Coronae Boreali,υ,18,NA,NA,146738,79757,5.80,−1.22,825,A3V
+Corona Borealis,Eta Coronae Boreali,η,2,NA,NA,137108,NA,6.08,NA,NA,NA
+Corona Borealis,Sigma Coronae Boreali,σ,17,NA,NA,146362,NA,6.66,NA,NA,NA
+Corvus,Gamma Corv,γ,4,NA,NA,106625,59803,2.58,−0.94,165,B8III
+Corvus,Beta Corv,β,9,NA,NA,109379,61359,2.65,−0.51,140,G5II
+Corvus,Delta Corv,δ,7,NA,NA,108767,60965,2.94,0.79,88,NA
+Corvus,Epsilon Corv,ε,2,NA,NA,105707,59316,3.02,−1.82,303,K2III
+Corvus,Alpha Corv,α,1,NA,NA,105452,59199,4.02,3.17,48,NA
+Corvus,Eta Corv,η,8,NA,NA,109085,61174,4.30,3.00,59,F2V
+Corvus,Zeta Corv,ζ,5,NA,NA,107348,60189,5.20,−0.16,385,B8V
+Crater,Delta Crateri,δ,12,NA,NA,98430,55282,3.56,−0.32,195,K0III
+Crater,Gamma Crateri,γ,15,NA,NA,99211,55705,4.06,2.01,84,A9V
+Crater,Alpha Crateri,α,7,NA,NA,95272,53740,4.08,0.44,174,K1III
+Crater,Beta Crateri,β,11,NA,NA,97277,54682,4.46,−0.10,266,A1V
+Crater,Theta Crateri,θ,21,NA,NA,100889,56633,4.70,−0.15,305,NA
+Crater,Zeta Crateri,ζ,27,NA,NA,102070,57283,4.71,−0.45,350,G8III
+Crater,Epsilon Crateri,ε,14,NA,NA,99167,55687,4.81,−0.43,364,K5III
+Crater,Eta Crateri,η,30,NA,NA,103632,58188,5.17,0.46,285,A0V
+Crux,Beta Cruci,β,NA,NA,NA,111123,62434,1.25,−3.92,352,NA
+Crux,Alpha Cruci,α,NA,NA,NA,108248,60718,1.4,−3.6,321,NA
+Crux,Gamma Cruci,γ,NA,NA,NA,108903,61084,1.60,−0.56,88,M4III
+Crux,Alpha Cruci,α,NA,NA,NA,108249,NA,2.09,−2.88,321,B1V
+Crux,Delta Cruci,δ,NA,NA,NA,106490,59747,2.79,−2.45,364,B2IV
+Crux,Epsilon Cruci,ε,NA,NA,NA,107446,60260,3.59,−0.63,228,NA
+Crux,Mu Cruci,μ,NA,NA,NA,112092,63003,4.03,−1.29,377,NA
+Crux,Zeta Cruci,ζ,NA,NA,NA,106983,60009,4.06,−1.16,361,NA
+Crux,Eta Cruci,η,NA,NA,NA,105211,59072,4.14,2.67,64,F2III
+Crux,Theta1 Cruci,θ,NA,NA,NA,104671,58758,4.32,0.08,230,Am
+Crux,Lambda Cruci,λ,NA,NA,NA,112078,63007,4.62,−0.59,360,B4Vn
+Crux,Iota Cruci,ι,NA,NA,NA,110829,62268,4.69,1.78,125,K1III
+Crux,Theta2 Cruci,θ,NA,NA,NA,104841,58867,4.72,−2.10,753,B2IV
+Crux,Mu Cruci,μ,NA,NA,NA,112091,63005,5.08,−0.14,361,B5Vne
+Crux,HD 111973,κ,NA,NA,NA,111973,62931,5.98,−2.55,1661,B5Ia
+Crux,Gamma Cruci,γ,NA,NA,NA,108925,NA,6.42,NA,NA,A3V
+Cygnus,Dene,α,50,NA,NA,197345,102098,1.25,−8.73,1550,A2Ia
+Cygnus,Gamma Cygn,γ,37,NA,NA,194093,100453,2.23,−6.12,1523,F8Ib
+Cygnus,Epsilon Cygn,ε,53,NA,NA,197989,102488,2.48,0.76,72,K0III
+Cygnus,Delta Cygn,δ,18,NA,NA,186882,97165,2.86,−0.74,171,NA
+Cygnus,Albire,β,6,NA,NA,183912,95947,3.05,−2.31,385,NA
+Cygnus,Zeta Cygn,ζ,64,NA,NA,202109,104732,3.21,−0.12,151,G8II SB
+Cygnus,Xi Cygn,ξ,62,NA,NA,200905,104060,3.72,−4.07,1177,K5Ibv SB
+Cygnus,Tau Cygn,τ,65,NA,NA,202444,104887,3.74,2.14,68,F1IV
+Cygnus,Iota Cygn,ι,10,NA,NA,184006,95853,3.76,0.89,122,A5Vn
+Cygnus,Kappa Cygn,κ,1,NA,NA,181276,94779,3.80,0.91,123,K0III
+Cygnus,Omicron1 Cygni,ο,31,NA,V695,192577,99675,3.80,−4.29,1353,NA
+Cygnus,Eta Cygn,η,21,NA,NA,188947,98110,3.89,0.74,139,K0IIIvar
+Cygnus,Nu Cygn,ν,58,NA,NA,199629,103413,3.94,−1.25,356,A1Vn
+Cygnus,Omicron2 Cygni,ο,32,NA,V1488,192909,99848,3.96,−3.70,1109,NA
+Cygnus,Rho Cygn,ρ,73,NA,NA,205435,106481,3.98,1.07,124,G8III
+Cygnus,Sigma Cygn,σ,67,NA,NA,202850,105102,4.22,−6.49,4528,B9Iab
+Cygnus,Pi2 Cygn,π,81,NA,NA,207330,107533,4.23,−3.52,1156,B3III
+Cygnus,Upsilon Cygn,υ,66,NA,NA,202904,105138,4.41,−2.80,901,B2Vne
+Cygnus,Theta Cygn,θ,13,NA,NA,185395,96441,4.49,3.14,61,F4V
+Cygnus,Lambda Cygn,λ,54,NA,NA,198183,102589,4.53,−2.62,879,B6IV
+Cygnus,63 Cygn,f,63,NA,NA,201251,104194,4.56,−2.83,982,K4II
+Cygnus,Phi Cygn,φ,12,NA,NA,185734,96683,4.68,0.25,251,NA
+Cygnus,Pi1 Cygn,π,80,NA,NA,206672,107136,4.69,−3.87,1680,B3IV
+Cygnus,Mu1 Cygni,μ,78,NA,NA,206826,107310,4.69,2.94,73,F6V
+Cygnus,59 Cygn,f,59,NA,V832,200120,103632,4.74,−2.95,1124,B1ne
+Cygnus,P Cygn,P,34,NA,NA,193237,100044,4.77,−6.65,6269,B2pe
+Cygnus,Psi Cygn,ψ,24,NA,NA,189037,98055,4.91,0.18,288,A4Vn
+Cygnus,28 Cygn,b,28,NA,V1624,191610,99303,4.93,−2.18,860,NA
+Cygnus,29 Cygn,b,29,NA,V1644,192640,99770,4.93,1.86,134,A2V
+Cygnus,Omega1 Cygn,ω,45,NA,V2021,195556,101138,4.94,−2.19,869,NA
+Cygnus,20 Cygn,d,20,NA,NA,188056,97635,5.03,1.18,192,K3IIIvar
+Cygnus,68 Cygn,A,68,NA,V1809,203064,105186,5.04,NA,4600,O8e
+Cygnus,26 Cygn,e,26,NA,NA,190147,98571,5.06,−0.54,429,NA
+Cygnus,Albire,β,6,NA,NA,183914,95951,5.12,−0.19,376,B8V
+Cygnus,71 Cygn,g,71,NA,NA,204771,106093,5.22,1.04,224,K0III
+Cygnus,27 Cygn,b,27,NA,V2008,191026,99031,5.38,3.46,79,K0IV
+Cygnus,Omega² Cygni,ω,46,NA,NA,195774,101243,5.44,−0.03,404,M2III
+Cygnus,16 Cygn,c,16,NA,NA,186408,96895,5.99,4.32,70,G2V
+Cygnus,Mu2 Cygni,μ,78,NA,NA,206827,NA,6.12,NA,NA,G2V
+Cygnus,16 Cygn,c,16,NA,NA,186427,96901,6.25,4.60,70,G5V
+Cygnus,Chi Cygn,χ,NA,NA,NA,187796,97629,7.91,2.78,346,NA
+Delphinus,Beta Delphin,β,6,NA,NA,196524,101769,3.64,1.26,97,F5IV
+Delphinus,Alpha Delphin,α,9,NA,NA,196867,101958,3.77,−0.57,241,B9V
+Delphinus,Epsilon Delphin,ε,2,NA,NA,195810,101421,4.03,−1.18,359,B6III
+Delphinus,Gamma Delphin,γ,12,NA,NA,197964,102532,4.27,1.81,101,K1IV
+Delphinus,Delta Delphin,δ,11,NA,NA,197461,102281,4.43,0.45,203,A7IIIp d Del
+Delphinus,Zeta Delphin,ζ,4,NA,NA,196180,101589,4.64,0.43,227,A3V
+Delphinus,Rho Aquila,ρ,67,NA,NA,192425,99742,4.94,1.58,153,A2V
+Delphinus,Kappa Delphin,κ,7,NA,NA,196755,101916,5.07,2.68,98,NA
+Delphinus,Gamma Delphin,γ,12,NA,NA,197963,102531,5.15,2.65,103,NA
+Delphinus,Eta Delphin,η,3,NA,NA,195943,101483,5.39,1.77,173,A3IVs
+Delphinus,Iota Delphin,ι,5,NA,NA,196544,101800,5.42,1.74,177,A2V
+Delphinus,Theta Delphin,θ,8,NA,NA,196725,101882,5.69,−2.32,1304,K3Ib
+Dorado,Alpha Doradu,α,NA,NA,NA,29305,21281,3.30,−0.36,176,NA
+Dorado,Beta Doradu,β,NA,NA,NA,37350,26069,3.76,−3.76,1038,NA
+Dorado,Gamma Doradu,γ,NA,NA,NA,27290,19893,4.26,2.72,66,NA
+Dorado,Delta Doradu,δ,NA,NA,NA,39014,27100,4.34,1.10,145,A7V
+Dorado,Zeta Doradu,ζ,NA,NA,NA,33262,23693,4.71,4.38,38,F7V
+Dorado,Theta Doradu,θ,NA,NA,NA,34649,24372,4.81,−1.31,546,K2III
+Dorado,Epsilon Doradu,ε,NA,NA,NA,39844,27534,5.10,−0.88,512,B6V
+Dorado,Eta¹ Doradus,η,NA,NA,NA,42525,28909,5.72,0.68,332,A0V
+Draco,Gamma Draconi,γ,33,NA,NA,164058,87833,2.24,−1.04,148,K5III
+Draco,Eta Draconi,η,14,NA,NA,148387,80331,2.73,0.58,88,G8III
+Draco,Beta Draconi,β,23,NA,NA,159181,85670,2.79,−2.43,361,G2II
+Draco,Delta Draconi,δ,57,NA,NA,180711,94376,3.07,0.63,100,G9III
+Draco,Zeta Draconi,ζ,22,NA,NA,155763,83895,3.17,−1.92,340,B6III
+Draco,Iota Draconi,ι,12,NA,NA,137759,75458,3.29,0.81,102,K2III
+Draco,Chi Draconi,χ,44,NA,NA,170153,89937,3.55,4.02,26,F7Vvar
+Draco,Thuba,α,11,NA,NA,123299,68756,3.67,−1.21,309,A0III SB
+Draco,Xi Draconi,ξ,32,NA,NA,163588,87585,3.73,1.06,111,K2III
+Draco,Lambda Draconi,λ,1,NA,NA,100029,56211,3.82,−1.23,334,M0IIIvar
+Draco,Epsilon Draconi,ε,63,NA,NA,188119,97433,3.84,0.59,146,G8III
+Draco,Kappa Draconi,κ,5,NA,NA,109387,61281,3.85,−2.07,498,B6IIIp
+Draco,Theta Draconi,θ,13,NA,NA,144284,78527,4.01,2.41,68,NA
+Draco,Phi Draconi,φ,43,NA,NA,170000,89908,4.22,−0.52,289,NA
+Draco,Tau Draconi,τ,60,NA,NA,181984,94648,4.45,1.14,150,K3III
+Draco,Rho Draconi,ρ,67,NA,NA,190940,98702,4.51,−0.97,406,K3III
+Draco,Psi1 Draconi,ψ,31,NA,NA,162003,86614,4.57,2.85,72,NA
+Draco,10 Draconi,i,10,NA,CU,121130,67627,4.58,−0.82,391,M3III
+Draco,Pi Draconi,π,58,NA,NA,182564,95081,4.60,0.41,225,A2IIIs
+Draco,Omicron Draconi,ο,47,NA,NA,175306,92512,4.63,−0.34,322,NA
+Draco,Sigma Draconi,σ,61,NA,NA,185144,96100,4.67,5.87,19,K0V
+Draco,Omega Draconi,ω,28,NA,NA,160922,86201,4.77,2.92,76,F5V
+Draco,45 Draconi,d,45,NA,NA,171635,90905,4.77,−4.96,2885,F7Ib
+Draco,Upsilon Draconi,υ,52,NA,NA,176524,92782,4.82,−0.30,344,K0III
+Draco,18 Draconi,g,18,NA,NA,151101,81660,4.84,−1.76,681,K1p
+Draco,Nu Draconi,ν,25,NA,NA,159560,85829,4.86,2.43,100,Am
+Draco,19 Draconi,h,19,NA,NA,153597,82860,4.88,3.99,49,F6Vvar
+Draco,Nu Draconi,ν,24,NA,NA,159541,85819,4.89,2.48,99,NA
+Draco,Mu Draconi,μ,21,NA,NA,154905,83608,4.91,2.76,88,F5
+Draco,15 Draconi,A,15,NA,NA,149212,80650,4.94,−0.95,491,A0III
+Draco,39 Draconi,b,39,NA,NA,170073,90156,4.98,1.17,188,A3V
+Draco,Psi2 Draconi,ψ,34,NA,NA,164613,87728,5.43,−1.30,723,NA
+Draco,Mu Draconi,μ,21,NA,NA,154906,NA,5.80,NA,NA,NA
+Draco,Psi1 Draconi,ψ,31,NA,NA,162004,86620,5.81,4.07,73,G0V
+Equuleus,Alpha Equule,α,8,NA,NA,202447,104987,3.92,0.14,186,NA
+Equuleus,Delta Equule,δ,7,NA,NA,202275,104858,4.47,3.14,60,NA
+Equuleus,Gamma Equule,γ,5,NA,NA,201601,104521,4.70,1.97,115,F0p
+Equuleus,Beta Equule,β,10,NA,NA,203562,105570,5.16,−0.05,360,A3V
+Equuleus,Epsilon Equule,ε,1,NA,NA,199766,103569,5.30,1.40,197,NA
+Equuleus,Zeta Equule,ζ,3,NA,NA,200644,104031,5.63,−0.99,688,K5III
+Equuleus,Lambda Equule,λ,2,NA,NA,200256,103813,6.72,1.68,332,F8
+Eridanus,Acherna,α,NA,2,NA,10144,7588,0.45,−2.77,144,B3Vp
+Eridanus,Beta Eridan,β,67,290,NA,33111,23875,2.78,0.60,89,A3IIIvar
+Eridanus,Theta Eridan,θ,NA,48,NA,18622,13847,2.88,−0.59,161,NA
+Eridanus,Gamma Eridan,γ,34,158,NA,25025,18543,2.97,−1.19,221,NA
+Eridanus,Delta Eridan,δ,23,121,NA,23249,17378,3.52,3.74,29,K0IV
+Eridanus,Upsilon4 Eridan,υ,41,204,NA,27376,20042,3.55,−0.14,178,B9V
+Eridanus,Phi Eridan,φ,NA,14,NA,14228,10602,3.56,0.18,155,NA
+Eridanus,Chi Eridan,χ,NA,7,NA,11937,9007,3.69,2.48,57,G5IV
+Eridanus,Tau4 Eridan,τ,16,81,NA,20720,15474,3.70,−0.79,258,NA
+Eridanus,Epsilon Eridan,ε,18,101,NA,22049,16537,3.72,6.18,10,K2V
+Eridanus,Upsilon² Eridani,υ,52,251,NA,29291,21393,3.81,−0.22,209,G8III
+Eridanus,53 Eridan,l,53,254,NA,29503,21594,3.86,1.23,109,K1III
+Eridanus,Eta Eridan,η,3,39,NA,18322,13701,3.89,0.83,133,NA
+Eridanus,Nu Eridan,ν,48,250,NA,29248,21444,3.93,−2.34,586,B2III SB
+Eridanus,Upsilon3 Eridan,υ,43,219,NA,28028,20535,3.97,−0.64,273,K4III
+Eridanus,Mu Eridan,μ,57,266,NA,30211,22109,4.01,−2.05,532,B5IV
+Eridanus,Omicron1 Eridan,ο,38,185,NA,26574,19587,4.04,1.11,125,NA
+Eridanus,Tau3 Eridan,τ,11,56,NA,18978,14146,4.08,1.97,86,A4V
+Eridanus,Iota Eridan,ι,NA,19,NA,16815,12486,4.11,0.86,145,K0III
+Eridanus,HD 2416,g,NA,138,NA,24160,17874,4.17,0.13,210,G8III
+Eridanus,Tau6 Eridan,τ,27,128,NA,23754,17651,4.22,2.95,58,NA
+Eridanus,Kappa Eridan,κ,NA,16,NA,15371,11407,4.24,−1.81,528,B5IV
+Eridanus,Lambda Eridan,λ,69,293,NA,33328,23972,4.25,−4.40,1753,B2IVn
+Eridanus,82 Eridani,e,NA,82,NA,20794,15510,4.26,5.35,20,G8V
+Eridanus,Tau5 Eridan,τ,19,103,NA,22203,16611,4.26,−0.53,296,B9V
+Eridanus,HD 2407,f,NA,135,NA,24071,17797,4.30,0.83,161,NA
+Eridanus,Theta2 Eridani,θ,NA,49,NA,18623,13847,4.35,NA,161,NA
+Eridanus,Omega Eridan,ω,61,276,NA,31109,22701,4.36,0.15,227,A9IV
+Eridanus,Pi Eridan,π,26,127,NA,23614,17593,4.43,−1.49,497,M1III
+Eridanus,40 Eridan,ο,40,197,DY,26965,19849,4.43,5.92,16,K1V
+Eridanus,Tau1 Eridan,τ,1,22,NA,17206,12843,4.47,3.74,46,NA
+Eridanus,Upsilon1 Eridan,υ,50,243,NA,29085,21248,4.49,1.58,124,K0III
+Eridanus,HD 2266,y,NA,110,NA,22663,16870,4.57,0.43,219,K0III
+Eridanus,HD 2331,h,NA,124,NA,23319,17351,4.59,0.91,178,NA
+Eridanus,Tau9 Eridan,τ,36,161,NA,25267,18673,4.62,−0.41,331,Ap Si
+Eridanus,Tau8 Eridan,τ,33,149,NA,24587,18216,4.64,−0.72,385,B5V
+Eridanus,HD 2407,f,NA,136,NA,24072,NA,4.73,NA,NA,B9V
+Eridanus,HD 1675,s,NA,18,NA,16754,12413,4.74,1.74,130,A2V
+Eridanus,17 Eridan,v,17,97,NA,21790,16341,4.74,−0.60,380,B9Vs
+Eridanus,Tau2 Eridan,τ,2,30,NA,17824,13288,4.76,1.02,183,K0III
+Eridanus,Zeta Eridan,ζ,13,73,NA,20320,15197,4.80,1.97,120,A5m
+Eridanus,Psi Eridan,ψ,65,285,NA,32249,23364,4.80,−2.54,956,B3V
+Eridanus,39 Eridan,A,39,194,NA,26846,19777,4.87,0.86,206,K3III
+Eridanus,Xi Eridan,ξ,42,215,NA,27861,20507,5.17,1.14,208,A2V
+Eridanus,51 Eridan,c,51,252,NA,29391,21547,5.22,2.85,97,F0V
+Eridanus,Tau7 Eridan,τ,28,130,NA,23878,17717,5.24,0.63,272,A1V
+Eridanus,HD 1064,q,NA,5,NA,10647,7978,5.52,4.32,57,F8V
+Eridanus,HD 10360,p,NA,4,NA,10360,7751,5.76,6.21,27,K0V
+Eridanus,40 Eridan,ο,40,NA,NA,26976,NA,9.50,11.01,16,DA VII
+Fornax,Alpha Fornaci,α,NA,NA,NA,20010,14879,3.85,3.05,46,F8V
+Fornax,Beta Fornaci,β,NA,NA,NA,17652,13147,4.45,0.88,169,G8III
+Fornax,Nu Fornaci,ν,NA,NA,NA,12767,9677,4.68,−0.54,361,NA
+Fornax,Omega Fornaci,ω,NA,NA,NA,16046,11918,4.96,−0.76,453,B9V
+Fornax,Delta Fornaci,δ,NA,NA,NA,23227,17304,4.99,−1.77,733,B5III
+Fornax,Phi Fornaci,φ,NA,NA,NA,15427,11477,5.13,1.78,153,NA
+Fornax,Kappa Fornaci,κ,NA,NA,NA,14802,11072,5.19,3.48,71,G2V
+Fornax,Lambda2 Fornaci,λ,NA,NA,NA,16417,12186,5.78,3.74,83,G1V
+Gemini,Pollux ,β,78,NA,NA,62509,37826,1.16,1.09,34,K0III
+Gemini,Castor ,α,66,NA,NA,60179A,36850,1.90,1.05,52,A2Vm
+Gemini,Gamma Geminoru,γ,24,NA,NA,47105,31681,1.93,−0.60,105,A0IV
+Gemini,Mu Geminoru,μ,13,NA,NA,44478,30343,2.87,−1.39,232,NA
+Gemini,Castor ,α,66,NA,NA,60178,NA,2.88,NA,NA,NA
+Gemini,Epsilon Geminoru,ε,27,NA,NA,48329,32246,3.06,−4.15,903,G8Ib
+Gemini,Eta Geminoru,η,7,NA,NA,42995,29655,3.31,−1.84,349,M3III
+Gemini,Xi Geminoru,ξ,31,NA,NA,48737,32362,3.35,2.13,57,F5IV
+Gemini,Delta Geminoru,δ,55,NA,NA,56986,35550,3.50,2.22,59,NA
+Gemini,Kappa Geminoru,κ,77,NA,NA,62345,37740,3.57,0.35,143,G8III
+Gemini,Lambda Geminoru,λ,54,NA,NA,56537,35350,3.58,1.27,94,NA
+Gemini,Theta Geminoru,θ,34,NA,NA,50019,33018,3.60,−0.30,197,A3III
+Gemini,Iota Geminoru,ι,60,NA,NA,58207,36046,3.78,0.85,126,NA
+Gemini,Zeta Geminoru,ζ,43,NA,NA,52973,34088,4.01,−3.76,1168,G1Ib
+Gemini,Upsilon Geminoru,υ,69,NA,NA,60522,36962,4.06,−0.28,240,K5III
+Gemini,Nu Geminoru,ν,18,NA,NA,45542,30883,4.13,−1.81,502,B6III
+Gemini,Rho Geminoru,ρ,62,NA,NA,58946,36366,4.16,2.82,60,NA
+Gemini,Sigma Geminoru,σ,75,NA,NA,62044,37629,4.23,1.36,122,K1III SB
+Gemini,Tau Geminoru,τ,46,NA,NA,54719,34693,4.41,−0.42,302,K2III
+Gemini,38 Geminoru,e,38,NA,NA,50635,33202,4.71,2.48,91,F0Vp
+Gemini,Omicron Geminoru,ο,71,NA,NA,61110,37265,4.89,1.46,158,F3III
+Gemini,81 Geminoru,g,81,NA,NA,62721,37908,4.89,−0.21,341,K5III
+Gemini,Chi Geminoru,χ,NA,NA,NA,66216,39424,4.94,0.45,258,K2III
+Gemini,Phi Geminoru,φ,83,NA,NA,64145,38538,4.97,0.51,254,A3V
+Gemini,Nu Geminoru,ν,18,NA,NA,257937,NA,8.00,NA,NA,NA
+Gemini,Castor ,α,66,NA,YY,60179C,NA,9.64,8.79,52,NA
+Grus,Alpha Grui,α,NA,NA,NA,209952,109268,1.73,−0.73,101,B7IV
+Grus,Beta Grui,β,NA,NA,NA,214952,112122,2.07,−1.52,170,M5III
+Grus,Gamma Grui,γ,NA,NA,NA,207971,108085,3.00,−0.97,203,B8III
+Grus,Epsilon Grui,ε,NA,NA,NA,215789,112623,3.49,0.49,130,A3V
+Grus,Iota Grui,ι,NA,NA,NA,218670,114421,3.88,0.11,185,K0III SB
+Grus,Delta1 Grui,δ,NA,NA,NA,213009,110997,3.97,−0.82,296,NA
+Grus,Zeta Grui,ζ,NA,NA,NA,217364,113638,4.11,1.42,112,G8III
+Grus,Delta2 Grui,δ,NA,NA,NA,213080,111043,4.12,−0.87,325,NA
+Grus,Theta Grui,θ,NA,NA,NA,218227,114131,4.28,1.23,133,NA
+Grus,Lambda Grui,λ,NA,NA,NA,209688,109111,4.47,0.07,247,M0III
+Grus,Mu1 Grui,μ,NA,NA,NA,211088,109908,4.79,0.26,262,NA
+Grus,Rho Grui,ρ,NA,NA,NA,215104,112203,4.84,0.68,222,K0III
+Grus,Eta Grui,η,NA,NA,NA,215369,112374,4.84,−0.57,394,K2IIICNIV
+Grus,Mu2 Grui,μ,NA,NA,NA,211202,109973,5.11,0.78,240,G8III
+Grus,Xi Grui,ξ,NA,NA,NA,204783,106327,5.29,−0.06,383,K0III
+Grus,Kappa Grui,κ,NA,NA,NA,217902,113957,5.37,−0.02,390,K5III
+Grus,Nu Grui,ν,NA,NA,NA,212953,110936,5.47,0.94,262,G8III
+Grus,Omicron Grui,ο,NA,NA,NA,220729,115713,5.53,3.01,104,F4V
+Grus,Phi Grui,φ,NA,NA,NA,219693,115054,5.54,2.84,113,F5V
+Grus,Pi2 Grui,π,NA,NA,NA,212132,110506,5.62,2.58,132,NA
+Grus,Upsilon Grui,υ,NA,NA,NA,218242,114132,5.62,0.84,294,A0V
+Grus,Tau3 Grui,τ,NA,NA,NA,216823,113307,5.72,1.11,272,NA
+Grus,Sigma2 Grui,σ,NA,NA,NA,214150,111643,5.85,1.71,219,A1V
+Grus,Tau1 Grui,τ,NA,NA,NA,216435,113044,6.03,3.42,109,G3IV
+Grus,Sigma1 Grui,σ,NA,NA,NA,214085,111594,6.28,2.07,226,A3Vn
+Grus,Pi1 Grui,π,NA,NA,NA,212087,110478,6.42,0.50,498,NA
+Hercules,Beta Herculi,β,27,NA,NA,148856,80816,2.78,−0.50,148,G8III
+Hercules,Zeta Herculi,ζ,40,NA,NA,150680,81693,2.81,2.64,35,F9IV
+Hercules,Delta Herculi,δ,65,NA,NA,156164,84379,3.12,1.21,78,A3IVv SB
+Hercules,Pi Herculi,π,67,NA,NA,156283,84380,3.16,−2.10,367,K3IIvar
+Hercules,Alpha Herculi,α,64,NA,NA,156014,84345,3.31,−2.04,382,M5IIvar
+Hercules,Mu Herculi,μ,86,NA,NA,161797,86974,3.42,3.80,27,G5IV
+Hercules,Eta Herculi,η,44,NA,NA,150997,81833,3.48,0.80,112,NA
+Hercules,Xi Herculi,ξ,92,NA,NA,163993,87933,3.70,0.61,135,K0III
+Hercules,Gamma Herculi,γ,20,NA,NA,147547,80170,3.74,−0.15,195,A9III
+Hercules,Iota Herculi,ι,85,NA,NA,160762,86414,3.82,−2.09,495,B3V SB
+Hercules,Omicron Herculi,ο,103,NA,NA,166014,88794,3.84,−1.30,347,NA
+Hercules,Theta Herculi,θ,91,NA,NA,163770,87808,3.86,−2.70,669,K1IIvar
+Hercules,Tau Herculi,τ,22,NA,NA,147394,79992,3.91,−1.01,314,B5IV
+Hercules,Epsilon Herculi,ε,58,NA,NA,153808,83207,3.92,0.43,163,A0V
+Hercules,Rho Herculi,ρ,75,NA,NA,157778,85112,4.15,−1.30,401,NA
+Hercules,Sigma Herculi,σ,35,NA,NA,149630,81126,4.20,−0.63,302,B9Vvar
+Hercules,Phi Herculi,φ,11,NA,NA,145389,79101,4.23,0.00,228,NA
+Hercules,Lambda Herculi,λ,76,NA,NA,158899,85693,4.41,−0.85,367,K3IIIvar
+Hercules,Nu Herculi,ν,94,NA,NA,164136,87998,4.41,−2.53,795,F2II
+Hercules,Rho Herculi,ρ,75,NA,NA,157779,NA,4.52,NA,NA,NA
+Hercules,Omega Herculi,ω,24,NA,NA,148112,80463,4.57,0.28,235,B9p Cr
+Hercules,Chi Herculi,χ,1,NA,NA,142373,77760,4.60,3.60,52,F9V
+Hercules,69 Herculi,e,69,NA,NA,156729,84606,4.64,0.96,178,A2V
+Hercules,Upsilon Herculi,υ,6,NA,NA,144206,78592,4.72,−0.59,376,B9III
+Hercules,68 Herculi,u,68,NA,NA,156633,84573,4.80,−2.32,865,NA
+Hercules,30 Herculi,g,30,NA,NA,148783,80704,4.83,−0.39,361,NA
+Hercules,29 Herculi,h,29,NA,NA,149161,81008,4.84,−0.10,317,K4III
+Hercules,104 Herculi,A,104,NA,NA,167006,89172,4.96,−1.37,601,M3III
+Hercules,Kappa Herculi,κ,7,NA,NA,145001,79043,5.00,−0.38,388,G8III
+Hercules,99 Herculi,b,99,NA,NA,165908,88745,5.05,4.08,51,F7V
+Hercules,45 Herculi,l,45,16,V776,151525,82216,5.22,−0.53,460,NA
+Hercules,72 Herculi,w,72,NA,NA,157214,84862,5.38,4.59,47,G0V
+Hercules,Kappa Herculi,κ,7,NA,NA,145000,79045,6.25,0.45,471,K1III
+Horologium,Alpha Horologi,α,NA,NA,NA,26967,19747,3.85,1.07,117,K1III
+Horologium,Delta Horologi,δ,NA,NA,NA,26612,19515,4.93,1.28,175,A9V
+Horologium,Beta Horologi,β,NA,NA,NA,18866,13884,4.98,0.07,313,A5III
+Horologium,Mu Horologi,μ,NA,NA,NA,19319,14240,5.12,1.99,138,F0IV
+Horologium,Zeta Horologi,ζ,NA,NA,NA,16920,12484,5.21,1.77,159,F4IV
+Horologium,Nu Horologi,ν,NA,NA,NA,17848,13141,5.25,1.73,165,A2V
+Horologium,Eta Horologi,η,NA,NA,NA,16555,12225,5.30,2.06,145,A6V
+Horologium,Lambda Horologi,λ,NA,NA,NA,15233,11258,5.36,1.91,160,F2III
+Horologium,Iota Horologi,ι,NA,NA,NA,17051,12653,5.40,4.22,56,G3IV
+Horologium,Gamma Horologi,γ,NA,NA,NA,17504,12871,5.73,2.03,179,NA
+Hydra,Alphar,α,30,140,NA,81797,46390,1.99,−1.69,177,K3III
+Hydra,Gamma Hydra,γ,46,345,NA,115659,64962,2.99,−0.05,132,G8III
+Hydra,Zeta Hydra,ζ,16,77,NA,76294,43813,3.11,−0.21,151,NA
+Hydra,Nu Hydra,ν,NA,254,NA,93813,52943,3.11,−0.03,138,NA
+Hydra,Pi Hydra,π,49,368,NA,123123,68895,3.25,0.79,101,K2III
+Hydra,Epsilon Hydra,ε,11,59,NA,74874,43109,3.38,0.29,135,NA
+Hydra,Xi Hydra,ξ,NA,288,NA,100407,56343,3.54,0.55,129,G8III
+Hydra,Lambda Hydra,λ,41,201,NA,88284,49841,3.61,0.88,115,K0III
+Hydra,Mu Hydra,μ,42,221,NA,90432,51069,3.83,−0.58,248,K4III
+Hydra,Theta Hydra,θ,22,108,NA,79469,45336,3.89,0.91,129,NA
+Hydra,Iota Hydra,ι,35,170,NA,83618,47431,3.90,−0.74,276,K3IIIvar
+Hydra,30 Monoceroti,C,(30),19,NA,71155,41307,3.91,0.99,125,A0V
+Hydra,Upsilon1 Hydra,υ,39,178,NA,85444,48356,4.11,−0.51,273,NA
+Hydra,Delta Hydra,δ,4,36,NA,73262,42313,4.14,0.44,179,A1Vnn
+Hydra,Beta Hydra,β,NA,301,NA,103192,57936,4.29,−0.96,365,Ap Si
+Hydra,Eta Hydra,η,7,49,NA,74280,42799,4.30,−1.48,466,NA
+Hydra,12 Hydra,D,12,60,NA,74918,43067,4.32,0.11,227,G8III
+Hydra,Rho Hydra,ρ,13,64,NA,75137,43234,4.35,−0.72,337,A0Vn
+Hydra,58 Hydra,E,58,387,NA,130694,72571,4.42,−0.44,305,K3III
+Hydra,Sigma Hydra,σ,5,42,NA,73471,42402,4.45,−0.72,352,K2III
+Hydra,Tau Hydra,τ,32,152,NA,82446,46776,4.54,−1.20,459,A3V
+Hydra,Tau Hydra,τ,31,145,NA,81997,46509,4.59,3.43,56,F6V
+Hydra,Upsilon2 Hydra,υ,40,194,NA,87504,49402,4.60,−0.05,277,B8V
+Hydra,31 Monocerotis,F,(31),51,NA,74395,42835,4.63,−1.71,604,G2Ib
+Hydra,Omicron Hydra,ο,NA,293,NA,101431,56922,4.70,−1.21,495,B9V
+Hydra,HD 8179,G,NA,141,NA,81799,46371,4.72,1.06,176,K1III
+Hydra,HD 8395,I,NA,174,NA,83953,47522,4.76,−1.16,497,B5V
+Hydra,51 Hydra,k,51,375,NA,125932,70306,4.78,1.14,175,K3III
+Hydra,27 Hydra,P,27,124,NA,80586,45811,4.80,0.43,243,NA
+Hydra,Phi Hydra,"φ, φ",NA,242,NA,92214,52085,4.91,0.72,225,G8III
+Hydra,Chi1 Hydra,χ,NA,264,NA,96202,54204,4.92,1.73,142,NA
+Hydra,Psi Hydra,ψ,45,341,NA,114149,64166,4.94,0.69,231,K0III
+Hydra,52 Hydra,l,52,379,NA,126769,70753,4.97,−0.56,415,NA
+Hydra,6 Hydra,a,6,44,NA,73840,42509,4.98,−0.57,419,K3III
+Hydra,Omega Hydra,ω,18,95,NA,77996,44659,4.99,−2.86,1212,NA
+Hydra,Kappa Hydra,κ,38,173,NA,83754,47452,5.07,−0.92,515,NA
+Hydra,Chi2 Hydra,χ,NA,265,NA,96314,54255,5.69,−1.26,799,B8V
+Hydra,Phi2 Hydra,φ,NA,234,NA,91880,51905,6.01,−1.35,967,M1III
+Hydra,Phi1 Hydra,φ,43,NA,NA,91369,51614,7.62,3.25,244,G2V
+Hydrus,Beta Hydr,β,NA,NA,NA,2151,2021,2.79,3.45,24,G2IV
+Hydrus,Alpha Hydr,α,NA,NA,NA,12311,9236,2.86,1.16,71,F0V
+Hydrus,Gamma Hydr,γ,NA,NA,NA,24512,17678,3.26,−0.83,214,M2III
+Hydrus,Delta Hydr,δ,NA,NA,NA,15008,11001,4.08,0.99,135,A3V
+Hydrus,Epsilon Hydr,ε,NA,NA,NA,16978,12394,4.12,0.76,153,B9III
+Hydrus,Eta² Hydri,η,NA,NA,NA,11977,8928,4.68,0.57,217,G5III
+Hydrus,Nu Hydr,ν,NA,NA,NA,18293,13244,4.76,−0.26,329,K3III
+Hydrus,Zeta Hydr,ζ,NA,NA,NA,17566,12876,4.83,0.05,295,NA
+Hydrus,Eta1 Hydr,η,NA,NA,NA,11733,8751,6.77,−0.03,748,B9V
+Indus,Alpha Ind,α,NA,NA,NA,196171,101772,3.11,0.65,101,K0III
+Indus,Beta Ind,β,NA,NA,NA,198700,103227,3.67,−2.66,603,K0III
+Indus,Theta Ind,θ,NA,NA,NA,202730,105319,4.39,2.02,97,A5V
+Indus,Delta Ind,δ,NA,NA,NA,208450,108431,4.40,0.63,185,F0IV
+Indus,Eta Ind,η,NA,NA,NA,197157,102333,4.51,2.59,79,NA
+Indus,Epsilon Ind,ε,NA,NA,NA,209100,108870,4.69,6.89,12,K5V
+Indus,Zeta Ind,ζ,NA,NA,NA,198048,102790,4.90,−0.57,404,K5III
+Indus,Rho Ind,ρ,NA,NA,NA,216437,113137,6.04,3.92,86,NA
+Lacerta,Alpha Lacerta,α,7,NA,NA,213558,111169,3.76,1.28,102,A1V
+Lacerta,Beta Lacerta,β,3,NA,NA,212496,110538,4.42,0.84,170,G9III
+Leo,Regulu,α,32,NA,NA,87901,49669,1.36,−0.52,77,B7V
+Leo,Gamma Leoni,γ,41,NA,NA,89484,50583,2.01,−0.92,126,K0III
+Leo,Denebol,β,94,NA,NA,102647,57632,2.14,1.92,36,A3Vvar
+Leo,Delta Leoni,δ,68,NA,NA,97603,54872,2.56,1.32,58,A4V
+Leo,Epsilon Leoni,ε,17,NA,NA,84441,47908,2.97,−1.46,251,G0II
+Leo,Theta Leoni,θ,70,NA,NA,97633,54879,3.33,−0.35,178,A2V
+Leo,Zeta Leoni,ζ,36,NA,NA,89025,50335,3.43,−1.08,260,F0III
+Leo,Eta Leoni,η,30,NA,NA,87737,49583,3.48,−5.60,2131,A0Ib
+Leo,Omicron Leoni,ο,14,NA,NA,83808,47508,3.52,0.43,135,NA
+Leo,Omicron Leoni,ο,14,NA,NA,83809,NA,3.70,NA,NA,NA
+Leo,Gamma Leoni,γ,41,NA,NA,89485,NA,3.80,NA,NA,NA
+Leo,Rho Leoni,ρ,47,14,NA,91316,51624,3.84,−7.38,5719,B1Ib SB
+Leo,Mu Leoni,μ,24,NA,NA,85503,48455,3.88,0.83,133,K0III
+Leo,Iota Leoni,ι,78,NA,NA,99028,55642,4.00,2.08,79,F2IV SB
+Leo,Sigma Leoni,σ,77,46,NA,98664,55434,4.05,−0.04,214,NA
+Leo,Upsilon Leoni,υ,91,69,NA,100920,56647,4.30,0.61,178,G9III
+Leo,Lambda Leoni,λ,4,NA,NA,82308,46750,4.32,−0.75,336,K5IIIvar
+Leo,31 Leoni,A,31,NA,NA,87837,49637,4.39,−0.23,274,K4III
+Leo,60 Leoni,b,60,NA,NA,95608,53954,4.42,1.53,124,A1m
+Leo,Phi Leoni,φ,74,43,NA,98058,55084,4.45,0.56,195,A7IVn
+Leo,Kappa Leoni,κ,1,NA,NA,81146,46146,4.47,0.39,213,K2III
+Leo,Chi Leoni,χ,63,33,NA,96097,54182,4.62,2.31,94,NA
+Leo,Pi Leoni,π,29,10,NA,86663,49029,4.68,−1.35,525,M2III
+Leo,61 Leoni,p,61,28,NA,95578,53907,4.73,−1.26,514,K5III
+Leo,87 Leoni,e,87,62,NA,99998,56127,4.77,−1.57,604,K4III
+Leo,58 Leoni,d,58,26,NA,95345,53807,4.84,−0.26,342,K1III
+Leo,Tau Leoni,τ,84,58,NA,99648,55945,4.95,−1.45,621,NA
+Leo,59 Leoni,c,59,27,NA,95382,53824,4.98,1.65,151,A5III
+Leo,Xi Leoni,ξ,5,NA,NA,82395,46771,4.99,0.67,238,K0IIIvar
+Leo,Nu Leoni,ν,27,NA,NA,86360,48883,5.26,−0.79,529,B9IV
+Leo,Omega Leoni,ω,2,2,NA,81858,46454,5.40,2.72,112,F9V
+Leo Minor,46 Leonis Minori,o,46,NA,NA,94264,53229,3.79,1.41,98,NA
+Leo Minor,Beta Leonis Minori,β,31,NA,NA,90537,51233,4.20,0.95,146,NA
+Lepus,Alpha Lepori,α,11,NA,NA,36673,25985,2.58,−5.40,1283,F0Ib
+Lepus,Beta Lepori,β,9,NA,NA,36079,25606,2.81,−0.63,159,G5II
+Lepus,Epsilon Lepori,ε,2,NA,NA,32887,23685,3.19,−1.02,227,K4III
+Lepus,Mu Lepori,μ,5,NA,NA,33904,24305,3.29,−0.47,184,NA
+Lepus,Zeta Lepori,ζ,14,NA,NA,38678,27288,3.55,1.89,70,A2Vann
+Lepus,Gamma Lepori,γ,13,NA,NA,38393,27072,3.59,3.83,29,F7V
+Lepus,Eta Lepori,η,16,NA,NA,40136,28103,3.71,2.82,49,F1V
+Lepus,Delta Lepori,δ,15,NA,NA,39364,27654,3.76,1.08,112,NA
+Lepus,Lambda Lepori,λ,6,NA,NA,34816,24845,4.29,−3.30,1076,NA
+Lepus,Kappa Lepori,κ,4,NA,NA,33949,24327,4.36,−1.81,559,B7V
+Lepus,Iota Lepori,ι,3,NA,NA,33802,24244,4.45,0.11,241,B8V
+Lepus,Theta Lepori,θ,18,NA,NA,41695,28910,4.67,1.08,170,A0V
+Lepus,Nu Lepori,ν,7,NA,NA,34863,24873,5.29,0.25,332,NA
+Libra,Beta Libra,β,27,NA,NA,135742,74785,2.61,−0.84,160,B8V
+Libra,Alpha Libra,α,9,NA,NA,130841,72622,2.75,0.88,77,A3IV
+Libra,Sigma Libra,σ,20,NA,NA,133216,73714,3.25,−1.51,292,NA
+Libra,Upsilon Libra,υ,39,NA,NA,139063,76470,3.60,−0.28,195,K3III
+Libra,Tau Libra,τ,40,NA,NA,139365,76600,3.66,−2.01,445,NA
+Libra,Gamma Libra,γ,38,NA,NA,138905,76333,3.91,0.56,152,K0III
+Libra,Theta Libra,θ,46,NA,NA,142198,77853,4.13,0.64,163,K0III
+Libra,Iota1 Libra,ι,24,NA,NA,134759,74392,4.54,−0.77,376,NA
+Libra,Kappa Libra,κ,43,NA,NA,139997,76880,4.75,−0.69,400,K5III
+Libra,Delta Libra,δ,19,NA,NA,132742,73473,4.91,0.06,304,NA
+Libra,Epsilon Libra,ε,31,NA,NA,137052,75379,4.92,2.37,106,F5IV
+Libra,Lambda Libra,λ,45,NA,NA,142096,77811,5.03,−0.16,356,B3V
+Libra,Alpha Libra,α,8,NA,NA,130819,72603,5.15,3.28,77,F3V
+Lupus,Alpha Lup,α,NA,NA,NA,129056,71860,2.30,−3.83,548,NA
+Lupus,Beta Lup,β,NA,NA,NA,132058,73273,2.68,−3.35,523,B2III
+Lupus,Gamma Lup,γ,NA,NA,NA,138690,76297,2.80,−3.40,567,B2IV
+Lupus,Delta Lup,δ,NA,NA,NA,136298,75141,3.22,−2.75,510,NA
+Lupus,Epsilon Lup,ε,NA,NA,NA,136504,75264,3.37,−2.58,504,NA
+Lupus,Zeta Lup,ζ,NA,NA,NA,134505,74395,3.41,0.65,116,G8III
+Lupus,Eta Lup,η,NA,NA,NA,143118,78384,3.42,−2.48,493,NA
+Lupus,Iota Lup,ι,NA,NA,NA,125238,69996,3.55,−1.61,352,NA
+Lupus,Phi1 Lup,φ,NA,NA,NA,136422,75177,3.57,−1.43,326,K5III
+Lupus,Kappa1 Lup,κ,NA,NA,NA,134481,74376,3.88,0.14,182,B9V
+Lupus,Pi Lup,π,NA,NA,NA,133242,73807,3.91,−2.01,497,B5
+Lupus,Chi Lup,χ,5,NA,NA,141556,77634,3.97,−0.03,206,NA
+Lupus,Rho Lup,ρ,NA,NA,NA,128345,71536,4.05,−0.84,310,B5V
+Lupus,Lambda Lup,λ,NA,NA,NA,133955,74117,4.07,−1.41,406,B3V
+Lupus,Theta Lup,θ,NA,NA,NA,144294,78918,4.22,−1.28,411,NA
+Lupus,Mu Lup,μ,NA,NA,NA,135734,74911,4.27,−0.48,291,B8V
+Lupus,Omicron Lup,ο,NA,NA,NA,130807,72683,4.32,−1.16,408,B5IV
+Lupus,Tau2 Lup,τ,NA,NA,NA,126354,70576,4.33,−0.59,314,NA
+Lupus,Omega Lup,ω,NA,NA,NA,139127,76552,4.34,0.10,230,NA
+Lupus,2 Lup,f,2,NA,NA,135758,74857,4.35,−0.53,308,NA
+Lupus,Sigma Lup,σ,NA,NA,NA,127381,71121,4.44,−1.79,574,B2III
+Lupus,Phi2 Lup,φ,NA,NA,NA,136664,75304,4.54,−1.81,606,B4V
+Lupus,KT Lup,d,NA,NA,KT,138769,76371,4.55,−1.07,434,B3IVp
+Lupus,Tau1 Lup,τ,NA,NA,NA,126341,70574,4.56,−2.95,1035,B2IV
+Lupus,HD 13705,k,NA,NA,NA,137058,75501,4.60,−0.70,374,A0V
+Lupus,HD 13966,g,NA,NA,NA,139664,76829,4.64,3.42,57,NA
+Lupus,Psi1 Lup,ψ,3,NA,NA,139521,76705,4.66,0.28,245,NA
+Lupus,Psi2 Lup,ψ,4,NA,NA,140008,76945,4.75,−0.67,396,B5V
+Lupus,HD 13468,e,NA,NA,NA,134687,74449,4.83,−0.89,454,B3IV
+Lupus,1 Lup,i,1,NA,NA,135153,74604,4.91,−2.81,1140,F3III
+Lupus,Nu1 Lup,ν,NA,NA,NA,136351,75206,4.99,2.32,111,F8V
+Lupus,Xi1 Lup,ξ,NA,NA,NA,142629,78105,5.14,1.21,199,A3V
+Lupus,Upsilon Lup,υ,NA,NA,NA,136933,75439,5.36,0.00,384,NA
+Lupus,Xi2 Lup,ξ,NA,NA,NA,142630,78106,5.59,1.70,196,B9V
+Lupus,Nu2 Lup,ν,NA,NA,NA,136352,75181,5.65,4.83,47,G2V
+Lupus,Kappa2 Lup,κ,NA,NA,NA,134482,74380,5.70,1.84,193,A3IV
+Lynx,Alpha Lynci,α,40,NA,NA,80493,45860,3.14,−1.02,222,K7IIIvar
+Lynx,16 Lynci,(ψ,16,NA,NA,50973,33485,4.90,0.71,225,A2Vn
+Lyra,Veg,α,3,NA,NA,172167,91262,0.03,0.58,25,A0Vvar
+Lyra,Gamma Lyra,γ,14,NA,NA,176437,93194,3.25,−3.20,634,B9III
+Lyra,Beta Lyra,β,10,NA,NA,174638,92420,3.52,−3.64,881,NA
+Lyra,Delta2 Lyra,δ,12,NA,NA,175588,92791,4.22,−2.98,898,M4IIvar
+Lyra,Kappa Lyra,κ,1,NA,NA,168775,89826,4.33,0.02,238,K2IIIvar
+Lyra,Zeta1 Lyra,ζ,6,NA,NA,173648,91971,4.34,0.97,154,Am
+Lyra,Theta Lyra,θ,21,NA,NA,180809,94713,4.35,−2.51,769,K0II
+Lyra,Eta Lyra,η,20,NA,NA,180163,94481,4.43,−3.09,1042,NA
+Lyra,Epsilon2 Lyrae,ε,5,NA,NA,173607,91926,4.60,1.13,160,A8Vn
+Lyra,Epsilon1 Lyrae,ε,4,NA,NA,173582,91919,4.67,1.19,162,F1V
+Lyra,Lambda Lyra,λ,15,NA,NA,176670,93279,4.94,−3.43,1538,K3III
+Lyra,Mu Lyra,μ,2,NA,NA,169702,90191,5.11,−0.55,441,A3IVn
+Lyra,Nu2 Lyra,"ν, ν",9,NA,NA,174602,92405,5.22,0.90,238,A3V
+Lyra,Iota Lyra,ι,18,NA,NA,178475,93903,5.25,−1.78,832,B6IV
+Lyra,Epsilon2 Lyrae,ε,5,NA,NA,173608,NA,5.37,NA,NA,NA
+Lyra,Delta1 Lyra,δ,11,NA,NA,175426,92728,5.58,−2.02,1079,NA
+Lyra,Zeta2 Lyra,ζ,7,NA,NA,173649,91973,5.73,2.41,150,F0IVvar
+Lyra,Nu1 Lyra,ν,8,NA,NA,174585,92398,5.93,−1.52,1009,B3IV
+Lyra,Epsilon1 Lyrae,ε,4,NA,NA,173583,NA,6.02,NA,NA,NA
+Lyra,Beta Lyra,β,10,NA,NA,174664,NA,7.20,NA,NA,NA
+Lyra,Beta Lyra,β,10,NA,NA,174639,NA,13.40,NA,NA,NA
+Mensa,Alpha Mensa,α,NA,NA,NA,43834,29271,5.08,5.05,33,G5V
+Mensa,Gamma Mensa,γ,NA,NA,NA,37763,25918,5.18,2.73,101,K4III
+Mensa,Beta Mensa,β,NA,NA,NA,33285,23467,5.30,−1.17,642,G8III
+Mensa,Eta Mensa,η,NA,NA,NA,32440,22871,5.47,−1.23,712,K6III
+Mensa,Mu Mensa,μ,NA,NA,NA,30612,21949,5.53,−0.32,483,B9IV
+Mensa,Zeta Mensa,ζ,NA,NA,NA,50506,31897,5.61,0.14,404,A5III
+Mensa,Pi Mensa,π,NA,NA,NA,39091,26394,5.65,4.35,59,G3IV
+Mensa,Delta Mensa,δ,NA,NA,NA,28525,20049,5.67,0.19,408,NA
+Mensa,Lambda Mensa,λ,NA,NA,NA,39810,27369,6.54,1.17,386,K0III
+Microscopium,Gamma Microscopi,γ,NA,NA,NA,199951,103738,4.67,0.49,223,G8III
+Microscopium,Epsilon Microscopi,ε,NA,NA,NA,202627,105140,4.71,1.19,165,A0V
+Microscopium,Theta1 Microscopi,θ,NA,NA,NA,203006,105382,4.80,1.01,186,A2p
+Microscopium,Alpha Microscopi,α,NA,NA,NA,198232,102831,4.89,−0.45,380,G8III
+Microscopium,Iota Microscopi,ι,NA,NA,NA,197937,102693,5.11,2.04,134,F1IV
+Microscopium,Nu Microscopi,ν,NA,NA,NA,195569,101477,5.12,1.01,216,K0III
+Microscopium,Zeta Microscopi,ζ,NA,NA,NA,200163,103882,5.32,2.58,115,F3V
+Microscopium,Eta Microscopi,η,NA,NA,NA,200702,104177,5.55,−1.73,931,K3III
+Microscopium,Delta Microscopi,δ,NA,NA,NA,200718,104148,5.69,0.65,332,NA
+Microscopium,Theta2 Microscopi,θ,NA,NA,NA,203585,105696,5.76,0.00,463,A0III
+Microscopium,Beta Microscopi,β,NA,NA,NA,198529,102989,6.06,−0.48,661,A1IV
+Monoceros,Alpha Monoceroti,α,26,NA,NA,61935,37447,3.94,0.71,144,K0III
+Monoceros,Gamma Monoceroti,γ,5,NA,NA,43232,29651,3.99,−2.49,644,K3III
+Monoceros,Delta Monoceroti,δ,22,NA,NA,55185,34769,4.15,−1.15,375,A2V
+Monoceros,Zeta Monoceroti,ζ,29,NA,NA,67594,39863,4.36,−4.41,1852,G2Ib
+Monoceros,Epsilon Monoceroti,ε,8,NA,NA,44769,30419,4.39,1.41,128,A5IV
+Monoceros,Beta Monoceroti,β,11,NA,NA,45725,30867,4.60,−2.03,691,B3Ve
+Monoceros,Beta Monoceroti,β,11,NA,NA,45726,NA,5.40,NA,NA,NA
+Monoceros,Beta Monoceroti,β,NA,NA,NA,45727,NA,5.60,NA,NA,NA
+Monoceros,Epsilon Monoceroti,ε,NA,NA,NA,44770,30422,6.72,4.79,79,F5V
+Musca,Alpha Musca,α,NA,NA,NA,109668,61585,2.69,−2.17,306,NA
+Musca,Beta Musca,β,NA,NA,NA,110879,62322,3.04,−1.86,311,NA
+Musca,Delta Musca,δ,NA,NA,NA,112985,63613,3.61,1.39,90.8,K2III
+Musca,Lambda Musca,λ,NA,NA,NA,102249,57363,3.68,0.66,128,A7III
+Musca,Gamma Musca,γ,NA,NA,NA,109026,61199,3.84,−1.14,324,B5V
+Musca,Epsilon Musca,ε,NA,NA,NA,106849,59929,4.06,−0.77,302,M5III
+Musca,Mu Musca,μ,NA,NA,NA,102584,57581,4.75,−0.86,432,K4III
+Musca,Eta Musca,η,NA,NA,NA,114911,64661,4.79,−0.68,405,B8V
+Musca,Iota1 Musca,ι,NA,NA,NA,116244,65468,5.04,0.85,225,K0III
+Musca,Zeta2 Musca,ζ,NA,NA,NA,107566,60320,5.15,0.09,336,Am
+Musca,Theta Musca,θ,NA,NA,NA,113904,64094,5.44,−12.17,~7000,NA
+Musca,Zeta1 Musca,ζ,NA,NA,NA,107567,60329,5.73,0.31,396,K0III
+Musca,Iota2 Musca,ι,NA,NA,NA,116579,65628,6.62,0.71,495,B9V
+Norma,Gamma2 Norma,γ,NA,NA,NA,146686,80000,4.01,1.05,127,G8III
+Norma,Epsilon Norma,ε,NA,NA,NA,147971,80582,4.46,−0.98,400,B4V
+Norma,Iota1 Norma,ι,NA,NA,NA,143474,78662,4.63,1.46,140,A7IV
+Norma,Eta Norma,η,NA,NA,NA,143546,78639,4.65,0.53,218,G8III
+Norma,Delta Norma,δ,NA,NA,NA,144197,78914,4.73,1.84,123,Am
+Norma,Mu Norma,μ,NA,NA,NA,149038,81122,4.91,−5.91,4657,B0Ia
+Norma,Kappa Norma,κ,NA,NA,NA,145397,79509,4.95,−0.69,438,G4III
+Norma,Gamma1 Norma,γ,NA,NA,NA,146143,79790,4.97,−3.25,1436,F9Ia
+Norma,Theta Norma,θ,NA,NA,NA,145842,79653,5.13,0.35,295,B8V
+Norma,Lambda Norma,λ,NA,NA,NA,146667,79963,5.44,−0.34,468,A3Vn
+Norma,Zeta Norma,ζ,NA,NA,NA,145361,79497,5.78,1.53,231,F2III
+Octans,Nu Octanti,ν,NA,NA,NA,205478,107089,3.76,2.10,69,K0III
+Octans,Beta Octanti,β,NA,NA,NA,214846,112405,4.13,0.96,140,NA
+Octans,Delta Octanti,δ,NA,NA,NA,124882,70638,4.31,−0.35,279,K2III
+Octans,Theta Octanti,θ,NA,NA,NA,224889,122,4.78,0.63,221,K2III
+Octans,Epsilon Octanti,ε,NA,NA,BO,210967,110256,5.09,0.51,268,M6III
+Octans,Alpha Octanti,α,NA,NA,NA,199532,104043,5.13,1.85,148,F4III
+Octans,Sigma Octanti,σ,NA,NA,NA,177482,104382,5.45,0.86,270,F0III
+Octans,Mu2 Octanti,μ,NA,NA,NA,196067,102125,6.51,3.31,142,G1V
+Ophiuchus,Alpha Ophiuch,α,55,NA,NA,159561,86032,2.08,1.30,47,A5III
+Ophiuchus,Eta Ophiuch,η,35,90,NA,155125,84012,2.43,0.37,84,NA
+Ophiuchus,Zeta Ophiuch,ζ,13,28,NA,149757,81377,2.54,−3.20,458,NA
+Ophiuchus,Delta Ophiuch,δ,1,7,NA,146051,79593,2.73,−0.86,170,M1III
+Ophiuchus,Beta Ophiuch,β,60,168,NA,161096,86742,2.76,0.76,82,K2III
+Ophiuchus,Kappa Ophiuch,κ,27,65,NA,153210,83000,3.19,1.09,86,K2IIIvar
+Ophiuchus,Epsilon Ophiuch,ε,2,9,NA,146791,79882,3.23,0.64,107,G8III
+Ophiuchus,Theta Ophiuch,θ,42,126,NA,157056,84970,3.27,−2.92,563,B2IV
+Ophiuchus,Nu Ophiuch,ν,64,186,NA,163917,88048,3.32,−0.03,153,K0III
+Ophiuchus,Gamma Ophiuch,γ,62,172,NA,161868,87108,3.75,1.43,95,A0V
+Ophiuchus,Lambda Ophiuch,λ,10,25,NA,148857,80883,3.82,0.28,166,A2V
+Ophiuchus,70 Ophiuch,p,70,197,NA,165341,88601,4.03,5.50,17,K0V SB
+Ophiuchus,44 Ophiuch,b,44,135,NA,157792,85340,4.16,2.11,84,NA
+Ophiuchus,Chi Ophiuch,χ,7,15,NA,148184,80569,4.22,−1.66,489,B2Vne
+Ophiuchus,45 Ophiuch,d,45,139,NA,157919,85423,4.28,1.61,111,F3III
+Ophiuchus,Phi Ophiuch,φ,8,24,NA,148786,80894,4.29,0.25,210,NA
+Ophiuchus,36 Ophiuch,A,36,103,NA,155885,84405,4.33,5.44,20,K1V
+Ophiuchus,Sigma Ophiuch,σ,49,143,NA,157999,85355,4.34,−3.44,1173,K3IIvar
+Ophiuchus,Iota Ophiuch,ι,25,NA,NA,152614,82673,4.39,0.11,234,B8V
+Ophiuchus,Xi Ophiuch,ξ,40,124,NA,156897,84893,4.39,3.19,57,NA
+Ophiuchus,Omega Ophiuch,ω,9,26,NA,148898,80975,4.45,0.80,175,Ap
+Ophiuchus,Psi Ophiuch,ψ,4,11,NA,147700,80343,4.48,0.79,178,K0III
+Ophiuchus,Rho Ophiuch,ρ,5,13,NA,147933,80473,4.57,−0.84,361,B2V
+Ophiuchus,Mu Ophiuch,μ,57,157,NA,159975,86284,4.58,−1.55,549,NA
+Ophiuchus,Upsilon Ophiuch,υ,3,18,NA,148367,80628,4.62,1.75,122,A3m
+Ophiuchus,Tau Ophiuch,τ,69,NA,NA,164764,88404,4.77,1.19,167,F5V
+Ophiuchus,51 Ophiuch,c,51,149,NA,158643,85755,4.78,−0.80,426,A0V
+Ophiuchus,36 Ophiuch,A,36,103,NA,155886,NA,5.07,NA,20,K0V
+Ophiuchus,Omicron Ophiuch,ο,39,112,NA,156349,84626,5.14,−0.09,363,NA
+Ophiuchus,Tau Ophiuch,τ,69,195,NA,164765,88404,5.24,NA,167,F2V
+Ophiuchus,53 Ophiuch,f,53,155,NA,159480,85998,5.80,0.70,342,A2V
+Ophiuchus,Rho Ophiuch,ρ,5,12,NA,147934,80473,5.92,NA,361,B2V
+Ophiuchus,36 Ophiuch,A,36,106,V2215,156026,84478,6.33,7.45,20,K5V
+Ophiuchus,Omicron Ophiuch,ο,39,113,NA,156350,84625,6.59,0.75,481,NA
+Orion,Rige,β,19,NA,NA,34085,24436,0.18,−6.69,773,NA
+Orion,Betelgeus,α,58,NA,NA,39801,27989,0.42,−6.02,643,M2Ib
+Orion,Bellatri,γ,24,NA,NA,35468,25336,1.64,−2.72,243,B2III
+Orion,Alnila,ε,46,NA,NA,37128,26311,1.69,−6.38,1342,B0Ia
+Orion,Alnita,ζ,50,NA,NA,37742,26727,1.88,-6.0,817,NA
+Orion,Saip,κ,53,NA,NA,38771,27366,2.07,−4.65,721,NA
+Orion,Mintak,δ,34,NA,NA,36486,25930,2.20,-5.8,916,NA
+Orion,Iota Orioni,ι,44,NA,NA,37043,26241,2.75,−5.30,1325,O9III
+Orion,Pi³ Orionis,π,1,NA,NA,30652,22449,3.19,3.67,26,F6V
+Orion,Eta Orioni,η,28,NA,NA,35411,25281,3.35,−3.86,901,NA
+Orion,Meiss,λ,39,NA,NA,36861,26207,3.47,-4.25,1055,O8III
+Orion,Tau Orioni,τ,20,NA,NA,34503,24674,3.59,−2.56,554,B5III
+Orion,Pi4 Orioni,π,3,NA,NA,30836,22549,3.68,−4.25,1259,B2III
+Orion,Alnita,ζ,50,NA,NA,37743,26727,3.70,-3.29,817,NA
+Orion,Pi5 Orioni,π,8,NA,NA,31237,22797,3.71,−4.36,1342,B2III
+Orion,Sigma Orioni,σ,48,NA,NA,37468,26549,3.77,−3.96,1148,NA
+Orion,Omicron2 Orioni,ο,9,NA,NA,31421,22957,4.06,0.48,169,K2III
+Orion,Phi Orioni,φ,40,NA,NA,37160,26366,4.09,1.33,116,NA
+Orion,Mu Orioni,μ,61,NA,NA,40932,28614,4.12,0.78,152,NA
+Orion,29 Orioni,e,29,NA,NA,35369,25247,4.13,0.49,174,G8III
+Orion,32 Orioni,A,32,NA,NA,36267,25813,4.20,−0.53,288,B5V
+Orion,Pi2 Orioni,π,2,NA,NA,30739,22509,4.35,0.48,194,A1Vn
+Orion,Phi Orioni,φ,37,NA,NA,36822,26176,4.39,−3.01,985,NA
+Orion,Chi¹ Orionis,χ,54,NA,NA,39587,27913,4.39,4.67,28,G0V
+Orion,Nu Orioni,ν,67,NA,NA,41753,29038,4.42,−1.65,534,B3IV
+Orion,Xi Orioni,ξ,70,NA,NA,42560,29426,4.45,−2.00,634,B3IV
+Orion,Rho Orioni,ρ,17,NA,NA,33856,24331,4.46,−0.65,344,NA
+Orion,Pi6 Orioni,π,10,NA,NA,31767,23123,4.47,−2.86,953,K2IIvar
+Orion,Omega Orioni,ω,47,NA,NA,37490,26594,4.50,−3.98,1622,B3IIIe
+Orion,42 Orioni,c,42,NA,NA,37018,26237,4.58,−2.33,786,NA
+Orion,Psi Orioni,ψ,30,NA,NA,35715,25473,4.59,−3.60,1417,B2IV
+Orion,Upsilon Orioni,υ,36,NA,NA,36512,25923,4.62,−3.76,1545,B0V
+Orion,Pi1 Orioni,π,7,NA,NA,31295,22845,4.64,1.80,121,A0V
+Orion,Chi2 Orioni,χ,62,NA,NA,41117,28716,4.64,-7.6,1801,B2Ia
+Orion,Omicron1 Orioni,ο,4,NA,NA,30959,22667,4.71,−1.39,542,M3Sv
+Orion,22 Orioni,o,22,NA,NA,35039,25044,4.72,−3.26,1289,NA
+Orion,49 Orioni,d,49,NA,NA,37507,26563,4.77,1.41,153,A4V
+Orion,25 Orioni,ψ,25,NA,V1086,35439,25302,4.89,−2.77,1109,NA
+Orion,51 Orioni,b,51,NA,NA,37984,26885,4.90,0.07,302,K1III
+Orion,69 Orioni,f,69,NA,NA,42545,29434,4.95,−1.93,774,B5Vn
+Orion,Theta2 Orioni,θ,43,NA,NA,37041,26235,4.98,−3.84,1895,NA
+Orion,23 Orioni,m,23,NA,NA,35149,25142,5.00,−2.35,962,B1V
+Orion,Theta1 Orionis ,θ,41,NA,NA,37022,26221,5.13,-4.9,1600,O6Vpe
+Orion,Meiss,λ,39,NA,NA,36862,26207,6.32,-1.94,1055,NA
+Orion,Theta2 Orioni,θ,43,NA,NA,37042,NA,6.38,NA,1895,NA
+Orion,Sigma Orioni,σ,48,NA,V1030,37479,NA,6.61,NA,1148,B2Vp
+Orion,Sigma Orioni,σ,48,NA,NA,37468,NA,6.62,NA,1148,B2V
+Orion,Theta1 Orionis ,θ,41,NA,NA,37020,26220,6.73,NA,1600,NA
+Orion,Mintak,δ,34,NA,NA,36485,25930,6.83,NA,916,B2V
+Orion,Sigma Orioni,σ,48,NA,NA,NA,NA,8.79,NA,1148,A2V
+Pavo,Alpha Pavoni,α,NA,NA,NA,193924,100751,1.94,−1.81,183,B2IV
+Pavo,Beta Pavoni,β,NA,NA,NA,197051,102395,3.42,0.29,137,A5IV
+Pavo,Delta Pavoni,δ,NA,NA,NA,190248,99240,3.55,4.62,20,NA
+Pavo,Eta Pavoni,η,NA,NA,NA,160635,86929,3.61,−1.67,371,K1III
+Pavo,Epsilon Pavoni,ε,NA,NA,NA,188228,98495,3.97,1.41,106,A0V
+Pavo,Zeta Pavoni,ζ,NA,NA,NA,171759,91792,4.01,−0.03,210,K2III
+Pavo,Gamma Pavoni,γ,NA,NA,NA,203608,105858,4.21,4.39,30,F6V
+Pavo,Lambda Pavoni,λ,NA,NA,NA,173948,92609,4.22,−4.50,1811,NA
+Pavo,Pi Pavoni,π,NA,NA,NA,165040,88866,4.33,1.19,138,Am
+Pavo,Xi Pavoni,ξ,NA,NA,NA,168339,90098,4.35,−1.20,420,M1III SB
+Pavo,Kappa Pavoni,κ,NA,NA,NA,174694,93015,4.40,−1.71,543,NA
+Pavo,Nu Pavoni,ν,NA,NA,NA,169978,90797,4.63,−1.20,479,B8III
+Pavo,Phi1 Pavoni,φ,NA,NA,NA,195627,101612,4.75,2.55,90,F1III
+Pavo,Rho Pavoni,ρ,NA,NA,NA,195961,101773,4.85,0.98,195,NA
+Pavo,Phi2 Pavoni,φ,NA,NA,NA,196378,101983,5.11,3.19,79,F8V
+Pavo,Theta Pavoni,θ,NA,NA,NA,173168,92294,5.71,1.51,226,A9V
+Pegasus,Epsilon Pegas,ε,8,11,NA,206778,107315,2.38,−4.19,672,K2Ibvar
+Pegasus,Beta Pegas,β,53,NA,NA,217906,113881,2.44,−1.49,199,NA
+Pegasus,Alpha Pegas,α,54,NA,NA,218045,113963,2.49,−0.67,140,NA
+Pegasus,Gamma Pegas,γ,88,NA,NA,886,1067,2.83,−2.22,333,B2IV
+Pegasus,Eta Pegas,η,44,NA,NA,215182,112158,2.93,−1.16,215,NA
+Pegasus,Zeta Pegas,ζ,42,NA,NA,214923,112029,3.41,−0.62,208,NA
+Pegasus,Mu Pegas,μ,48,NA,NA,216131,112748,3.51,0.74,117,M2III
+Pegasus,Theta Pegas,θ,26,25,NA,210418,109427,3.52,1.16,97,A2V
+Pegasus,Iota Pegas,ι,24,NA,NA,210027,109176,3.77,3.42,38,F5V
+Pegasus,Lambda Pegas,λ,47,NA,NA,215665,112440,3.97,−1.45,395,NA
+Pegasus,Kappa Pegas,κ,10,NA,NA,206901,107354,4.14,1.40,115,F5IV
+Pegasus,Xi Pegas,ξ,46,NA,NA,215648,112447,4.20,3.15,53,F7V
+Pegasus,Pi Pegas,π,29,NA,NA,210459,109410,4.28,−0.16,252,F5III
+Pegasus,Upsilon Pegas,υ,68,NA,NA,220657,115623,4.42,0.79,173,F8IV
+Pegasus,Tau Pegas,τ,62,NA,NA,220061,115250,4.58,1.03,167,A5V
+Pegasus,Psi Pegas,ψ,84,NA,NA,224427,118131,4.63,−0.98,432,M3III
+Pegasus,Chi Pegas,χ,89,NA,NA,1013,1168,4.79,−0.21,326,M2III
+Pegasus,Omicron Pegas,ο,43,NA,NA,214994,112051,4.80,−0.05,305,A1IV
+Pegasus,Nu Pegas,ν,22,20,NA,209747,109068,4.86,0.32,263,K4III
+Pegasus,Rho Pegas,ρ,50,40,NA,216735,113186,4.91,0.22,282,A1V
+Pegasus,Phi Pegas,φ,81,NA,NA,223768,117718,5.06,−0.58,437,M2III
+Pegasus,Sigma Pegas,σ,49,39,NA,216385,112935,5.16,3.02,88,F7IV
+Pegasus,Pi1 Pegas,π,27,NA,NA,210354,109352,5.58,0.89,283,NA
+Perseus,Alpha Perse,α,33,NA,NA,20902,15863,1.79,−4.50,592,F5Ib
+Perseus,Algo,β,26,NA,NA,19356,14576,2.09,−0.18,93,B8V
+Perseus,Zeta Perse,ζ,44,NA,NA,24398,18246,2.84,−4.55,982,B1Ib
+Perseus,Epsilon Perse,ε,45,NA,NA,24760,18532,2.90,−3.19,538,NA
+Perseus,Gamma Perse,γ,23,NA,NA,18925,14328,2.91,−1.57,256,NA
+Perseus,Gamma Perse,γ,23,NA,NA,18926,NA,3.00,NA,NA,NA
+Perseus,Delta Perse,δ,39,NA,NA,22928,17358,3.01,−3.04,528,B5III SB
+Perseus,Rho Perse,ρ,25,NA,NA,19058,14354,3.32,−1.67,325,M3IIIvar
+Perseus,Eta Perse,η,15,NA,NA,17506,13268,3.77,−4.28,1331,K3Ib comp SB
+Perseus,Nu Perse,ν,41,NA,NA,23230,17529,3.77,−2.39,556,F5IIvar
+Perseus,Kappa Perse,κ,27,NA,NA,19476,14668,3.79,1.11,112,K0III
+Perseus,Omicron Perse,ο,38,NA,NA,23180,17448,3.84,−4.44,1475,B1III
+Perseus,Tau Perse,τ,18,NA,NA,17878,13531,3.93,−0.48,248,NA
+Perseus,48 Perse,c,48,NA,MX,25940,19343,3.96,−2.19,553,B3Ve
+Perseus,Xi Perse,ξ,46,NA,NA,24912,18614,3.98,−4.70,1772,NA
+Perseus,Tau Perse,τ,18,NA,NA,17879,NA,4.00,NA,NA,NA
+Perseus,Phi Perse,φ,NA,NA,NA,10516,8068,4.01,−2.70,716,B2Vpe
+Perseus,Iota Perse,ι,NA,NA,NA,19373,14632,4.05,3.94,34,G0V
+Perseus,Theta Perse,θ,13,NA,NA,16895,12777,4.10,3.85,37,F7V
+Perseus,Mu Perse,μ,51,NA,NA,26630,19812,4.12,−2.61,723,NA
+Perseus,Lambda Perse,λ,47,NA,NA,25642,19167,4.25,−0.88,346,A0IVn
+Perseus,58 Perse,e,58,NA,NA,29094,21476,4.25,−2.22,642,G8II comp
+Perseus,Psi Perse,ψ,37,NA,NA,22192,16826,4.32,−2.34,700,B5Ve
+Perseus,Sigma Perse,σ,35,NA,NA,21552,16335,4.36,−0.81,353,K3III
+Perseus,HD 26961,b,NA,NA,NA,26961,20070,4.60,−0.35,318,A2V
+Perseus,Omega Perse,ω,28,NA,NA,19656,14817,4.61,−0.25,305,K1III
+Perseus,52 Perse,f,52,NA,NA,26673,19811,4.67,−1.75,627,G5II comp
+Perseus,Pi Perse,π,22,NA,NA,18411,13879,4.68,−0.32,325,A2Vn
+Perseus,HD 1897,k,NA,NA,NA,18970,14382,4.77,0.78,204,NA
+Perseus,53 Perse,d,53,NA,V469,27396,20354,4.80,−0.97,464,B4IV
+Perseus,32 Perse,l,32,NA,NA,20677,15648,4.96,1.57,155,A3V
+Perseus,40 Perse,o,40,NA,NA,22951,17313,4.97,−2.29,924,NA
+Perseus,4 Perse,g,4,NA,NA,12303,9505,4.99,−1.79,739,B8III
+Perseus,42 Perse,n,42,NA,NA,23848,17886,5.14,0.34,297,A3V
+Perseus,9 Perse,i,9,NA,V474,14489,11060,5.16,−3.83,2050,A2Ia
+Perseus,43 Perse,A,43,NA,NA,24546,18453,5.28,2.23,133,F5IV
+Perseus,7 Perse,χ,7,NA,NA,13994,10729,5.99,−0.70,710,G7III
+Perseus,57 Perse,m,57,NA,NA,28704,21242,6.09,2.04,211,F0V
+Phoenix,Alpha Phoenici,α,NA,NA,NA,2261,2081,2.40,0.52,77,NA
+Phoenix,Beta Phoenici,β,NA,NA,NA,6595,5165,3.32,−0.60,198,G8IIIvar
+Phoenix,Gamma Phoenici,γ,NA,NA,NA,9053,6867,3.41,−0.87,234,NA
+Phoenix,Epsilon Phoenici,ε,NA,NA,NA,496,765,3.88,0.71,140,K0III
+Phoenix,Kappa Phoenici,κ,NA,NA,NA,2262,2072,3.93,2.07,77,A7V
+Phoenix,Delta Phoenici,δ,NA,NA,NA,9362,7083,3.93,0.66,147,NA
+Phoenix,Zeta Phoenici,ζ,NA,NA,NA,6882,5348,3.94,−0.73,280,NA
+Phoenix,Eta Phoenici,η,NA,NA,NA,4150,3405,4.36,0.02,240,A0IV
+Phoenix,Psi Phoenici,ψ,NA,NA,NA,11695,8837,4.39,−0.58,321,M4III SB
+Phoenix,Mu Phoenici,μ,NA,NA,NA,3919,3245,4.59,0.19,247,G8III
+Phoenix,Iota Phoenici,ι,NA,NA,NA,221760,116389,4.71,0.07,273,A2V
+Phoenix,Lambda1 Phoenici,λ,NA,NA,NA,2834,2472,4.76,1.15,172,A0V
+Phoenix,Nu Phoenici,ν,NA,NA,NA,7570,5862,4.97,4.08,49,F8V
+Pictor,Alpha Pictori,α,NA,NA,NA,50241,32607,3.30,0.83,99,A7IV
+Pictor,Beta Pictori,β,NA,NA,NA,39060,27321,3.85,2.42,63,A5V
+Pictor,Gamma Pictori,γ,NA,NA,NA,39523,27530,4.50,0.87,174,K1III
+Pictor,Delta Pictori,δ,NA,NA,NA,42933,29276,4.72,−3.81,1655,NA
+Pictor,Eta2 Pictori,η,NA,NA,NA,33042,23649,5.05,−0.76,474,M2IIIvar
+Pictor,Lambda Pictori,λ,NA,NA,NA,30185,21914,5.30,0.19,343,NA
+Pictor,Eta1 Pictori,η,NA,NA,NA,32743,23482,5.37,3.28,85,F2V
+Pictor,Zeta Pictori,ζ,NA,NA,NA,35072,24829,5.44,2.65,118,NA
+Pictor,Iota Pictori,ι,NA,NA,NA,31203,22531,5.58,2.73,121,NA
+Pictor,Nu Pictori,ν,NA,NA,NA,45229,30342,5.60,2.09,164,Am
+Pictor,Mu Pictori,μ,NA,NA,NA,46860,31137,5.69,−1.04,724,B9V
+Pictor,Kappa Pictori,κ,NA,NA,NA,35580,25098,6.10,−0.71,749,NA
+Pictor,Theta Pictori,θ,NA,NA,NA,35860,25303,6.26,0.19,534,A0V
+Pictor,Iota Pictori,ι,NA,NA,NA,31204,22534,6.42,3.89,105,F0IV
+Pisces,Eta Pisciu,η,99,NA,NA,9270,7097,3.62,−1.16,294,G8III
+Pisces,Gamma Pisciu,γ,6,21,NA,219615,114971,3.70,0.68,131,G7III
+Pisces,Omega Pisciu,ω,28,56,NA,224617,118268,4.03,1.47,106,F4IV
+Pisces,Iota Pisciu,ι,17,39,NA,222368,116771,4.13,3.43,45,F7V
+Pisces,Omicron Pisciu,ο,110,127,NA,10761,8198,4.26,−0.23,258,K0III
+Pisces,Epsilon Pisciu,ε,71,103,NA,6186,4906,4.27,0.44,190,K0III
+Pisces,Theta Pisciu,θ,10,29,NA,220954,115830,4.27,0.83,159,K1III
+Pisces,Alpha Pisciu,α,113,NA,NA,12446,9487,4.33,NA,139,A0p
+Pisces,Delta Pisciu,δ,63,97,NA,4656,3786,4.44,−0.42,305,K5III
+Pisces,Nu Pisciu,ν,106,125,NA,10380,7884,4.45,−0.81,368,K3III
+Pisces,Beta Pisciu,β,4,14,NA,217891,113889,4.48,−1.42,492,B6Ve
+Pisces,Lambda Pisciu,λ,18,41,NA,222603,116928,4.49,2.04,101,A7V
+Pisces,Tau Pisciu,τ,83,NA,NA,7106,5586,4.51,1.03,162,NA
+Pisces,Xi Pisciu,ξ,111,132,NA,11559,8833,4.61,0.78,191,K0III SB
+Pisces,Chi Pisciu,χ,84,NA,NA,7087,5571,4.66,−0.99,439,K0III
+Pisces,Phi Pisciu,φ,85,NA,NA,7318,5742,4.67,−0.65,377,NA
+Pisces,Upsilon Pisciu,υ,90,NA,NA,7964,6193,4.74,−0.16,311,A3V
+Pisces,Mu Pisciu,μ,98,120,NA,9138,7007,4.84,−0.38,360,K4III
+Pisces,Kappa Pisciu,κ,8,27,NA,220825,115738,4.95,1.47,162,A0p
+Pisces,7 Pisciu,b,7,22,NA,220009,115227,5.05,−0.05,341,K2III
+Pisces,Zeta Pisciu,ζ,86,NA,NA,7344,5737,5.21,1.93,148,A7IV
+Pisces,Alpha Pisciu,α,113,137,NA,12447,NA,5.23,NA,NA,A3m
+Pisces,Psi¹ Piscium,ψ¹,74,NA,NA,6456,5131,5.33,1.01,238,A1Vn
+Pisces,Rho Pisciu,ρ,93,NA,NA,8723,6706,5.35,3.27,85,NA
+Pisces,Sigma Pisciu,σ,69,NA,NA,6118,4889,5.50,−0.02,414,NA
+Pisces,Pi Pisciu,π,102,NA,NA,9919,7535,5.54,2.89,110,F0V
+Pisces,Psi¹ Piscium,ψ¹,74,NA,NA,6457,5132,5.55,1.38,222,A0Vn
+Pisces,Psi² Piscium,ψ²,79,NA,NA,6695,5310,5.56,2.09,161,A3V
+Pisces,Psi³ Piscium,ψ³,81,NA,NA,6903,5454,5.57,0.11,403,G0III
+Pisces,Zeta Pisciu,ζ,86,113,NA,7345,5743,6.44,2.55,195,F7V
+Piscis Austrinus,Fomalhau,α,24,NA,NA,216956,113368,1.17,1.74,25,A3V
+Piscis Austrinus,Epsilon Piscis Austrin,ε,18,NA,NA,214748,111954,4.18,−2.61,744,B8V
+Piscis Austrinus,Delta Piscis Austrin,δ,23,NA,NA,216763,113246,4.20,0.61,170,G8III
+Piscis Austrinus,Beta Piscis Austrin,β,17,NA,NA,213398,111188,4.29,1.00,148,A1V
+Piscis Austrinus,Iota Piscis Austrin,ι,9,NA,NA,206742,107380,4.35,0.36,205,NA
+Piscis Austrinus,Gamma Piscis Austrin,γ,22,NA,NA,216336,112948,4.46,0.29,222,A0III
+Piscis Austrinus,Mu Piscis Austrin,μ,14,NA,NA,210049,109285,4.50,1.49,130,A2V
+Piscis Austrinus,Tau Piscis Austrin,τ,15,NA,NA,210302,109422,4.94,3.58,61,F6V
+Piscis Austrinus,Upsilon Piscis Austrin,υ,NA,NA,NA,210066,109289,4.99,−1.06,528,K4III
+Piscis Austrinus,Theta Piscis Austrin,θ,10,NA,NA,207155,107608,5.02,−0.06,339,A1V
+Piscis Austrinus,Pi Piscis Austrin,π,NA,NA,NA,217792,113860,5.12,2.84,93,A9V
+Piscis Austrinus,Eta Piscis Austrin,η,12,NA,NA,209014,108661,5.43,−2.03,1012,NA
+Piscis Austrinus,Lambda Piscis Austrin,λ,16,NA,NA,210934,109789,5.45,−0.51,508,B7V
+Piscis Austrinus,Zeta Piscis Austrin,ζ,NA,NA,NA,213296,111138,6.43,0.99,399,K1III
+Puppis,Zeta Puppi,ζ,NA,248,NA,66811,39429,2.21,−5.95,1399,O5Iaf
+Puppis,Pi Puppi,π,NA,82,NA,56855,35264,2.71,−4.92,1094,K3Ib
+Puppis,Rho Puppi,ρ,15,253,NA,67523,39757,2.83,1.41,63,F2mF5IIp
+Puppis,Tau Puppi,τ,NA,39,NA,50310,32768,2.94,−0.80,183,NA
+Puppis,Nu Puppi,ν,NA,20,NA,47670,31685,3.17,−2.39,423,B8III SB
+Puppis,Sigma Puppi,σ,NA,99,NA,59717,36377,3.25,−0.51,184,K5III SB
+Puppis,Xi Puppi,ξ,7,191,NA,63700,38170,3.34,−4.74,1347,G6Ia
+Puppis,C Puppi,c,NA,175,NA,63032,37819,3.62,−4.52,1387,K4III
+Puppis,HD 6444,a,NA,213,NA,64440,38414,3.71,−1.41,345,NA
+Puppis,3 Puppi,l,3,157,NA,62623,37677,3.94,−5.30,2280,A2Iab
+Puppis,HD 6392,P,NA,199,NA,63922,38164,4.10,−4.80,1964,B0III
+Puppis,11 Puppi,j,11,222,NA,65228,38835,4.20,−1.74,502,NA
+Puppis,HD 6476,J,NA,218,NA,64760,38518,4.22,−4.65,1940,NA
+Puppis,Omicron Puppi,ο,NA,183,NA,63462,38070,4.40,−5.00,2470,NA
+Puppis,L2 Puppi,L,NA,73,NA,56096,34922,4.42,0.50,198,M5e
+Puppis,HD 6914,h,NA,279,NA,69142,40326,4.42,−0.47,310,NA
+Puppis,NS Puppi,h,NA,267,NS,68553,40091,4.44,−4.36,1874,K4III
+Puppis,HD 7006,q,NA,289,NA,70060,40706,4.44,2.16,93,NA
+Puppis,QW Puppi,I,NA,71,QW,55892,34834,4.49,2.86,69,F0IV
+Puppis,QZ Puppi,b,NA,214,QZ,64503,38455,4.49,−1.98,640,B2V
+Puppis,K Puppi,k,NA,133,NA,61555,37229,4.50,−1.92,454,B6V
+Puppis,HD 6133,f,NA,127,NA,61330,37096,4.53,−0.67,358,NA
+Puppis,K Puppi,k,NA,134,NA,61556,NA,4.62,−1.81,462,B5IV
+Puppis,NV Puppi,v,NA,83,NV,57150,35363,4.65,−2.42,847,NA
+Puppis,HD 6086,p,NA,119,NA,60863,36917,4.65,0.46,225,B8V
+Puppis,PU Puppi,m,NA,128,NA,61429,37173,4.69,−1.45,551,B8IV
+Puppis,HD 6374,Q,NA,196,NA,63744,38089,4.69,0.48,227,K0III
+Puppis,HD 65456,χ,NA,225,NA,65456,38901,4.76,−3.47,1442,A7III
+Puppis,MX Puppi,r,NA,274,MX,68980,40274,4.78,−2.61,979,B2ne
+Puppis,HD 5489,A,NA,67,NA,54893,34495,4.83,−1.98,751,NA
+Puppis,HD 7055,w,NA,294,NA,70555,40945,4.83,−2.22,838,NA
+Puppis,HD 6183,d,NA,143,NA,61831,37297,4.84,−1.39,574,B3V
+Puppis,OU Puppi,L,NA,72,OU,56022,34899,4.87,1.14,181,Ap
+Puppis,HD 5381,H,NA,61,NA,53811,34059,4.92,1.07,192,A4IV
+Puppis,NW Puppi,v,NA,84,NW,57219,35406,5.11,−1.93,836,A0V
+Pyxis,Alpha Pyxidi,α,NA,NA,NA,74575,42828,3.68,−3.39,845,NA
+Pyxis,Beta Pyxidi,β,NA,NA,NA,74006,42515,3.97,−1.41,388,NA
+Pyxis,Gamma Pyxidi,γ,NA,NA,NA,75691,43409,4.02,−0.01,209,K3III
+Pyxis,Kappa Pyxidi,κ,NA,NA,NA,78541,44824,4.62,−1.25,487,NA
+Pyxis,Theta Pyxidi,θ,NA,NA,NA,80874,45902,4.71,−1.31,522,M0III
+Pyxis,Lambda Pyxidi,λ,NA,NA,NA,81169,46026,4.71,0.98,182,G8III
+Pyxis,Zeta Pyxidi,ζ,NA,NA,NA,73898,42483,4.86,0.56,236,G5III
+Pyxis,Delta Pyxidi,δ,NA,NA,NA,76483,43825,4.87,0.66,226,A3IV
+Pyxis,Eta Pyxidi,η,NA,NA,NA,73495,42334,5.24,0.89,242,A0V
+Pyxis,Epsilon Pyxidi,ε,NA,NA,NA,78922,45001,5.59,1.52,212,A4IV
+Reticulum,Alpha Reticul,α,NA,NA,NA,27256,19780,3.33,−0.17,163,G7III
+Reticulum,Beta Reticul,β,NA,NA,NA,23817,17440,3.84,1.41,100,K0IV SB
+Reticulum,Epsilon Reticul,ε,NA,NA,NA,27442,19921,4.44,3.14,59,K2IV
+Reticulum,Gamma Reticul,γ,NA,NA,NA,25705,18744,4.48,−1.41,490,M4III
+Reticulum,Delta Reticul,δ,NA,NA,NA,25422,18597,4.56,−1.50,530,M2III
+Reticulum,Kappa Reticul,κ,NA,NA,NA,22001,16245,4.71,3.05,70,NA
+Reticulum,Iota Reticul,ι,NA,NA,NA,25728,18772,4.97,−0.06,331,K4III
+Reticulum,Zeta Reticul,ζ,NA,NA,NA,20807,15371,5.24,4.83,39,G1V
+Reticulum,Eta Reticul,η,NA,NA,NA,28093,20384,5.24,−0.09,380,G7III
+Reticulum,Zeta Reticul,ζ,NA,NA,NA,20766,15330,5.53,5.11,40,G2V
+Reticulum,Theta Reticul,θ,NA,NA,NA,27657,20020,5.88,0.12,462,NA
+Sagitta,Gamma Sagitta,γ,12,NA,NA,189319,98337,3.51,−1.11,274,K5III
+Sagitta,Delta Sagitta,δ,7,NA,NA,187076,97365,3.82,−1.87,448,NA
+Sagitta,Delta Sagitta,δ,7,NA,NA,187077,NA,3.80,NA,NA,NA
+Sagitta,Alpha Sagitta,α,5,NA,NA,185758,96757,4.39,−1.42,473,G0II
+Sagitta,Beta Sagitta,β,6,NA,NA,185958,96837,4.39,−1.39,466,G8II
+Sagitta,Zeta Sagitta,ζ,8,NA,NA,187362,97496,5.01,0.01,326,A3V
+Sagitta,Eta Sagitta,η,16,NA,NA,190608,98920,5.09,1.61,162,K2III
+Sagitta,Epsilon Sagitta,ε,4,NA,NA,185194,96516,5.67,−0.14,473,G8IIIvar
+Sagitta,Theta Sagitta,θ,17,NA,NA,191570,99352,6.51,3.24,147,F5IV
+Sagitta,Theta Sagitta,θ,17,NA,NA,191571,NA,8.90,NA,NA,NA
+Sagittarius,Epsilon Sagittari,ε,20,61,NA,169022,90185,1.79,−1.44,145,NA
+Sagittarius,Sigma Sagittari,σ,34,112,NA,175191,92855,2.05,−2.14,224,NA
+Sagittarius,Zeta Sagittari,ζ,38,130,NA,176687,93506,2.60,0.42,89,A3IV
+Sagittarius,Delta Sagittari,δ,19,54,NA,168454,89931,2.72,−2.14,306,K3III
+Sagittarius,Lambda Sagittari,λ,22,67,NA,169916,90496,2.82,0.95,77,K1IIIb
+Sagittarius,Pi Sagittari,π,41,147,NA,178524,94141,2.88,−2.77,440,NA
+Sagittarius,Gamma2 Sagittari,γ,10,28,NA,165135,88635,2.98,0.63,96,K0III
+Sagittarius,Eta Sagittari,η,NA,46,NA,167618,89642,3.10,−0.20,149,M2III
+Sagittarius,Phi Sagittari,φ,27,95,NA,173300,92041,3.17,−1.08,231,NA
+Sagittarius,Tau Sagittari,τ,40,139,NA,177716,93864,3.32,0.48,120,NA
+Sagittarius,Xi2 Sagittarii,ξ,37,120,NA,175775,93085,3.52,−1.77,372,NA
+Sagittarius,Omicron Sagittari,ο,39,136,NA,177241,93683,3.76,0.61,139,K0III
+Sagittarius,Mu Sagittari,μ,13,41,NA,166937,89341,3.84,NA,&gt;3000,NA
+Sagittarius,Rho1 Sagittarii,ρ,44,174,NA,181577,95168,3.92,1.06,122,NA
+Sagittarius,Beta1 Sagittarii,β,NA,168,NA,181454,95241,3.96,−1.36,378,B9V
+Sagittarius,Alpha Sagittari,α,NA,177,NA,181869,95347,3.96,0.38,170,B8V
+Sagittarius,Iota Sagittari,ι,NA,241,NA,188114,98032,4.12,0.30,189,K0III
+Sagittarius,Beta2 Sagittarii,β,NA,172,NA,181623,95294,4.27,1.13,139,F2III
+Sagittarius,Theta1 Sagittarii,θ,NA,256,NA,189103,98412,4.37,−2.02,617,NA
+Sagittarius,62 Sagittari,c,62,265,V3872,189763,98688,4.43,−1.26,448,M4III
+Sagittarius,Upsilon Sagittari,υ,46,176,NA,181615,95176,4.52,−4.03,1672,NA
+Sagittarius,59 Sagittari,b,59,250,NA,188603,98162,4.54,−3.30,1207,K3III
+Sagittarius,52 Sagittari,h,52,207,NA,184707,96465,4.59,0.77,189,NA
+Sagittarius,W Sagittari,γ,NA,26,W,164975,88567,4.66,−4.36,2076,NA
+Sagittarius,Omega Sagittari,ω,58,248,NA,188376,98066,4.70,2.82,78,NA
+Sagittarius,60 Sagittari,A,60,255,NA,189005,98353,4.84,−0.25,340,NA
+Sagittarius,Nu1 Sagittarii,ν,32,111,NA,174974,92761,4.86,−3.91,1852,K1II
+Sagittarius,Psi Sagittari,ψ,42,155,NA,179950,94643,4.86,−0.16,330,NA
+Sagittarius,56 Sagittari,f,56,229,NA,186648,97290,4.87,0.88,205,K0III
+Sagittarius,43 Sagittari,d,43,160,NA,180540,94820,4.88,−1.20,535,K0III
+Sagittarius,Nu2 Sagittarii,ν,35,113,NA,175190,92845,5.00,0.41,270,NA
+Sagittarius,Xi1 Sagittarii,ξ,36,119,NA,175687,93057,5.02,−5.92,5015,NA
+Sagittarius,Chi1 Sagittarii,χ,47,181,NA,182369,95477,5.02,0.87,221,NA
+Sagittarius,Theta2 Sagittarii,θ,NA,256,NA,189118,98421,5.30,1.89,157,NA
+Sagittarius,Chi3 Sagittarii,χ,49,182,NA,182416,95503,5.45,−0.50,505,K3III
+Sagittarius,Kappa1 Sagittarii,κ,NA,292,NA,193571,100469,5.60,1.23,244,A0V
+Sagittarius,Kappa2 Sagittarii,κ,NA,294,NA,193807,100591,5.64,0.36,370,A3V
+Sagittarius,Rho2 Sagittarii,ρ,45,175,NA,181645,95188,5.84,0.63,359,K0III
+Sagittarius,Chi2 Sagittarii,χ,48,NA,NA,182391,95486,7.27,−0.53,1185,B7IV
+Scorpius,Antare,α,21,NA,NA,148478,80763,0.91,−5.24,553,NA
+Scorpius,Lambda Scorpi,λ,35,NA,NA,158926,85927,1.62,−5.05,703,NA
+Scorpius,Theta Scorpi,θ,NA,NA,NA,159532,86228,1.86,−2.75,272,F1II
+Scorpius,Delta Scorpi,δ,7,NA,NA,143275,78401,2.29,−3.16,401,NA
+Scorpius,Epsilon Scorpi,ε,26,NA,NA,151680,82396,2.29,0.78,65,K2IIIb
+Scorpius,Kappa Scorpi,κ,NA,NA,NA,160578,86670,2.39,−3.38,464,NA
+Scorpius,Beta1 Scorpii,β,8,NA,NA,144217,78820,2.62,−3.44,530,NA
+Scorpius,Upsilon Scorpi,υ,34,NA,NA,158408,85696,2.70,−3.31,518,B2IV
+Scorpius,Tau Scorpi,τ,23,NA,NA,149438,81266,2.82,−2.78,430,B0V
+Scorpius,Pi Scorpi,π,6,NA,NA,143018,78265,2.89,−2.85,459,NA
+Scorpius,Sigma Scorpi,σ,20,NA,NA,147165,80112,2.90,−3.86,734,B1III
+Scorpius,Iota1 Scorpi,ι,NA,NA,NA,161471,87073,2.99,−5.71,1791,F3Ia
+Scorpius,Mu1 Scorpi,μ,NA,NA,NA,151890,82514,3.00,−4.01,821,NA
+Scorpius,G Scorpi,G,NA,NA,NA,161892,87261,3.19,0.24,127,NA
+Scorpius,Eta Scorpi,η,NA,NA,NA,155203,84143,3.32,1.61,72,F3p
+Scorpius,Mu2 Scorpi,μ,NA,NA,NA,151985,82545,3.56,−2.44,517,B2IV
+Scorpius,Zeta2 Scorpi,ζ,NA,NA,NA,152334,82729,3.62,0.30,150,K4III
+Scorpius,Rho Scorpi,ρ,5,NA,NA,142669,78104,3.87,−1.62,409,NA
+Scorpius,Omega1 Scorpii,ω,9,NA,NA,144470,78933,3.93,−1.64,423,B1V
+Scorpius,Nu Scorpi,ν,14,NA,NA,145502,79374,4.00,−1.63,436,B2IV
+Scorpius,H Scorpi,H,NA,NA,NA,149447,81304,4.18,−0.90,339,K5III
+Scorpius,N Scorpi,N,NA,NA,NA,148703,80911,4.24,−2.56,746,NA
+Scorpius,Q Scorpi,Q,NA,NA,NA,159433,86170,4.26,1.03,144,NA
+Scorpius,Omega2 Scorpii,ω,10,NA,NA,144608,78990,4.31,−0.24,265,NA
+Scorpius,Omicron Scorpi,ο,19,NA,NA,147084,80079,4.55,−3.24,1177,NA
+Scorpius,13 Scorpi,c,13,NA,NA,145482,79404,4.58,−1.20,468,B2V
+Scorpius,2 Scorpi,A,2,NA,NA,142114,77840,4.59,−1.03,434,NA
+Scorpius,1 Scorpi,b,1,NA,NA,141637,77635,4.63,−1.39,522,NA
+Scorpius,Zeta1 Scorpi,ζ,NA,NA,NA,152236,82671,4.70,−8.5,"2,600",B1Iae
+Scorpius,Xi Scorpi,ξ,NA,NA,NA,144070,NA,4.77,NA,92,NA
+Scorpius,Iota2 Scorpi,ι,NA,NA,NA,161912,87294,4.78,−5.50,3705,A6Ib
+Scorpius,22 Scorpi,i,22,NA,NA,148605,80815,4.79,−0.61,393,B3V
+Scorpius,HD 14662,d,NA,NA,NA,146624,79881,4.80,1.63,140,NA
+Scorpius,V1073 Scorpi,k,NA,NA,V1073,154090,83574,4.83,−4.74,2672,B2Iab
+Scorpius,Beta2 Scorpii,β,NA,NA,NA,144218,78821,4.90,−2.80,530,B2V
+Scorpius,Psi Scorpi,ψ,15,NA,NA,145570,79375,4.93,1.41,165,A3IV
+Scorpius,Xi Scorpi,ξ,NA,NA,NA,144069,78727,5.07,NA,92,F5IV
+Scorpius,Antare,α,21,NA,NA,148479,NA,5.2,−0.9,553,NA
+Scorpius,Chi Scorpi,χ,17,NA,NA,145897,79540,5.24,−0.41,439,K3III
+Scorpius,12 Scorpi,c,12,NA,NA,145483,79399,5.67,0.87,298,B9V
+Scorpius,Nu Scorpi,ν,14,NA,NA,145501,NA,6.30,NA,NA,NA
+Sculptor,Alpha Sculptori,α,NA,NA,NA,5737,4577,4.30,−2.27,672,B7IIIp
+Sculptor,Beta Sculptori,β,NA,NA,NA,221507,116231,4.38,0.69,178,NA
+Sculptor,Gamma Sculptori,γ,NA,NA,NA,219784,115102,4.41,0.72,179,K1III
+Sculptor,Delta Sculptori,δ,NA,NA,NA,223352,117452,4.59,1.37,143,A0V
+Sculptor,Eta Sculptori,η,NA,NA,NA,2429,2210,4.86,−1.27,548,NA
+Sculptor,Zeta Sculptori,ζ,NA,NA,NA,224990,183,5.04,−0.93,509,B4V
+Sculptor,Iota Sculptori,ι,NA,NA,NA,1737,1708,5.18,0.29,310,K0III
+Sculptor,Theta Sculptori,θ,NA,NA,NA,739,950,5.24,3.55,71,NA
+Sculptor,Pi Sculptori,π,NA,NA,NA,10537,7955,5.25,1.13,217,NA
+Sculptor,Epsilon Sculptori,ε,NA,NA,NA,10830,8209,5.29,3.10,89,F2IV
+Sculptor,Mu Sculptori,μ,NA,NA,NA,222433,116820,5.30,0.55,291,K0III
+Sculptor,Kappa Sculptori,κ,NA,NA,NA,720,930,5.41,−0.85,581,K2III
+Sculptor,Kappa Sculptori,κ,NA,NA,NA,493,761,5.42,1.24,224,F3V
+Sculptor,Sigma Sculptori,σ,NA,NA,NA,6178,4852,5.50,1.29,227,NA
+Sculptor,Xi Sculptori,ξ,NA,NA,NA,6055,4770,5.59,−0.83,628,K1III
+Sculptor,Tau Sculptori,τ,NA,NA,NA,9906,7463,5.69,1.73,202,F2V
+Sculptor,Lambda2 Sculptoris,λ,NA,NA,NA,4211,3456,5.90,0.61,372,K1III
+Sculptor,Lambda1 Sculptoris,λ,NA,NA,NA,4065,3356,6.05,0.44,432,NA
+Scutum,Alpha Scut,α,NA,NA,NA,171443,91117,3.85,0.21,174,K2III
+Scutum,Beta Scut,β,NA,NA,NA,173764,92175,4.22,−2.41,689,NA
+Scutum,Zeta Scut,ζ,NA,NA,NA,169156,90135,4.66,0.82,191,K0III
+Scutum,Gamma Scut,γ,NA,NA,NA,170296,90595,4.67,−0.09,291,NA
+Scutum,Delta Scut,δ,NA,NA,NA,172748,91726,4.70<br>(4.60–4.79),0.91,187,F2IIIp d Del
+Scutum,Eta Scut,η,NA,NA,NA,175751,93026,4.83,0.82,207,K1III
+Scutum,Epsilon Scut,ε,NA,NA,NA,173009,91845,4.88,−1.14,522,G8II
+Serpens,Alpha Serpenti,α,24,21 Cap,NA,140573,77070,2.63,0.87,73,K2III
+Serpens,Eta Serpenti,η,58,34 Cau,NA,168723,89962,3.23,1.84,62,NA
+Serpens,Mu Serpenti,μ,32,27 Cap,NA,141513,77516,3.54,0.14,156,A0V
+Serpens,Xi Serpenti,ξ,55,8 Cau,NA,159876,86263,3.54,0.99,105,F0IIIp
+Serpens,Beta Serpenti,β,28,NA,NA,141003,77233,3.65,0.29,153,A3V
+Serpens,Epsilon Serpenti,ε,37,29 Cap,NA,141795,77622,3.71,2.04,70,A2m
+Serpens,Delta Serpenti,δ,13,NA,NA,138917,76276,3.80,−0.24,210,F0IV
+Serpens,Delta Serpenti,δ,13,NA,NA,138918,NA,3.80,NA,NA,NA
+Serpens,Gamma Serpenti,γ,41,NA,NA,142860,78072,3.85,3.62,36,F6V
+Serpens,Kappa Serpenti,κ,35,NA,NA,141477,77450,4.09,−1.05,348,M1III
+Serpens,Omicron Serpenti,ο,56,11 Cau,NA,160613,86565,4.24,0.68,168,A2Va
+Serpens,Nu Serpenti,ν,53,1 Cau,NA,156928,84880,4.32,0.45,193,NA
+Serpens,Lambda Serpenti,λ,27,25 Cap,NA,141004,77257,4.42,4.07,38,G0Vvar
+Serpens,Iota Serpenti,ι,21,NA,NA,140159,76852,4.51,0.66,192,A1V
+Serpens,Zeta Serpenti,ζ,57,17 Cau,NA,164259,88175,4.62,2.79,76,F3V
+Serpens,Theta1 Serpentis,θ,63,71 Cau,NA,175638,92946,4.62,1.59,132,A5V
+Serpens,Rho Serpenti,ρ,38,NA,NA,141992,77661,4.74,−0.68,395,K5III
+Serpens,Pi Serpenti,π,44,NA,NA,143894,78554,4.82,1.15,177,A3V
+Serpens,Sigma Serpenti,σ,50,49 Cap,NA,147449,80179,4.82,2.64,89,F0V
+Serpens,Theta2 Serpentis,θ,63,72 Cau,NA,175639,92951,4.98,1.77,143,A5Vn
+Serpens,Tau1 Serpenti,τ,9,NA,NA,137471,75530,5.16,−2.09,918,M1III
+Serpens,Omega Serpenti,ω,34,28 Cap,NA,141680,77578,5.21,0.68,263,G8III
+Serpens,Chi Serpenti,χ,20,NA,NA,140160,76866,5.34,1.11,228,A0p Sr
+Serpens,Phi Serpenti,φ,NA,NA,NA,142980,78132,5.54,1.33,227,K1IV
+Serpens,Upsilon Serpenti,υ,31,NA,NA,141187,77336,5.71,1.27,252,A3V
+Serpens,E Serpentis,e,NA,57 Cau,NA,171978,91322,5.76,−0.72,644,A2V
+Serpens,Tau7 Serpenti,τ,22,NA,NA,140232,76878,5.80,2.17,174,A2m
+Serpens,Psi Serpenti,ψ,23,20 Cap,NA,140538,77052,5.86,5.03,48,G5V
+Serpens,Tau5 Serpenti,τ,18,NA,NA,139225,76424,5.93,2.48,160,F3V
+Serpens,Tau6 Serpenti,τ,19,NA,NA,140027,76810,6.00,0.30,450,G8III
+Serpens,Tau3 Serpenti,τ,15,NA,NA,139074,76337,6.10,0.58,414,NA
+Serpens,Tau8 Serpenti,τ,26,NA,NA,140729,77111,6.15,1.18,321,A0V
+Serpens,Tau2 Serpenti,τ,12,NA,NA,138527,76069,6.22,0.61,431,B9V
+Serpens,Tau4 Serpenti,τ,17,NA,NA,139216,76423,6.51,0.50,520,NA
+Sextans,Alpha Sextanti,α,15,NA,NA,87887,49641,4.48,−0.25,287,A0III
+Sextans,Gamma Sextanti,γ,8,NA,NA,85558,48437,5.07,0.55,261,A2V
+Sextans,Beta Sextanti,β,30,NA,NA,90994,51437,5.08,−0.04,345,B6V
+Sextans,Delta Sextanti,δ,29,NA,NA,90882,51362,5.19,0.37,300,NA
+Sextans,Epsilon Sextanti,ε,22,NA,NA,89254,50414,5.25,1.51,183,F2III
+Taurus,Aldebara,α,87,NA,NA,29139,21421,0.87,−0.63,65,K5III
+Taurus,Beta Taur,β,112,NA,NA,35497,25428,1.65,−1.37,131,B7III
+Taurus,Alcyone ,η,25,NA,NA,23630,17702,2.85,−2.41,368,B7III
+Taurus,Zeta Taur,ζ,123,NA,NA,37202,26451,2.97,−2.56,417,B4IIIp
+Taurus,Theta Taur,θ,78,NA,NA,28319,20894,3.40,0.10,149,A7III
+Taurus,Lambda Taur,λ,35,NA,NA,25204,18724,3.41,−1.87,370,NA
+Taurus,Epsilon Taur,ε,74,NA,NA,28305,20889,3.53,0.15,155,K0III
+Taurus,Omicron Taur,ο,1,3,NA,21120,15900,3.61,−0.45,211,G8III
+Taurus,Gamma Taur,γ,54,NA,NA,27371,20205,3.65,0.28,154,G8III
+Taurus,Xi Taur,ξ,2,4,NA,21364,16083,3.73,−0.44,222,B9Vn
+Taurus,Delta Taur,δ,61,NA,NA,27697,20455,3.77,0.41,153,G8III
+Taurus,Theta Taur,θ,77,NA,NA,28307,20885,3.84,0.42,158,G7III
+Taurus,Nu Taur,ν,38,30,NA,25490,18907,3.91,0.92,129,A1V
+Taurus,5 Taur,f,5,NA,NA,21754,16369,4.14,−1.08,360,NA
+Taurus,Kappa Taur,κ,65,NA,NA,27934,20635,4.21,0.85,153,NA
+Taurus,88 Taur,d,88,61,NA,29140,21402,4.25,0.93,150,A5m
+Taurus,Mu Taur,μ,49,44,NA,26912,19860,4.27,−1.35,435,B3IV
+Taurus,90 Taur,c,90,NA,NA,29388,21589,4.27,0.96,150,A6V
+Taurus,Tau Taur,τ,94,NA,NA,29763,21881,4.27,−1.18,400,B3V
+Taurus,Upsilon Taur,υ,69,NA,NA,28024,20711,4.28,0.90,155,A8Vn
+Taurus,Taygeta ,q,19,NA,NA,23338,17531,4.30,−0.99,373,B6V
+Taurus,68 Tauri,δ,68,NA,V776,27962,20648,4.30,1.02,148,A2IV
+Taurus,37 Taur,A,37,NA,NA,25604,19038,4.36,0.64,181,K0III
+Taurus,Iota Taur,ι,102,NA,NA,32301,23497,4.62,1.13,163,A7V
+Taurus,Rho Taur,ρ,86,NA,NA,28910,21273,4.65,1.30,152,A8V
+Taurus,Sigma2 Tauri,σ,92,NA,NA,29488,21683,4.67,1.23,159,A5Vn
+Taurus,Pi Taur,π,73,NA,NA,28100,20732,4.69,−1.03,455,G8III
+Taurus,64 Tauri,δ,64,NA,NA,27819,20542,4.80,1.55,146,A7V
+Taurus,114 Taur,o,114,NA,NA,35708,25539,4.88,−1.76,695,NA
+Taurus,104 Taur,m,104,NA,NA,32923,23835,4.91,3.91,52,G4V
+Taurus,Omega Taur,ω,50,NA,NA,27045,19990,4.93,2.64,93,A3m
+Taurus,109 Taur,n,109,NA,NA,34559,24822,4.96,0.96,206,G8III
+Taurus,Phi Taur,φ,52,NA,NA,27382,20250,4.97,−0.13,342,K1III
+Taurus,Sigma1 Tauri,σ,91,NA,NA,29479,21673,5.08,1.74,152,A4m
+Taurus,66 Taur,r,66,50,NA,27820,20522,5.10,−0.32,396,A3V
+Taurus,Psi Taur,ψ,42,NA,NA,25867,19205,5.21,3.01,90,F1V
+Taurus,Kappa Taur,κ,67,NA,NA,27946,20641,5.27,2.05,144,A7V
+Taurus,Chi Taur,χ,59,NA,NA,27638,20430,5.38,0.81,267,B9V
+Taurus,Omega Taur,ω,43,NA,NA,26162,19388,5.51,0.76,291,K2III
+Taurus,39 Taur,A,39,NA,NA,25680,19076,5.90,4.78,55,G5V
+Taurus,Alcyone ,η,NA,NA,NA,23607,NA,8.30,NA,NA,NA
+Telescopium,Alpha Telescopi,α,NA,NA,NA,169467,90422,3.49,−0.93,249,B3IV
+Telescopium,Zeta Telescopi,ζ,NA,NA,NA,169767,90568,4.10,1.14,127,NA
+Telescopium,Epsilon Telescopi,ε,NA,NA,NA,166063,89112,4.52,−0.97,409,G5III
+Telescopium,Lambda Telescopi,λ,NA,NA,NA,175510,93148,4.85,−1.21,531,A0V
+Telescopium,Iota Telescopi,ι,NA,NA,NA,184127,96341,4.88,−0.55,398,G9III
+Telescopium,Delta1 Telescopii,δ,NA,NA,NA,170465,90830,4.92,−2.02,795,B6IV
+Telescopium,Xi Telescopi,ξ,NA,NA,NA,190421,99120,4.93,−3.00,1254,M1II
+Telescopium,Eta Telescopi,η,NA,NA,NA,181296,95261,5.03,1.64,155,A0Vn
+Telescopium,Delta2 Telescopii,δ,NA,NA,NA,170523,90853,5.07,−2.60,1116,B3III
+Telescopium,Rho Telescopi,ρ,NA,NA,NA,177171,93815,5.17,1.57,171,F7V
+Telescopium,Kappa Telescopi,κ,NA,NA,NA,174295,92646,5.18,0.41,293,NA
+Telescopium,Nu Telescopi,ν,NA,NA,NA,186543,97421,5.33,1.75,170,A9Vn
+Telescopium,Mu Telescopi,μ,NA,NA,NA,183028,95932,6.29,3.47,120,F5V
+Triangulum,Beta Triangul,β,4,NA,NA,13161,10064,3.00,0.09,124,A5III
+Triangulum,Alpha Triangul,α,2,NA,NA,11443,8796,3.42,1.95,64,F6IV
+Triangulum,Gamma Triangul,γ,9,NA,NA,14055,10670,4.03,1.24,118,A1Vnn
+Triangulum,Delta Triangul,δ,8,NA,NA,13974,10644,4.84,4.66,35,G0V
+Triangulum,Iota Triangul,ι,6,NA,TZ,13480,10280,4.94,0.08,305,F5V comp SB
+Triangulum,Epsilon Triangul,ε,3,NA,NA,12471,9570,5.50,0.22,370,A2V
+Triangulum Australe,Alpha Trianguli Australi,α,NA,NA,NA,150798,82273,1.91,−3.62,415,NA
+Triangulum Australe,Beta Trianguli Australi,β,NA,NA,NA,141891,77952,2.83,2.38,40,F2III
+Triangulum Australe,Gamma Trianguli Australi,γ,NA,NA,NA,135382,74946,2.87,−0.87,183,A1V
+Triangulum Australe,Delta Trianguli Australi,δ,NA,NA,NA,145544,79664,3.86,−2.54,621,G5II
+Triangulum Australe,Epsilon Trianguli Australi,ε,NA,NA,NA,138538,76440,4.11,0.00,216,K0III
+Triangulum Australe,Zeta Trianguli Australi,ζ,NA,NA,NA,147584,80686,4.90,4.49,39,F9V
+Triangulum Australe,Kappa Trianguli Australi,κ,NA,NA,NA,141767,77982,5.11,−4.70,2991,G6IIa
+Triangulum Australe,Iota Trianguli Australi,ι,NA,NA,NA,147787,80645,5.28,2.25,132,F4IV
+Triangulum Australe,Theta Trianguli Australi,θ,NA,NA,NA,148890,81252,5.50,0.49,328,NA
+Triangulum Australe,Eta Trianguli Australi,η,NA,NA,NA,149671,81710,5.89,−0.73,688,B7IV
+Tucana,Alpha Tucana,α,NA,NA,NA,211416,110130,2.87,−1.05,199,K3III
+Tucana,Gamma Tucana,γ,NA,NA,NA,219571,114996,3.99,2.28,72,F1III
+Tucana,Zeta Tucana,ζ,NA,NA,NA,1581,1599,4.23,4.56,28,F9V
+Tucana,Kappa Tucana,κ,NA,NA,NA,7788,5896,4.25,2.70,67,F6IV
+Tucana,Beta Tucana,β,NA,NA,NA,2884,2484,4.34,NA,135,B9V
+Tucana,Epsilon Tucana,ε,NA,NA,NA,224686,118322,4.49,−0.81,374,B9IV
+Tucana,Delta Tucana,δ,NA,NA,NA,212581,110838,4.50,−0.06,267,B8V
+Tucana,Beta Tucana,β,NA,NA,NA,2885,2487,4.51,NA,168,A2V
+Tucana,Nu Tucana,ν,NA,NA,NA,213442,111310,4.91,0.30,273,M4III
+Tucana,Eta Tucana,η,NA,NA,NA,224392,118121,5.00,1.56,159,A1V
+Tucana,Beta Tucana,β,NA,NA,NA,3003,2578,5.09,NA,149,A0V
+Tucana,Iota Tucana,ι,NA,NA,NA,6793,5268,5.36,0.70,279,G5III
+Tucana,Rho Tucana,ρ,NA,NA,NA,4089,3330,5.38,2.33,133,F6V
+Tucana,Lambda Tucana,λ,NA,NA,NA,5457,4293,5.45,1.40,210,G7III
+Tucana,Pi Tucana,π,NA,NA,NA,1685,1647,5.50,0.64,306,B9V
+Tucana,Theta Tucana,θ,NA,NA,NA,3112,2629,6.11,0.22,490,A7IV
+Tucana,Lambda Tucana,λ,NA,NA,NA,5190,4084,6.22,NA,206,NA
+Ursa Major,Epsilon Ursae Majori,ε,77,NA,NA,112185,62956,1.76,−0.21,81,A0p
+Ursa Major,Alpha Ursae Majori,α,50,NA,NA,95689,54061,1.81,−1.08,124,F7V comp
+Ursa Major,Eta Ursae Majori,η,85,NA,NA,120315,67301,1.85,−0.60,101,B3V SB
+Ursa Major,Mizar (star),ζ,79,NA,NA,116656,65378,2.23,0.33,78,A2V
+Ursa Major,Beta Ursae Majori,β,48,NA,NA,95418,53910,2.34,0.41,79,A1V
+Ursa Major,Gamma Ursae Majori,γ,64,NA,NA,103287,58001,2.41,0.36,84,A0V SB
+Ursa Major,Psi Ursae Majori,ψ,52,NA,NA,96833,54539,3.00,−0.27,147,K1III
+Ursa Major,Mu Ursae Majori,μ,34,NA,NA,89758,50801,3.06,−1.35,249,M0III SB
+Ursa Major,Iota Ursae Majori,ι,9,NA,NA,76644,44127,3.12,2.29,48,A7IV
+Ursa Major,Theta Ursae Majori,θ,25,NA,NA,82328,46853,3.17,2.52,44,F6IV
+Ursa Major,Delta Ursae Majori,δ,69,NA,NA,106591,59774,3.32,1.33,81,A3Vvar
+Ursa Major,Omicron Ursae Majori,ο,1,NA,NA,71369,41704,3.35,−0.40,184,NA
+Ursa Major,Lambda Ursae Majori,λ,33,NA,NA,89021,50372,3.45,0.38,134,A2IV
+Ursa Major,Nu Ursae Majori,ν,54,NA,NA,98262,55219,3.49,−2.07,421,K3III SB
+Ursa Major,Kappa Ursae Majori,κ,12,NA,NA,77327,44471,3.57,−1.99,423,A1Vn
+Ursa Major,23 Ursae Majori,h,23,NA,NA,81937,46733,3.65,1.83,75,F0IV
+Ursa Major,Chi Ursae Majori,χ,63,NA,NA,102224,57399,3.69,−0.20,196,K0III
+Ursa Major,Upsilon Ursae Majori,υ,29,NA,NA,84999,48319,3.78,1.04,115,F0IV
+Ursa Major,Xi Ursae Majori,ξ,53,NA,NA,98230,55203,3.79,NA,27.3,G0V
+Ursa Major,Zeta Ursae Majoris,ζ,79,NA,NA,116657,NA,3.95,NA,NA,NA
+Ursa Major,Mizar (star),g,80,NA,NA,116842,65477,3.99,2.01,81,A5V SB
+Ursa Major,Xi Ursae Majori,ξ,53,NA,NA,98231,NA,4.41,NA,NA,NA
+Ursa Major,15 Ursae Majori,f,15,NA,NA,78209,44901,4.46,2.13,96,Am
+Ursa Major,24 Ursae Majori,d,24,NA,DK,82210,46977,4.54,1.99,106,NA
+Ursa Major,Phi Ursae Majori,φ,30,NA,NA,85235,48402,4.55,−1.08,436,A3IV
+Ursa Major,Pi Ursae Majori,π,4,NA,NA,73108,42527,4.59,0.15,252,K2III
+Ursa Major,Omega Ursae Majori,ω,45,NA,NA,94334,53295,4.66,0.10,267,A1Vs
+Ursa Major,Tau Ursae Majori,τ,14,NA,NA,78362,45075,4.67,1.81,122,Am
+Ursa Major,Tau Ursae Majori,τ,14,NA,NA,78363,NA,4.70,NA,NA,NA
+Ursa Major,Rho Ursae Majori,ρ,8,NA,NA,76827,44390,4.74,0.01,287,M3III
+Ursa Major,Sigma Ursae Majori,σ,13,NA,NA,78154,45038,4.80,3.25,67,NA
+Ursa Major,18 Ursae Majori,e,18,NA,DD,79439,45493,4.80,2.00,118,A5V
+Ursa Major,Sigma Ursae Majori,σ,11,NA,NA,77800,44857,5.15,−0.77,498,K5III
+Ursa Major,Pi Ursae Majori,π,3,NA,NA,72905,42438,5.63,4.86,47,NA
+Ursa Minor,Polari,α,1,NA,NA,8890,11767,1.97,−3.64,431,NA
+Ursa Minor,Beta Ursae Minori,β,7,NA,NA,131873,72607,2.07,−0.87,126,K4IIIvar
+Ursa Minor,Gamma Ursae Minori,γ,13,NA,NA,137422,75097,3.04,−2.84,480,NA
+Ursa Minor,Epsilon Ursae Minori,ε,22,NA,NA,153751,82080,4.21,−0.92,346,G5IIIvar
+Ursa Minor,Zeta Ursae Minori,ζ,16,NA,NA,142105,77055,4.29,−1.02,376,A3Vn
+Ursa Minor,Delta Ursae Minori,δ,23,NA,NA,166205,85822,4.35,0.61,183,A1Vn
+Ursa Minor,Eta Ursae Minori,η,21,NA,NA,148048,79822,4.95,2.58,97,F5V
+Ursa Minor,Theta Ursae Minori,θ,15,NA,NA,139669,76008,5.00,−2.03,832,K5III
+Ursa Minor,Lambda Ursae Minori,λ,NA,NA,NA,183030,84535,6.31,−0.84,876,M1III
+Ursa Minor,Pi Ursae Minori,π,NA,NA,NA,139777,75809,6.57,4.85,72,NA
+Ursa Minor,Pi Ursae Minori,π,18,NA,NA,141652,76695,6.89,1.54,384,F2
+Ursa Minor,Pi Ursae Minori,π,NA,NA,NA,139813,75829,7.30,5.62,71,G5
+Vela,Gamma Veloru,γ,NA,NA,NA,68273,39953,1.83,−5.84,1120,NA
+Vela,Delta Veloru,δ,NA,NA,NA,74956,42913,1.96,0.00,81,NA
+Vela,Lambda Veloru,λ,NA,NA,NA,78647,44816,2.21,−3.97,573,NA
+Vela,Kappa Veloru,κ,NA,NA,NA,81188,45941,2.47,−3.62,539,B2IV
+Vela,Mu Veloru,μ,NA,NA,NA,93497,52727,2.69,−0.06,116,G5III SB
+Vela,HD 82668,N,NA,NA,NA,82668,46701,3.16,−1.15,238,K5III
+Vela,Phi Veloru,φ,NA,NA,NA,86440,48774,3.52,−5.34,1929,B5Ib
+Vela,Omicron Veloru,ο,NA,NA,NA,74195,42536,3.60,−2.31,495,B3IV
+Vela,HD 7800,c,NA,NA,NA,78004,44511,3.75,−1.13,309,K2III
+Vela,HD 7418,b,NA,NA,NA,74180,42570,3.81,−7.06,4900,F3Ia
+Vela,P Veloru,p,NA,NA,NA,92139,51986,3.84,1.72,86,NA
+Vela,HD 8895,q,NA,NA,NA,88955,50191,3.85,1.36,103,A2V
+Vela,HD 7506,a,NA,NA,NA,75063,43023,3.87,−4.52,1552,A1III
+Vela,Psi Veloru,ψ,NA,NA,NA,82434A,46651,3.91,2.57,61,NA
+Vela,HD 7477,d,NA,NA,NA,74772,42884,4.05,−0.18,228,G5III
+Vela,HD 7363,e,NA,NA,NA,73634,42312,4.11,−4.11,1436,A6II
+Vela,Gamma Veloru,γ,NA,NA,NA,68243,NA,4.27,−3.62,840,B2III
+Vela,HD 9244,x,NA,NA,NA,92449,52154,4.29,−2.92,901,G2II
+Vela,HD 8344,M,NA,NA,NA,83446,47175,4.34,1.75,107,A5V
+Vela,HD 9537,i,NA,NA,NA,95370,53773,4.37,0.39,204,A3IV
+Vela,HD 7725,w,NA,NA,NA,77258,44191,4.47,0.52,201,NA
+Vela,MV Velorum,J,NA,NA,MV,89890,50676,4.49,−3.24,1150,B3III
+Vela,HD 8562,m,NA,NA,NA,85622,48374,4.58,−3.03,1083,G5Ib
+Vela,HD 7994,k,NA,NA,NA,79940,45448,4.63,1.10,166,NA
+Vela,H Veloru,H,NA,NA,NA,76805,43878,4.68,−0.63,376,B5V
+Vela,HD 7427,n,NA,NA,NA,74272,42624,4.74,−4.08,1895,A5II
+Vela,HD 7093,B,NA,NA,NA,70930,41039,4.82,−3.79,1720,B1V
+Vela,HD 8999,r,NA,NA,NA,89998,50799,4.82,0.88,200,K1IIIvar
+Vela,HD 8820,Q,NA,NA,NA,88206,49712,4.85,−2.76,1083,B3IV
+Vela,HD 7991,l,NA,NA,NA,79917,45439,4.92,0.73,225,K1III
+Vela,HD 7571,g,NA,NA,NA,75710,43347,4.94,−2.08,827,A2III
+Vela,HD 73155,C,NA,NA,NA,73155,42088,5.01,−2.14,876,NA
+Vela,Psi Veloru,ψ,NA,NA,NA,82434B,NA,5.12,3.75,61,NA
+Vela,HD 7210,A,NA,NA,NA,72108,41616,5.33,−3.18,1638,B2IV
+Virgo,Spic,α,67,144,NA,116658,65474,0.98,−3.55,262,B1V
+Virgo,Gamma Virgini,γ,29,76,NA,110379,61941,2.74,2.38,39,NA
+Virgo,Epsilon Virgini,ε,47,NA,NA,113226,63608,2.85,0.37,102,G8IIIvar
+Virgo,Zeta Virgini,ζ,79,167,NA,118098,66249,3.38,1.62,73,A3V
+Virgo,Delta Virgini,δ,43,95,NA,112300,63090,3.39,−0.57,202,M3III
+Virgo,Beta Virgini,β,5,11,NA,102870,57757,3.59,3.40,36,F8V
+Virgo,Gamma Virgini,γ,29,75,NA,110380,NA,3.68,NA,NA,NA
+Virgo,Mu Virgini,μ,107,255,NA,129502,71957,3.87,2.51,61,F2III
+Virgo,Eta Virgini,η,15,45,NA,107259,60129,3.89,−0.53,250,A2IV
+Virgo,Nu Virgini,ν,3,7,NA,102212,57380,4.04,−0.87,313,M0III
+Virgo,Iota Virgini,ι,99,228,NA,124850,69701,4.07,2.42,70,F7V
+Virgo,Omicron Virgini,ο,9,32,NA,104979,58948,4.12,0.52,171,G8III
+Virgo,Kappa Virgini,κ,98,223,NA,124294,69427,4.18,0.00,223,K3III
+Virgo,Tau Virgini,τ,93,206,NA,122408,68520,4.23,0.10,218,A3V
+Virgo,Theta Virgini,θ,51,115,NA,114330,64238,4.38,−1.14,415,A1V
+Virgo,Lambda Virgini,λ,100,237,NA,125337,69974,4.52,0.73,187,A1V
+Virgo,Pi Virgini,π,8,25,NA,104321,58590,4.65,−0.54,356,A5V
+Virgo,Chi Virgini,χ,26,73,NA,110014,61740,4.66,−0.29,318,K2III
+Virgo,74 Virgini,l,74,157,NA,117675,66006,4.68,−0.93,432,M3III
+Virgo,Psi Virgini,ψ,40,93,NA,112142,62985,4.77,−0.76,417,M3IIIvar
+Virgo,Sigma Virgini,σ,60,130,NA,115521,64852,4.78,−1.32,541,M2III
+Virgo,Phi Virgini,φ,105,246,NA,126868,70755,4.81,1.72,135,G2III
+Virgo,Xi Virgini,ξ,2,6,NA,102124,57328,4.84,2.02,119,A4V
+Virgo,Rho Virgini,ρ,30,NA,NA,110411,61960,4.88,2.04,120,A0V
+Virgo,78 Virgini,o,78,163,CW,118022,66200,4.92,1.17,183,A1p SrCrEu
+Virgo,16 Virgini,c,16,46,NA,107328,60172,4.97,0.26,285,K1III
+Virgo,Upsilon Virgini,υ,102,238,NA,125454,70012,5.14,0.52,274,G9III
+Virgo,59 Virgini,e,59,NA,NA,115383,64792,5.19,3.92,59,G0Vs
+Virgo,Omega Virgini,ω,1,2,NA,101153,56779,5.24,−0.60,479,M4III
+Virgo,1 Serpenti,M,(1),264,NA,132132,73193,5.51,0.73,295,K1III
+Volans,Gamma Volanti,γ,NA,NA,NA,55865,34481,3.62,0.59,142,G8IIIvar
+Volans,Beta Volanti,β,NA,NA,NA,71878,41312,3.77,1.17,108,K2IIIvar
+Volans,Zeta Volanti,ζ,NA,NA,NA,63295,37504,3.93,0.86,134,K0III
+Volans,Delta Volanti,δ,NA,NA,NA,57623,35228,3.97,−2.56,660,F6II
+Volans,Alpha Volanti,α,NA,NA,NA,78045,44382,4.00,1.09,124,Am
+Volans,Epsilon Volanti,ε,NA,NA,NA,68520,39794,4.35,−2.12,642,B6IV
+Volans,Theta Volanti,θ,NA,NA,NA,74405,42425,5.19,0.86,239,A0V
+Volans,Eta Volanti,η,NA,NA,NA,71576,41003,5.28,0.09,356,NA
+Volans,Kappa Volanti,κ,NA,NA,NA,71046,40817,5.33,−0.06,390,NA
+Volans,Iota Volanti,ι,NA,NA,NA,51557,32912,5.41,−0.76,558,B7IV
+Volans,Kappa Volanti,κ,NA,NA,NA,71066,40834,5.63,0.21,395,A0p
+Volans,Gamma Volanti,γ,NA,NA,NA,55864,34473,5.68,2.41,147,F2
+Vulpecula,Alpha Vulpecula,α,6,NA,NA,183439,95771,4.44,−0.35,296,M0III comp
+Vulpecula,31 Vulpecula,(r),31,NA,NA,198809,103004,4.56,0.45,216,G8III
+Vulpecula,32 Vulpecula,(q),32,NA,NA,199169,103200,5.03,−1.75,739,K4III
