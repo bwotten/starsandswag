@@ -30,7 +30,16 @@ def draw_stars( c, x, y, apparent_magnitude, tag, constellation, color_index):
 		width = 0
 	else:
 		r = 0
-		width = 0	
+		width = 0
+	screen_height = c.winfo_screenheight()
+	screen_width = c.winfo_screenwidth()
+	#We can skew it based on its position with respect to the center
+	#if x < screen_width * .16666 or x > screen_width * .83333:
+		#skew most
+	#	star = c.create_oval(x-r*1.5, y-r, x+r*1.5, y+r, width = width, fill=color, tags = (tag, constellation, str(color)))
+	#elif x < screen_width * .33333 or x > screen_width * .66666:
+	#	star = c.create_oval(x-r*1.25, y-r, x+r*1.25, y+r, width = width, fill=color, tags = (tag, constellation, str(color)))
+	#else:
 	star = c.create_oval(x-r, y-r, x+r, y+r, width = width, fill=color, tags = (tag, constellation, str(color)))
 	
 	return star;

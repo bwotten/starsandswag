@@ -154,6 +154,11 @@ class application(Tk):
 			self.alt_range = self.az_range * self.screen_height / self.screen_width
 			self.alt_base = 0 
 			self.az_base = 0
+			#self.steps = int((90 - self.alt_range/2) / 10)
+			#if (self.alt_range/2) % 10 != 0:
+			#	self.steps += 1
+
+			#self.az_increment = 240 / self.steps
 
 			self.conn = psycopg2.connect(**params)
 			#Open the cursor
@@ -243,6 +248,7 @@ class application(Tk):
 
 	def rotate_up(self, event):
 		if self.alt_base + self.alt_range / 2 + 10 <= 90:
+			#self.az_base += self.az_increment
 			self.alt_base = (self.alt_base + 10)
 			self.query()
 			self.canvas.delete("all")
@@ -251,6 +257,7 @@ class application(Tk):
 			#we do nothing
 			self.alt_base = self.alt_base
 		else:
+			#self.az_base += self.az_increment
 			self.alt_base = 90 - self.alt_range / 2
 			self.query()
 			self.canvas.delete("all")
@@ -258,6 +265,7 @@ class application(Tk):
 
 	def rotate_down(self, event):
 		if self.alt_base - 10 >= 0:
+			#self.az_base -= self.az_increment
 			self.alt_base = self.alt_base - 10
 			self.query()
 			self.canvas.delete("all")
@@ -267,6 +275,7 @@ class application(Tk):
 			self.alt_base = self.alt_base
 		else:
 			self.alt_base = 0
+			#self.az_base -= self.az_increment
 			self.query()
 			self.canvas.delete("all")
 			self.drawCanvas()
@@ -410,9 +419,8 @@ class application(Tk):
 		if len(self.star_list) % 5 != 0:
 			rows = rows + 1
 
-		temp = self.canvas.create_text((self.screen_width, self.screen_height), fill = 'black', text = 'a'*max_length)
+		temp = self.canvas.create_text((self.screen_width, self.screen_height), fill = 'black', text = 'a'*max_length,font = ("Purisa", 10))
 		self.x_change = self.canvas.bbox(temp)[2] - self.canvas.bbox(temp)[0]
-		self.x_change = self.x_change + self.x_change * .1
 		self.y_change = (self.canvas.bbox(temp)[3] - self.canvas.bbox(temp)[1]) * 2
 		self.canvas.delete(temp)
 		self.total_y = self.y_change * rows
@@ -425,7 +433,7 @@ class application(Tk):
 		self.y_count = 0
 		count = 0
 		for star in self.star_list:
-			text_id = self.canvas.create_text((self.x_position, self.y_position), text = star[1], fill = 'white', tag = str(count))
+			text_id = self.canvas.create_text((self.x_position, self.y_position), text = star[1], fill = 'white', tag = str(count), font = ("Purisa", 10))
 			self.x_count+=1
 			self.x_position = self.x_position + self.x_change
 			if(self.x_count == 5):
@@ -451,18 +459,18 @@ class application(Tk):
 		max_length = 0
 		for info in self.star_list[index][0]:
 			if info != "NA" and info != None:
-				string = self.return_column_title(sql_index) + info
-				if len(string) > max_length:
-					max_length = len(string)
+				if sql_index != 0 and sql_index != 1:
+					string = self.return_column_title(sql_index) + info
+					if len(string) > max_length:
+						max_length = len(string)
 				sql_index+=1
 
-		temp = self.canvas.create_text((self.screen_width/2, self.screen_height/2), text = 'a'*max_length, fill = 'black',font=("Purisa", 12))
-		self.x_change = self.canvas.bbox(temp)[2] - self.canvas.bbox(temp)[0]
-		self.x_change = self.x_change * 1.05
-		self.canvas.delete(temp)
+		new_temp = self.canvas.create_text((self.screen_width/2, self.screen_height/2), text = 'a'*max_length, fill = 'black',font=("Purisa", 10))
+		self.x_change = self.canvas.bbox(new_temp)[2] - self.canvas.bbox(new_temp)[0]
+		self.canvas.delete(new_temp)
 
 		total_y = self.y_change * 5
-		self.x_position = self.screen_width * .375 - self.x_change
+		self.x_position = self.screen_width * .3 - self.x_change
 		self.y_position = self.screen_height - ((self.screen_height - (self.screen_height *.175 + self.height)) / 2) - (total_y / 2)
 		sql_index = 0
 		for info in self.star_list[index][0]:
@@ -477,7 +485,7 @@ class application(Tk):
 					string = self.return_column_title(sql_index) + info
 					if sql_index == 10:
 						string = string + " ly"
-					self.info_list.append(self.canvas.create_text((self.x_position, self.y_position), text = string, fill = 'white',font=("Purisa", 12)))
+					self.info_list.append(self.canvas.create_text((self.x_position, self.y_position), text = string, fill = 'white',font=("Purisa", 10)))
 					self.x_count+=1
 					self.x_position = self.x_position + self.x_change
 					if self.x_count == 2:
