@@ -105,29 +105,17 @@ class application(Tk):
 			valid_y = False
 
 		self.star_list = []
-		#do stuff with coordinates if we have the correct values
-
-		#select stars that we want to put in our night sky
-
-		#Distance formula in to get x intercept
 
 		if valid_x and valid_y:
 
-			#we can move onto next thing
 			self.clear_window()
 			self.create_canvas()
-			#self.attributes("-fullscreen", True)
 			self.state('zoomed')
-			#create random x & y values for drawing stars with random values from -2 to 7 for mag
 			i = 0
 			j = 0
 
 			self.viewable_stars = []
-			#populate viewable_stars as an array of tuples [ tuples ]
-			# Run this command to start ssh tunneling
-			# ssh -L 63333:localhost:5432 zpfallon@db.cs.wm.edu
-			# password = getpass.getpass('Password: ')
-			#lat and lon come from user input
+
 			self.lat = latitude
 			self.lon = longitude
 			#we will only be considering 8:00pm for time
@@ -149,35 +137,16 @@ class application(Tk):
 			}
 			#Open the connection
 
-			
 			self.az_range = 120
 			self.alt_range = self.az_range * self.screen_height / self.screen_width
 			self.alt_base = 0 
 			self.az_base = 0
-			#self.steps = int((90 - self.alt_range/2) / 10)
-			#if (self.alt_range/2) % 10 != 0:
-			#	self.steps += 1
-
-			#self.az_increment = 240 / self.steps
 
 			self.conn = psycopg2.connect(**params)
-			#Open the cursor
 			self.query()		
 
 			self.position = 0
 			self.drawCanvas()
-			#while i < 2500:
-			#	i += 1
-			#	x = randint(0, int(self.screen_width))
-			#	y = randint(0, int(self.screen_height))
-			#	a = randint(-2, 7)
-			#	tag = "Star:" + str(i)
-			#	star = draw_stars(self.canvas, x, y, a, tag)
-			#	if a < 3:
-			#		self.star_list.append(tag)
-			#		self.canvas.tag_bind(star, "<Button-1>", self.click)
-			#		self.canvas.tag_bind(star, "<Enter>", self.enter)
-			#		self.canvas.tag_bind(star, "<Leave>", self.leave)
 
 	def drawCanvas(self):
 		#integer passed for which array to pass to it
@@ -229,10 +198,6 @@ class application(Tk):
 		self.canvas.tag_bind(self.up_image, "<Button-1>", self.rotate_up)
 		self.canvas.tag_bind(self.down_image, "<Button-1>", self.rotate_down)
 		
-		#right_photo = ImageTk.PhotoImage(right_image)
-		#self.right_arrow = self.canvas.create_image((500, 500), image = right_photo)
-		#self.left_arrow = self.canvas.create_image((0,0), image = left_arrow)
-		
 
 	def rotate_right(self, event):
 		self.az_base = (self.az_base - 10) % 360
@@ -247,35 +212,29 @@ class application(Tk):
 		self.drawCanvas()
 
 	def rotate_up(self, event):
-		if self.alt_base + self.alt_range / 2 + 10 <= 90:
-			#self.az_base += self.az_increment
+		if self.alt_base + self.alt_range + 10 <= 90:
 			self.alt_base = (self.alt_base + 10)
 			self.query()
 			self.canvas.delete("all")
 			self.drawCanvas()
-		elif self.alt_base + self.alt_range / 2 == 90:
-			#we do nothing
+		elif self.alt_base + self.alt_range == 90:
 			self.alt_base = self.alt_base
 		else:
-			#self.az_base += self.az_increment
-			self.alt_base = 90 - self.alt_range / 2
+			self.alt_base = 90 - self.alt_range
 			self.query()
 			self.canvas.delete("all")
 			self.drawCanvas()
 
 	def rotate_down(self, event):
 		if self.alt_base - 10 >= 0:
-			#self.az_base -= self.az_increment
 			self.alt_base = self.alt_base - 10
 			self.query()
 			self.canvas.delete("all")
 			self.drawCanvas()
 		elif self.alt_base == 0:
-			#we do nothing
 			self.alt_base = self.alt_base
 		else:
 			self.alt_base = 0
-			#self.az_base -= self.az_increment
 			self.query()
 			self.canvas.delete("all")
 			self.drawCanvas()
@@ -284,7 +243,6 @@ class application(Tk):
 	def query(self):
 		self.viewable_stars[:] = []
 		cur = self.conn.cursor()
-		#Simple select statement and then fetch to get results
 		cur.execute("select ra,dec,mag,id,con,ci,bf from stars;")
 		for x in cur.fetchall():
 			alt_az = get_alt_az(float(x[0]),float(x[1]),self.lat,self.lon,self.time_hour,self.date)
@@ -298,34 +256,23 @@ class application(Tk):
 		cur.close()
 
 	def getX(self, star_az):
-		#fuckton of cool trig here
 		#star_az in is degrees so we need to make sure we do it in radians when we do sin(star_az)
 		#need to convert viable star_az to 0 --> 120 on screen
 		star_az = (star_az - self.az_base) % 360
-		#star_az = star_az % self.az_range
 		phi = pi - radians(star_az) - (pi/4)
 		self.radius = sqrt(pow(self.screen_width, 2) / 2)
 		x = self.screen_width - ((self.radius) * sin(radians(star_az)))/sin(phi)
 
-		#x is a percentage of the screen, we should probably now multiply it by how wide our screen is
-		#star_az = star_az % 90
-		#x = (star_az / float(90)) * self.screen_width
 
 		return x
 
 	def getY(self, star_alt):
-		#y = mx + b
-		#ratio = self.screen_height / self.screen_width
-		#phi = pi - radians(star_alt) - (pi/4)
-		#radius = sqrt(pow(self.screen_height, 2) / 2)
-		#y = ((radius) * sin(radians(star_alt))) / sin(phi)
 		
 		top_angle = asin((sin(radians(self.alt_base + self.alt_range))/self.radius) * self.screen_height)
 		bottom_angle = pi - top_angle - radians(self.alt_base + self.alt_range)
 
 		new_top_angle = pi - radians(star_alt-self.alt_base) - bottom_angle
 		y = ((self.radius) / sin(new_top_angle)) * sin(radians(star_alt-self.alt_base)) 
-		#y is a percentage of the screen, we should probably now multiply it by how tall our screen is, also since it scales downwards we want to invert
 		y = self.screen_height - y
 
 		return y
@@ -352,9 +299,6 @@ class application(Tk):
 			self.canvas.itemconfig(star, fill = self.canvas.gettags(star)[2])
 
 	def enter(self, event):
-		#Change color / highlight
-		#Link the constellation
-		#Show text
 		self.entered = self.canvas.find_withtag(CURRENT)
 		self.star = self.canvas.find_closest(event.x, event.y)
 		self.name = self.canvas.gettags(self.star)[1]
@@ -383,7 +327,6 @@ class application(Tk):
 		con_cur = self.conn.cursor()
 		SQL = "select name,summary from const_names where abb=%s;"
 		con_cur.execute(SQL,(constellation_abrv,))
-		#const_info[0] is name, const_info[1] is summary
 		const_info = con_cur.fetchone()
 
 		string_title = const_info[0]
@@ -396,15 +339,12 @@ class application(Tk):
 		self.canvas.move(self.const_desc, 0, self.height/2)
 		self.canvas.itemconfig(self.const_desc, fill = 'white')
 
-
-		#Dont actually want to select all.
 		SQL="select const,proper,bayer,flamsteed,gold,variable,hd,hip,vis_mag,abs_mag,dist,sp_class from const_names,star_info where abb=%s and const=name;"
 		con_cur.execute(SQL,(constellation_abrv,))
 
 		self.star_list = []
 		max_length = 0
 		for x in con_cur.fetchall():
-			#Do something
 			string = str(x[2]) +" "+str(x[1])
 			self.star_list.append((x, string))
 			if len(string) > max_length:
@@ -489,10 +429,6 @@ class application(Tk):
 						self.y_position = self.y_position + self.y_change
 						self.y_count += 1
 			sql_index+=1
-
-
-		#SQL="select const,proper,bayer,flamsteed,gold,variable,hd,hip,vis_mag,abs_mag,dist,sp_class from const_names,star_info where abb=%s and const=name;"
-
 
 
 	def leave_text(self, event):
