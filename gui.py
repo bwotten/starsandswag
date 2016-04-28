@@ -10,7 +10,6 @@ import getpass
 import psycopg2
 import csv
 import time
-from PIL import Image, ImageTk
 
 
 class application(Tk):
@@ -211,12 +210,16 @@ class application(Tk):
 			self.canvas.tag_bind(star_id, "<Enter>", self.enter)
 			self.canvas.tag_bind(star_id, "<Leave>", self.leave)
 		self.text = self.canvas.create_text(0, 0, text = "", fill = "white", state = "hidden", tag = "text")
-		self.right_photo = PhotoImage(file = "right_arrow.png")
-		self.right_photo = self.right_photo.subsample(4, 4)
+		file = "right_arrow.png"
+		self.right_photo = Image.open(file)
+		self.right_photo = self.right_photo.resize((int(self.screen_width * .06), int(self.screen_height * .05)))
+		self.right_photo = ImageTk.PhotoImage(self.right_photo)
 		self.right_image = self.canvas.create_image((self.screen_width * .95, self.screen_height * .05),image=self.right_photo)
 
-		self.left_photo = PhotoImage(file = "left_arrow.png")
-		self.left_photo = self.left_photo.subsample(4, 4)
+		file = "left_arrow.png"
+		self.left_photo = Image.open(file)
+		self.left_photo = self.left_photo.resize((int(self.screen_width * .06), int(self.screen_height * .05)))
+		self.left_photo = ImageTk.PhotoImage(self.left_photo)
 		self.left_image = self.canvas.create_image((self.screen_width * .05, self.screen_height * .05),image=self.left_photo)
 
 		self.canvas.tag_bind(self.left_image, "<Button-1>", self.rotate_left)
