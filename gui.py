@@ -10,6 +10,9 @@ import getpass
 import psycopg2
 import csv
 import time
+from PIL import Image, ImageTk
+
+
 class application(Tk):
 	def __init__(self, parent):
 		Tk.__init__(self, parent)
@@ -43,7 +46,7 @@ class application(Tk):
 
 		self.x_label_var = StringVar()
 		self.x_label_var.set("Longitude: ")
-		x_label = Label(self.input_window, textvariable=self.x_label_var,anchor="w",fg="yellow",bg="black")
+		x_label = Label(self.input_window, textvariable=self.x_label_var,anchor="w",fg="blue",bg="black")
 		x_label.grid(column=0, row=0, stick='E')
 
 		x_def = StringVar(value='37')
@@ -53,7 +56,7 @@ class application(Tk):
 
 		self.y_label_var = StringVar()
 		self.y_label_var.set("Latitude: ")
-		y_label = Label(self.input_window, textvariable=self.y_label_var,anchor="w",fg="yellow",bg="black")
+		y_label = Label(self.input_window, textvariable=self.y_label_var,anchor="w",fg="blue",bg="black")
 		y_label.grid(column=0, row=1, stick='E')
 
 		y_def = StringVar(value='-67')
@@ -207,9 +210,22 @@ class application(Tk):
 			self.canvas.tag_bind(star_id, "<Button-1>", self.constellation_clicked)
 			self.canvas.tag_bind(star_id, "<Enter>", self.enter)
 			self.canvas.tag_bind(star_id, "<Leave>", self.leave)
-
-
 		self.text = self.canvas.create_text(0, 0, text = "", fill = "white", state = "hidden", tag = "text")
+		self.right_photo = PhotoImage(file = "right_arrow.png")
+		self.right_photo = self.right_photo.subsample(4, 4)
+		self.right_image = self.canvas.create_image((self.screen_width * .95, self.screen_height * .05),image=self.right_photo)
+
+		self.left_photo = PhotoImage(file = "left_arrow.png")
+		self.left_photo = self.left_photo.subsample(4, 4)
+		self.left_image = self.canvas.create_image((self.screen_width * .05, self.screen_height * .05),image=self.left_photo)
+
+		self.canvas.tag_bind(self.left_image, "<Button-1>", self.rotate_left)
+		self.canvas.tag_bind(self.right_image, "<Button-1>", self.rotate_right)
+		
+		#right_photo = ImageTk.PhotoImage(right_image)
+		#self.right_arrow = self.canvas.create_image((500, 500), image = right_photo)
+		#self.left_arrow = self.canvas.create_image((0,0), image = left_arrow)
+		
 
 	def rotate_right(self, event):
 		self.position = (self.position - 1) % 4
@@ -283,7 +299,9 @@ class application(Tk):
 		reference = self.canvas.find_withtag(CURRENT)
 		constellation_tuple = self.canvas.find_withtag(self.canvas.gettags(reference)[1])
 		for star in constellation_tuple:
-			self.canvas.itemconfig(star, fill = "green")
+			self.canvas.itemconfig(star, fill = "blue")
+
+		print(self.canvas.winfo_rgb('blue'))
 
 
 	def constellation_clicked(self, event):
@@ -302,13 +320,10 @@ class application(Tk):
 
 		string_title = const_info[0]
 		string_desc = const_info[1].replace("Unicode", "")
-		if len(string_desc) > 1000:
-			width = self.screen_width*.8
-		else:
-			width = self.screen_width*.6
+		width = self.screen_width*.9
 
-		self.const_title = self.canvas.create_text((self.screen_width*.5, self.screen_height * .10), text = string_title,fill='yellow',font=("Purisa", 20))
-		self.const_desc = self.canvas.create_text((self.screen_width*.5, self.screen_height*.175), text = string_desc, width = width,fill='black')
+		self.const_title = self.canvas.create_text((self.screen_width*.5, self.screen_height * .10), text = string_title,fill='blue',font=("Purisa", 24))
+		self.const_desc = self.canvas.create_text((self.screen_width*.5, self.screen_height*.175), text = string_desc, width = width,fill='black',font=("Purisa", 12))
 		height = self.canvas.bbox(self.const_desc)[3] - self.canvas.bbox(self.const_desc)[1]
 		self.canvas.move(self.const_desc, 0, height/2)
 		self.canvas.itemconfig(self.const_desc, fill = 'white')
